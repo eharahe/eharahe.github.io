@@ -1,6 +1,33 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# 全局配置
+# visit https://www.jekyll.com.cn/docs/configuration/ for more settings
+
+# Site Source 改变 Jekyll 读取文件的目录
+source: .
+
+# Site Destination 改变 Jekyll 写入文件的目录
+destination: ./_site
+
+# Exclude 转换时排除某些文件夹或文件。
+# 被排除的文件或文件夹的路径是相对于网站源码目录的，源码目录以外不受影响。
+# exclude: [DIR, FILE, ...]
+
+# Safe 禁用 自定义插件。
+# safe: BOOL
+
+# 时区 https://www.zhihu.com/question/21874548
+timezone: Asia/Chongqing
+
+# Encoding 设置文件的编码，仅Ruby1.9以上可用。默认值为 nil，使用Ruby默认的ASCII-8BIT。
+# 可以用命令 ruby -e 'puts Encoding::list.join("\n")' 查看 Ruby 可用的编码。
+encoding: UTF-8
+
+# 主题配置
+# visit http://www.rubydoc.info/gems/jekyll-theme-midnight/0.1.0#usage
+
 theme: jekyll-theme-midnight
+
 title: title~
 description: description~
 
 show_downloads: false
+google_analytics: UA-97842201-2
