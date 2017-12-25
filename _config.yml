@@ -1,2 +1,6 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 theme: jekyll-theme-midnight
-encoding: utf-8
+title: title~
+description: description~
+
+show_downloads: false
