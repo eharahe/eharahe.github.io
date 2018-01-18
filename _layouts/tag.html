@@ -10,15 +10,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
   <body>
-      <div id="header">
-      </div><!-- end header -->
+    <div id="header">
+    </div>
 
     <div class="wrapper">
-
       <section>
         {{ content }}
       </section>
     </div>
+
+    <ul id="tag-list">
+      {% for tag in site.tags %}
+        <li class="tag-list-item" tag="{{tag[0]}}" style="display:none;">          
+          <div class="tag-name">{{tag[0]}}</div>
+          <ul>
+            {% for post in tag[1] %}
+            <li class="tag-post-item">
+              <a class="tag-post-link" href="{{post.url}}">{{post.title}}</a>
+              <span class="tag-post-date">{{post.date | date:"%d/%m/%Y"}}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+    
+    <script>
+      (function ($) {
+        $.getUrlParam = function (name) {
+         var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+         var r = window.location.search.substr(1).match(reg);
+         if (r != null) return unescape(r[2]); return null;
+        }
+      })(jQuery);
+      var curTag = $.getUrlParam("tag");
+      var tagItem = $('#tag-list .tag-list-item[tag="'+ curTag +'"]');
+      tagItem.show();
+    </script>
 
     {% if site.google_analytics %}
       <script type="text/javascript">

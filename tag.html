@@ -1,0 +1,34 @@
+---
+layout: default
+title: Show Posts By Tag
+permalink: /tag
+---
+
+<div id="tag-list">
+  {% for tag in site.tags %}
+    <div class="tag-list-item" tag="{{tag[0]}}" style="display:none;">
+      <div class="tag-name title"><span class="icon title is-5"><i class="fa fa-tags"></i></span>&nbsp;{{tag[0]}}</div>
+      <ul>
+        {% for post in tag[1] %}
+        <li class="tag-post-item">
+          <a class="tag-post-link" href="{{post.url}}">{{post.title}}</a>
+          <span class="post-date">{{post.date | date:"%d/%m/%Y"}}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  (function ($) {
+    $.getUrlParam = function (name) {
+     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);
+     if (r != null) return unescape(r[2]); return null;
+    }
+  })(jQuery);
+  var curTag = $.getUrlParam("tag");
+  var tagItem = $('#tag-list .tag-list-item[tag="'+ curTag +'"]');
+  tagItem.show();
+</script>
