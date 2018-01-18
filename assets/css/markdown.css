@@ -26,6 +26,14 @@ h6 {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
+.markdown {
+  background: #fefefe;
+  /*padding: 45px 30px;*/
+  padding: 3em 1.5em;
+  border: .5px solid #dbdbdb;
+  border-top-color: #e5e5e5;
+  border-left-color: #e5e5e5;
+}
 .markdown img {
   box-shadow: 0 0 .5px rgba(102, 102, 102, 0.3);
 }
@@ -47,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid rgba(191, 211, 219, 0.5) }
 
 .markdown blockquote {
-  border-left: 3px solid #03A9F4;
+  border-left: 3px solid #9c8941;
   margin: 0;
   padding: 0 0 0 20px;
   font-style: italic;

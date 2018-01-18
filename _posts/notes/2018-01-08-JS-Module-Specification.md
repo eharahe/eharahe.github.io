@@ -4,11 +4,9 @@ title: JS Module Specification
 permalink: /notes/js-module-specification
 tags: es6 module commonjs
 category: notes
+excerpt_separator: <!--break-->
 ---
 
-# JS Module Specification
-
-***
 ## 语法层面
 #### 1. ES6引出，其他形式引入  
 
@@ -31,7 +29,7 @@ let m = 'aaa'
 export default m
 
 ```
-<br>
+<br><!--break-->
 CommonJS引入，相当于ES6的 `import * as xxx` 方式
 ```javascript
 let xxx = require('../utils/xxx.js')

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Show Posts By Tag
 permalink: /tag
 ---
@@ -11,8 +11,15 @@ permalink: /tag
       <ul>
         {% for post in tag[1] %}
         <li class="tag-post-item">
-          <a class="tag-post-link" href="{{post.url}}">{{post.title}}</a>
-          <span class="post-date">{{post.date | date:"%d/%m/%Y"}}</span>
+          <nav class="panel">
+            <p class="panel-heading">
+              <a class="tag-post-link" href="{{post.url}}">{{post.title}}</a>
+              <span class="post-date">{{post.date | date:"%Y年%m月%d日"}}</span>
+            </p>
+            <div class="panel-block">
+              <div class="post-abbs">{{post.excerpt}}</div>
+            </div>
+          </nav>
         </li>
         {% endfor %}
       </ul>

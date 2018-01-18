@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Show Posts By Category
 permalink: /category
 ---
@@ -10,9 +10,16 @@ permalink: /category
       <div class="cate-name title is-3"><span class="icon title is-5"><i class="fa fa-folder-open"></i></span>&nbsp;{{cate[0]}}</div>
       <ul>
         {% for post in cate[1] %}
-        <li class="cate-post-item">
-          <a class="cate-post-link" href="{{post.url}}">{{post.title}}</a>
-          <span class="post-date">{{post.date | date:"%d/%m/%Y"}}</span>
+        <li class="tag-post-item">
+          <nav class="panel">
+            <p class="panel-heading">
+              <a class="cate-post-link" href="{{post.url}}">{{post.title}}</a>
+              <span class="post-date">{{post.date | date:"%d/%m/%Y"}}</span>
+            </p>
+            <div class="panel-block">
+              <div class="post-abbs">{{post.excerpt}}</div>
+            </div>
+          </nav>  
         </li>
         {% endfor %}
       </ul> 

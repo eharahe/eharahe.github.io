@@ -8,7 +8,7 @@
         {% for post in site.posts %}
           <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
-            <span class="post-date">{{post.date | date:"%d/%m/%Y"}}</span>
+            <span class="post-date">{{post.date | date_to_string}}</span>
           </li>
         {% endfor %}
       </ul>
@@ -21,7 +21,7 @@
     <div class="panel-block">
       <div class="tags">
         {% for tag in site.tags %}
-          <a class="tag is-success" href="/tag?tag={{ tag[0] }}"> {{ tag[0] }}</a>
+          <a class="tag sidebar-tag" href="/tag?tag={{ tag[0] }}"> {{ tag[0] }}</a>
         {% endfor %}
       </div>
     </div>
@@ -30,13 +30,17 @@
     <p class="panel-heading">
       <span class="icon is-small"><i class="fa fa-folder-open"></i></span>&nbsp;Categories
     </p>
-    <div class="panel-block">
-      <div class="tags">
-        {% for cate in site.categories %}
-          <a class="tag" href="/category?cate={{ cate[0] }}"> {{ cate[0] }}</a>
-        {% endfor %}
-      </div>
-    </div>
+
+
+    {% for cate in site.categories %}
+      <a class="panel-block" href="/category?cate={{ cate[0] }}">
+        <span class="panel-icon">
+          <span class="icon is-small"><i class="fa fa-book"></i></span>
+        </span>
+        {{ cate[0] }}
+      </a>
+    {% endfor %}
+
   </nav>
   <nav>
     <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=510750697&auto=0&height=90"></iframe>
