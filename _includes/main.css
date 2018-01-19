@@ -1,8 +1,12 @@
 body{
   background: url(/assets/images/bkg1.png) repeat;
 }
-nav.navbar, nav.panel, .markdown{
+nav.panel, .markdown{
   box-shadow: 0 2px 4px rgba(140, 140, 122, .1);
+}
+nav.navbar{
+  border-bottom:1px solid #dad7cb;
+  box-shadow: 0 2px 4px rgba(140, 140, 122, .2);
 }
 a{
   color: #af952e;
@@ -60,9 +64,9 @@ p.panel-heading{
   letter-spacing: 1px;
 }
 .navbar-item .logo, .navbar-item .logowd{
-  color: #9c8941;
+  color: #009f6d;
   position: relative; 
-  background-image: -webkit-gradient(linear, 0 20%, 0 bottom, from(#dec151), to(#4CAF50));
+  background: -webkit-gradient(linear, 0 30%, 0 100%, from(#dec151), to(#009f6d));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

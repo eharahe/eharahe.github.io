@@ -34,9 +34,23 @@ h1, h2, h3, h4, h5, h6 {
   border-top-color: #e5e5e5;
   border-left-color: #e5e5e5;
 }
+.markdown .title:not(.is-spaced)+.subtitle{
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
 .markdown img {
   box-shadow: 0 0 .5px rgba(102, 102, 102, 0.3);
 }
+@media
+only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .markdown img {
+    zoom: 0.5;
+  }
+}
+
 .markdown table {
   width: 100%;
   border-collapse: collapse; }
@@ -60,11 +74,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 0 20px;
   font-style: italic;
 }
-
 .markdown p, .markdown table, ul, ol, table, pre, dl {
   margin: 0 0 10px;
 }
-
+.markdown .footnotes p{
+  margin-bottom: 2px;
+}
 menu, ol, ul {
   padding: 0 0 0 30px;
 }
