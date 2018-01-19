@@ -34,12 +34,12 @@ setInterval(replaceThing, 1000);
 ```
 
 **现象：**   
-* 每次调用 *replaceThing()*，*theTing* 指向一个新对象（包含一个大数组 *longStr* 和一个方法 *someMethod*）
+* 每次调用 *replaceThing()*，*theThing* 指向一个新对象（包含一个大数组 *longStr* 和一个方法 *someMethod*）
 * 其中 *someMethod* 的 *[[scopes]]* 属性中包含了闭包变量 *originalThing*（它是本次 *replaceThing* 执行前的 *theThing* 对象的引用） 
 
 **泄漏原因：**   
 
-在 *replaceThing* 激活时，NFE函数 *unused* 闭包了自由变量 *originalThing*。由于 *someMethod* 和 *unused* 共享同一个 *[[scopes]]*，因此 *someMethod* 也持有对 *originalThing* 的引用。在 *theTing* 的生命周期内，scope chain所持的闭包变量将无法被GC，而 *originalThing* 即指向本次循环前的 *theTing* 对象，故形成链状引用，不断累积。   
+在 *replaceThing* 激活时，NFE函数 *unused* 闭包了自由变量 *originalThing*。由于 *someMethod* 和 *unused* 共享同一个 *[[scopes]]*，因此 *someMethod* 也持有对 *originalThing* 的引用。在 *theThing* 的生命周期内，scope chain所持的闭包变量将无法被GC，而 *originalThing* 即指向本次循环前的 *theTing* 对象，故形成链状引用，不断累积。   
 <br>   
 
 ### 二、snapshot 截图
