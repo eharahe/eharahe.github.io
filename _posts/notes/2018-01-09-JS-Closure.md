@@ -49,5 +49,5 @@ DevTools的Heap Snapshot有以下两种视图可以分析闭包：
 在Object窗口中可以看到对象的内存结构，其中 [[Scopes]] 属性中包含了scope chain上的所有闭包变量。（非自由变量会在函数定义时，即[[Scopes]]生成时被优化）   
 ![alt文本](/assets/images/heapsnapshot1.png "Object窗口")   
 
-在堆视图中可以看到 ***someMethod*** 下的 ***context*** 属性（并不是执行上下文的context）中包含了闭包变量 ***originalThing*** 。但是在这个视图中闭包变量如果是number, string或boolean字面量类型，则有可能无法被看见[（被置于"renderer memory"中，所以在堆视图找不到？）](https://developers.google.com/web/tools/chrome-devtools/memory-problems/memory-101)。在Object窗口中观察则没有出现这种情况。   
+在堆视图中可以看到 *someMethod* 下的 *context* 属性（并不是执行上下文的context）中包含了闭包变量 *originalThing* 。但是在这个视图中闭包变量如果是number, string或boolean字面量类型，则有可能无法被看见[（被置于"renderer memory"中，所以在堆视图找不到？）](https://developers.google.com/web/tools/chrome-devtools/memory-problems/memory-101)。在Object窗口中观察则没有出现这种情况。   
 ![alt文本](/assets/images/heapsnapshot2.png "堆视图")  
