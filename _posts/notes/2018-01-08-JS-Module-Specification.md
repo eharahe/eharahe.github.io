@@ -2,8 +2,8 @@
 layout: default
 title: JS Module Specification
 permalink: /notes/js-module-specification
-tags: es6 module commonjs
-category: notes
+tags: es6 commonjs
+category: javascript
 excerpt_separator: <!--break-->
 ---
 

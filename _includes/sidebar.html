@@ -4,9 +4,9 @@
       <span class="icon is-small"><i class="fa fa-file"></i></span>&nbsp;Recent Posts
     </p>
     <div class="panel-block">
-      <ul>
+      <ul class="recent-posts-ul">
         {% for post in site.posts %}
-          <li>
+          <li class="recent-posts-item">
             <a href="{{ post.url }}">{{ post.title }}</a>
             <span class="post-date">{{post.date | date_to_string}}</span>
           </li>

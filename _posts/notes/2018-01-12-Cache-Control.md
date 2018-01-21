@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Http 1.1 Headers
-permalink: /notes/http-headers
-tags: http-headers cache
-category: notes
+title: Http1.1 Cache Control
+permalink: /notes/http-cache-control
+tags: cache-control
+category: http
 excerpt_separator: <!--break-->
 ---
 

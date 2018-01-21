@@ -2,8 +2,8 @@
 layout: default
 title: Concepts of VO, SC and Context
 permalink: /notes/js-context-concepts
-tags: scope-chain v8 context
-category: notes
+tags: scope-chain variable-object execution-context
+category: javascript
 excerpt_separator: <!--break-->
 ---
 简单的梳理一下ECMA **Variable Object**[^1]， **Scope Chain**[^2] 及 **Execution Contexts**[^3] 相关的概念，以便在分析devtools heap-snapshot时明白各个属性表示的意义。
@@ -58,7 +58,7 @@ Arguments = {
 ### [[Scopes]] 属性
 [[Scopes]]是该函数所有父节点VO的层级链，随着函数创建产生，函数生命周期结束时消亡   
 在下例中，someMethod的[[Scopes]]包含了其父节点(replaceThing)的闭包属性originalThing以及Global上下文的VO：   
-![alt文本](/assets/images/heapsnapshot1.png "title")   
+![alt文本](/assets/images/heapsnapshot1.png "title"){:class="img-x2"}   
 
 ### 闭包Closure与[[Scopes]]关系
 `closure = [[FunctionLocation]] + [[Scopes]]`   
