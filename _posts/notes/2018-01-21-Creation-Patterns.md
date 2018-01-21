@@ -47,6 +47,8 @@ Product prod = factory.FactoryMethod();
 
 意图：将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示   
 
+试用性：当构造方法或者静态工厂方法中的参数过多的时候，尤其是可选参数很多时，考虑使用建造者模式
+
 ### UML类图   
 ![Builder Pattern UML](/assets/images/designpattern/builder%20pattern.svg "Builder Pattern UML")
 
@@ -70,5 +72,53 @@ Product prod = factory.FactoryMethod();
 
 * Composite通常是用Builder生成的
 
+### 举例   
+建造者模式还有一种简单做法：若果一个Builder只是用来构建某个单独的Product，可以把它作为 `static sealed class` 放至于Product类中，这样看上去更加紧凑。如[ Picasso源码](https://github.com/square/picasso/blob/master/picasso/src/main/java/com/squareup/picasso/Picasso.java)：
+```java
+// Define
+public class Picasso {
+  ...
+  Picasso(Context context, Dispatcher dispatcher, Cache cache, Listener listener,
+      RequestTransformer requestTransformer, List<RequestHandler> extraRequestHandlers, Stats stats,
+      Bitmap.Config defaultBitmapConfig, boolean indicatorsEnabled, boolean loggingEnabled) { 
+    ...
+  }
+  ...
+  public static class Builder {
+    ...
+    public Picasso build() {
+      Context context = this.context;
+
+      if (downloader == null) {
+        downloader = Utils.createDefaultDownloader(context);
+      }
+      if (cache == null) {
+        cache = new LruCache(context);
+      }
+      if (service == null) {
+        service = new PicassoExecutorService();
+      }
+      if (transformer == null) {
+        transformer = RequestTransformer.IDENTITY;
+      }
+
+      Stats stats = new Stats(cache);
+
+      Dispatcher dispatcher = new Dispatcher(context, service, HANDLER, downloader, cache, stats);
+
+      return new Picasso(context, dispatcher, cache, listener, transformer, requestHandlers, stats,
+          defaultBitmapConfig, indicatorsEnabled, loggingEnabled);
+    }
+    ...
+}
+
+// User
+Picasso.with(context)
+       .load(url)
+       .placeholder(R.drawable.loading)
+       .error(R.drawable.error)
+       .into(imageView);
+
+```
 ---
 [^1]:[Builder模式的误区：将复杂对象的构建进行封装，就是Builder模式了吗？](http://www.cnblogs.com/happyhippy/archive/2010/09/01/1814287.html)
