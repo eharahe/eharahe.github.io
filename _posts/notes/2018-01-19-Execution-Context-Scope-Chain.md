@@ -1,16 +1,13 @@
 ---
 layout: default
-title: Concepts of VO, SC and Context
-permalink: /notes/js-context-concepts
+title: Variable Object, Scope Chain and Execution Contexts
+permalink: /notes/js-scope-and-context
 tags: scope-chain variable-object execution-context
 category: javascript
 excerpt_separator: <!--break-->
 ---
 简单的梳理一下ECMA **Variable Object**[^1]， **Scope Chain**[^2] 及 **Execution Contexts**[^3] 相关的概念，以便在分析devtools heap-snapshot时明白各个属性表示的意义。
 
-[^1]: [Variabl_Object](http://dmitrysoshnikov.com/ecmascript/chapter-2-variable-object/)
-[^2]: [Scope_Chain](http://dmitrysoshnikov.com/ecmascript/chapter-4-scope-chain/)
-[^3]: [Execution_Contexts](http://dmitrysoshnikov.com/ecmascript/chapter-1-execution-contexts/)
 <!--break-->
 
 ## 1. Variable Object / Activation Object
@@ -105,3 +102,7 @@ activeExecutionContext = {
 > 在1.7以上版本SpiderMonkey的实现中（Firefox，Thunderbird浏览器内置的JS引擎），允许在调用eval函数的时候，将调用上下文作为第二个参数传递给eval函数。因此，如果传入的调用上下文存在的话，就有可能会影响该上下文中原有的私有变量
 
 ---
+
+[^1]: [Variabl_Object](http://dmitrysoshnikov.com/ecmascript/chapter-2-variable-object/)
+[^2]: [Scope_Chain](http://dmitrysoshnikov.com/ecmascript/chapter-4-scope-chain/)
+[^3]: [Execution_Contexts](http://dmitrysoshnikov.com/ecmascript/chapter-1-execution-contexts/)
