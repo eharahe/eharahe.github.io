@@ -7,7 +7,7 @@
       <ul class="recent-posts-ul">
         {% for post in site.posts %}
           <li class="recent-posts-item">
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
             <span class="post-date">{{post.date | date_to_string}}</span>
           </li>
         {% endfor %}
