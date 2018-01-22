@@ -83,7 +83,7 @@ public class PausedState implements PlaybackState{
 public class Context{
   private PlaybackState state = new StoppedState();
 
-  pulic void setState(State state){
+  public void setState(State state){
     this.state = state;
   }
 
