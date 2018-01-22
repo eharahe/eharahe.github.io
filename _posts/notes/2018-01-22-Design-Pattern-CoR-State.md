@@ -49,7 +49,7 @@ public interface PlaybackState{
   public void stop(Context c);
 }
 
-public class PlayingState extends PlaybackState{
+public class PlayingState implements PlaybackState{
   public void playOrPause(Context c){
     c.changeBtnImgToPlay();
     c.setState(new PausedState());
@@ -60,7 +60,7 @@ public class PlayingState extends PlaybackState{
   }
 }
 
-public class StoppedState extends PlaybackState{
+public class StoppedState implements PlaybackState{
   public void playOrPause(Context c){
     c.changeBtnImgToPause();
     c.setState(new PlayingState());
@@ -70,7 +70,7 @@ public class StoppedState extends PlaybackState{
   }
 }
 
-public class PausedState extends PlaybackState{
+public class PausedState implements PlaybackState{
   public void playOrPause(Context c){
     c.changeBtnImgToPause();
     c.setState(new PlayingState());
