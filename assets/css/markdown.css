@@ -49,7 +49,7 @@ a{
   font-weight: 400;
 }
 .tag-post-item .panel-block{
-  padding:.4em .75em .2em;
+  padding:.8em 1.5em .5em
   background: rgba(235, 233, 225, 0.4);
 }
 @font-face {
@@ -70,7 +70,15 @@ a{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.column .sidebar-tag{
+.sidebar-col{
+  width: 340px;
+}
+@media screen and (max-width: 768px) {
+  .sidebar-col{
+    width: auto;
+  }
+}
+.sidebar-col .sidebar-tag{
   background-color: #edece8;
 }
 a.panel-block:hover {
@@ -78,26 +86,23 @@ a.panel-block:hover {
 }
 .recent-posts-ul{
   width: 100%;
-}
-.recent-posts-item{
-  position: relative;
-  width: 96%;
+  margin: 0;
+  padding: 10px;
 }
 .recent-posts-item{
   line-height: 24px;
+  display: flex;
 }
-.recent-posts-item a{
-  display: block;
+.recent-post-lkdiv{
   width: 70%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  float: left;
-
 }
 .recent-posts-item .post-date{
-  float: right;
+  width: 30%;
   display: block;
+  text-align: right;
 }
 
 

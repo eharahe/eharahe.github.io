@@ -1,4 +1,4 @@
-<div class="column">
+<div class="column is-narrow sidebar-col">
   <nav class="panel">
     <p class="panel-heading">
       <span class="icon is-small"><i class="fa fa-file"></i></span>&nbsp;Recent Posts
@@ -7,7 +7,9 @@
       <ul class="recent-posts-ul">
         {% for post in site.posts %}
           <li class="recent-posts-item">
-            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <div class="recent-post-lkdiv">
+              <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            </div>
             <span class="post-date">{{post.date | date_to_string}}</span>
           </li>
         {% endfor %}
