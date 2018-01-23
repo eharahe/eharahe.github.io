@@ -16,6 +16,21 @@
       </ul>
     </div>
   </nav>
+
+  <nav class="panel">
+    <p class="panel-heading">
+      <span class="icon is-small"><i class="fa fa-folder-open"></i></span>&nbsp;Categories
+    </p>
+    {% for cate in site.categories %}
+      <a class="panel-block" href="/category?cate={{ cate[0] }}">
+        <span class="panel-icon">
+          <span class="icon is-small"><i class="fa fa-book"></i></span>
+        </span>
+        {{ cate[0] }}
+      </a>
+    {% endfor %}
+  </nav>
+
   <nav class="panel">
     <p class="panel-heading">
       <span class="icon is-small"><i class="fa fa-tags"></i></span>&nbsp;Tags
@@ -28,23 +43,8 @@
       </div>
     </div>
   </nav>
-  <nav class="panel">
-    <p class="panel-heading">
-      <span class="icon is-small"><i class="fa fa-folder-open"></i></span>&nbsp;Categories
-    </p>
-
-
-    {% for cate in site.categories %}
-      <a class="panel-block" href="/category?cate={{ cate[0] }}">
-        <span class="panel-icon">
-          <span class="icon is-small"><i class="fa fa-book"></i></span>
-        </span>
-        {{ cate[0] }}
-      </a>
-    {% endfor %}
-
-  </nav>
+  
   <nav>
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=510750697&auto=0&height=90"></iframe>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=0&id=510750697&auto=0&height=32"></iframe>
   </nav>
 </div>

@@ -90,7 +90,7 @@ a.panel-block:hover {
   padding: 10px;
 }
 .recent-posts-item{
-  line-height: 24px;
+  line-height: 28px;
   display: flex;
 }
 .recent-post-lkdiv{
@@ -98,6 +98,7 @@ a.panel-block:hover {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  font-size: .9em;
 }
 .recent-posts-item .post-date{
   width: 30%;
@@ -237,7 +238,7 @@ samp {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
   font-size: 13px;
   font-size: 1em;
-  color: #666;
+  color: #F44336;
   font-size: 0.875em;
   line-height: 1;
 }
