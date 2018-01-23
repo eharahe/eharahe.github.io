@@ -26,7 +26,7 @@ a{
 .panel-heading i{
   font-size: 0.8em;
 }
-p.panel-heading{
+.markdown p.panel-heading{
   margin: 0;
 }
 .post-date{
@@ -37,7 +37,7 @@ p.panel-heading{
   width: 100%;
   max-height: 150px;
   overflow-y: hidden;
-  font-size: .75em;
+  font-size: .8em;
   opacity: .85;
 }
 .markdown li.tag-post-item{
@@ -195,7 +195,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .markdown em{
   font-family: Monaco, Bitstream Vera Sans Mono, Consolas, Lucida Console, Terminal, "KaiTi";
   color: #076;
-  font-size: .9em;
+/*  font-size: .9em;*/
 }
 .markdown p, .markdown table, ul, ol, table, pre, dl {
   margin: 0 0 10px;
@@ -255,7 +255,7 @@ samp {
   box-shadow: inset -1px -1px 1px rgba(112, 110, 104, 0.8), inset 1px 1px 3px rgb(31, 31, 31);
   overflow: auto;
   overflow-y: hidden;
-  line-height: 1.1;
+  line-height: 1.3;
 }
 .highlight, .highlight .w {
   color: #d0d0d0; }
