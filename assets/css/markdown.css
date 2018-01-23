@@ -180,7 +180,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
   background: rgba(206, 187, 114, 0.05);
   margin: 0 0 10px;
   padding: 10px 5px 10px 20px;
-  font-family: 'Kalam', "KaiTi";
+  font-family: 'Kalam', 'KaiTi', 'STKaiTi';
   color: rgba(0,0,0,.68);
 }
 .markdown blockquote p{
@@ -193,7 +193,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
   font-style: normal;
 }
 .markdown em{
-  font-family: Monaco, Bitstream Vera Sans Mono, Consolas, Lucida Console, Terminal, "KaiTi";
+  font-family: Monaco, Bitstream Vera Sans Mono, Consolas, Lucida Console, Terminal, 'KaiTi', 'STKaiTi';
   color: #076;
 /*  font-size: .9em;*/
 }
@@ -206,7 +206,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .markdown .footnotes p{
   margin-bottom: 0;
   font-size: .875em;
-  font-family: 'Kalam', "KaiTi";
+  font-family: 'Kalam', 'KaiTi', 'STKaiTi';
 }
 menu, ol, ul {
   padding: 0 0 0 30px;
