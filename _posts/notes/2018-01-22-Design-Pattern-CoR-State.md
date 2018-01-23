@@ -44,6 +44,14 @@ JavaScript中的时间冒泡和捕获机制
 3. 点击 ■ 按钮时，音乐可从 *Playing* 或 *Paused* 状态变成 *Stopped* 状态，播放位置归零。
 
 ```java
+
+//   ┌──→ Stopped ←──┐
+//   │   ┌─┘         │
+//   │   ↓           │
+//  Playing ←─── Paused
+//     │           ↑
+//     └───────────┘
+
 public interface PlaybackState{
   public void playOrPause(Context c);
   public void stop(Context c);
@@ -101,6 +109,7 @@ public class Context{
     // 把按钮图标换成播放图标
   }
 }
+
 ```
 
 <style type="text/css">
