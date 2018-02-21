@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "utf-8" }}">
+{% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <section class="section">
+      <div class="container is-fullhd">
+        <div class="columns">
+          <div class="column">{{ content }}</div>
+        </div>
+      </div>
+    </section>
+    {% include footer.html %}
+    {% include google_analytics.html %}
+  </body>
+</html>

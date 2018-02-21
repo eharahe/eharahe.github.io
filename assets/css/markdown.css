@@ -5,8 +5,7 @@ nav.panel, .markdown{
   box-shadow: 0 2px 4px rgba(140, 140, 122, .1);
 }
 nav.navbar{
-  border-bottom:1px solid #dad7cb;
-  box-shadow: 0 2px 4px rgba(140, 140, 122, .2);
+  box-shadow: 0 2px 4px rgba(140, 140, 122, .5);
 }
 a{
   color: #af952e;
@@ -105,7 +104,12 @@ a.panel-block:hover {
   display: block;
   text-align: right;
 }
-
+#map #bodyContent{
+  font-family: "KaiTi", "STKaiTi";
+}
+#map #bodyContent p{
+  margin-bottom: 10px;
+}
 
 /*markdown*/
 h1 {
@@ -337,6 +341,12 @@ samp {
 .highlight .ss {
   color: #90a959; }
 
+@font-face {
+  font-family: "Silkroad";
+  src: url("/assets/fonts/SilkRoad.eot?") format("eot"), url("/assets/fonts/SilkRoad.woff") format("woff"), url("/assets/fonts/SilkRoad.ttf") format("truetype"), url("/assets/fonts/SilkRoad.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
 ::-webkit-scrollbar
 {

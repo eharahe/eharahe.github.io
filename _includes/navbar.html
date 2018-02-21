@@ -1,4 +1,4 @@
-<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
   <div class="container is-fullhd">
     <div class="navbar-brand">
       <a class="navbar-item title is-4" href="/">
@@ -8,7 +8,19 @@
     </div>
     <div class="navbar-menu">
       <div class="navbar-start">
-
+        <div class="navbar-item has-dropdown is-hoverable">
+          <div class="navbar-link">
+            The Silk Road
+          </div>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="/silkroad/overview">
+              Overview
+            </a>
+            <a class="navbar-item" href="/silkroad/countries">
+              Countries
+            </a>
+          </div>
+        </div>
       </div>
       <div class="navbar-end">
         <a class="navbar-item" href="{{ site.github.repository_url }}" target="_blank">

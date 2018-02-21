@@ -1,0 +1,142 @@
+---
+layout: fullwidth
+title: Silk Road
+permalink: /silkroad/overview
+---
+
+<style>
+   #map {
+    height: 800px;
+    width: 100%;
+    margin-bottom: -1px;
+    border: .5px solid #c2c8d2;
+    border-bottom: 0;
+    border-top-color: #d8dee7;
+    border-left-color: #d8dee7;
+    box-shadow: 0 0 4px rgba(140, 140, 122, .1);
+   }
+</style>
+<div id="map"></div>
+<div class="markdown">
+  <h3>丝路国家</h3>
+    <a href="/silkroad/countries">丝路国家、朝代变迁表</a>
+  <h3>纪录片链接</h3>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=8qer5yTyYvI&list=PLILRQ_uVCaoOtZ6Q6egVvUyEMhbN7OG9y">THE SILK ROAD I - NHK</a></li>
+    <li><a href="https://www.youtube.com/watch?v=cUqIp9ARVIg&list=PLdwCuEoZ_6l7FvbsfjidxMIybBrF5jnb5">THE SILK ROAD II - NHK</a></li>
+    <li><a href="https://www.youtube.com/watch?v=YPdw4EUU47o&list=PLovPNrlArMhyMGDVk1Znp-7_T-QGeUDmg">THE SILK ROAD II - NHK-CCTV 2004-2005</a></li>
+    <li><a href="https://www.youtube.com/watch?v=2zC2K6zi4ig&list=PLwXMmy5fUrVxk1k6H1NlsOyOJ2OTUoz1r">HEXI CORRIDOR - CCTV</a></li>
+    <li><a href="https://www.youtube.com/watch?v=1aGk949RNXg&list=PLHOMQ6tK7YuedEpNkS3PbV_Tx-hn6seWs">玄奘之路 - CCTV</a></li>
+  </ul>
+</div>
+
+<script src="/assets/js/silkroad-cities.js"></script>
+<script src="/assets/js/silkroad-path.js"></script>
+<script>
+  function initMap() {
+    let iconBase = '/assets/images/silkroad/icons/';
+    let icons = {
+      city1: {
+        icon: iconBase + 'tower2.svg'
+      },
+      guan: {
+        icon: iconBase + 'guan.svg'
+      },
+      buddha: {
+        icon: iconBase + 'buddha.svg'
+      },
+      mosque: {
+        icon: iconBase + 'mosque.svg'
+      },
+      city2: {
+        icon: iconBase + 'asian.svg'
+      },
+    };
+
+    let initInfoCard = function(marker, info){
+      let infowindow = new google.maps.InfoWindow({
+        content: info
+      });
+      marker.addListener('click', function() {
+        infowindow.open(map, marker);
+      });
+    }
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 5,
+      center: xiyuCities.kashgar.pos,
+      mapTypeId: 'terrain'
+    });
+
+    let markType = [
+      {o: xiyuCities, i: 'city1'}, 
+      {o: foreignCities, i: 'city2'},
+      {o: castle, i: 'guan'},
+      {o: budha, i: 'buddha'},
+      {o: islam, i: 'mosque'},
+    ];
+    for(let i in markType){
+      let o = markType[i].o;
+      for(let j in o) {
+        var marker = new google.maps.Marker({
+          position: o[j].pos,
+          icon: icons[markType[i].i].icon,
+          map: map
+        });
+        if(o[j].info){
+          initInfoCard(marker, o[j].info);
+        }
+      };
+    }
+
+    var p1 = new google.maps.Polyline({
+      path: xiyunandao,
+      geodesic: true,
+      strokeColor: '#ffa500',
+      strokeOpacity: .8,
+      strokeWeight: 2
+    });
+    p1.setMap(map);
+
+    var p2 = new google.maps.Polyline({
+      path: tianshannandao,
+      geodesic: true,
+      strokeColor: '#00ffa5',
+      strokeOpacity: .8,
+      strokeWeight: 2
+    });
+    p2.setMap(map);
+
+    var p3 = new google.maps.Polyline({
+      path: tianshanbeidao,
+      geodesic: true,
+      strokeColor: '#00a5ff',
+      strokeOpacity: .8,
+      strokeWeight: 2
+    });
+    p3.setMap(map);
+    
+    var p4 = new google.maps.Polyline({
+      path: xuanzangline,
+      geodesic: true,
+      strokeColor: '#ee3300',
+      strokeOpacity: .8,
+      strokeWeight: 2
+    });
+    p4.setMap(map);
+
+    for(let r in roads){
+      let road = new google.maps.Polyline({
+        path: roads[r],
+        geodesic: true,
+        strokeColor: '#9c27b0',
+        strokeOpacity: .5,
+        strokeWeight: 2
+      });
+      road.setMap(map);
+    }
+  }
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5kqiwNgfOjBpQALXXGxYALQhjfNl31EM&callback=initMap">
+</script>
