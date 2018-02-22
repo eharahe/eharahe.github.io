@@ -8,7 +8,7 @@ excerpt_separator: <!--break-->
 ---
 <style type="text/css">table{font-size: 12px;}</style>
 
-#### <a href="/silkroad/overview">&lt;&nbsp;返回丝路地图</a>
+#### <a href="/silkroad/overview">&lt;&nbsp;返回丝路概览</a>
 
 地中海东部的文明相对简单：
 * 罗马共和国（Roman Republic, Senatus populusque Romanus, SPQR）509BCE - 44BCE
