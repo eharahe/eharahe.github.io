@@ -56,15 +56,12 @@ Crowd Soundbox围绕三个阶段不断循环迭代，并将计算量分配到多
 #### 放置点声源
 
 1. 计算人群质心
-
 ![](http://info.audiokinetic.com/hubfs/Blog_Images/Planet%20Coaster/Blog2/Blog2_Image_11_CentreOfMassFormula.png)
 
 2. 计算人群散布值，并用该值修改质心极坐标系下的Distance（用来控制Wwise的Spread衰减曲线），该distance不衰减Volume
-
 ![](http://info.audiokinetic.com/hubfs/Blog_Images/Planet%20Coaster/Blog2/Blog2_Image_12_TopDownViewOfCrowds.png)
 
 3. 单独建一个描述真实的质心到听者距离的RTPC: **DistanceToListener** 控制Volume, LPF等的衰减
-
 ![](http://info.audiokinetic.com/hubfs/Blog_Images/Planet%20Coaster/Blog2/Blog2_Image_13_DunamicSpredInWwise.png)
 
 ### 过山车音效设计
@@ -80,3 +77,5 @@ Crowd Soundbox围绕三个阶段不断循环迭代，并将计算量分配到多
 [Planet Coaster - Crowd Management : Using Data to Generate Dynamic Crowd Audio (PART 1)](https://blog.audiokinetic.com/planet-coaster-part-1-crowd-management-using-data-to-generate-dynamic-crowd-audio/){:target="about:blank"}   
 [Planet Coaster - Crowd Audio : The Crowd Soundbox System (PART 2)](https://blog.audiokinetic.com/planet-coaster-part-2-crowd-audio-the-crowd-soundbox-system/){:target="about:blank"}   
 [Planet Coaster - Crowd Audio : Additional Layers (PART 3)](https://blog.audiokinetic.com/planet-coaster-crowd-audio-additional-layers-part-3/){:target="about:blank"}
+
+[Steam 上的 Planet Coaster](http://store.steampowered.com/app/493340/Planet_Coaster/){:target="about:blank"}
