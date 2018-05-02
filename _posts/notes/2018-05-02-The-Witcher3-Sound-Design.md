@@ -12,15 +12,20 @@ excerpt_separator: <!--break-->
 
 ## 环境声
 
-1. **Global Wind**， **Glabal Rain** 是全局的环境音效。它们的强度分别由 **wind_intensity** 和 **rain_intensity** 两个RTPC加以控制，实现素材分层。然后通过blend container进行混合，如nml_global_wind，由基底(bass)，两个人物周围的环绕声(New Blend Track 1/2)和草声(grass)四层构成。
+1. **Global Wind**， **Glabal Rain** 是全局的环境音效。它们的强度分别由 **wind_intensity** 和 **rain_intensity** 两个RTPC加以控制，以选取对应的素材Loop。风声和雨声都通过多个层级进行进行混合，如nml_global_wind，由基底层(bass)，环绕在人物周围的两层风声(New Blend Track 1/2)和草声(grass)四层构成。
 ![global_wind](\assets\images\global_wind.jpg)
 
-2. 当玩家进入森林、城市、村落、沼泽等具体场景时（通过地图中放置的众多Trigger触发，游戏程序控制），通过 **amb_global_override** 这个参数，把global的wind或者rain给压下去，而覆盖以局部的环境声。
+2. 当玩家进入森林、城市、村落、沼泽等具体场景时，通过 **amb_global_override** 这个参数（由放置在地图中的众多Trigger触发环境切换，游戏程序将其映射成对应的RTPC），把global的wind或者rain给压下去，而覆盖以局部的环境声。
 
-3. 当玩家进入到室内场景时，会通过 **amb_interiors** 参数把室外音全部压下去。
+3. 当玩家进入到室内场景时，同样会通过 **amb_interiors** 参数把室外音全部压下去。
 
-4. 动物的声音也做为环境音的一部分，它们收到时间，风强，和雨的大小影响。打雷的声音由游戏引擎控制，并根据玩家和闪电的距离计算出真实延迟。
+4. 动物的声音也做为环境音的一部分，它们受到 **time**， **wind_intensity** 和 **rain_intensity** 的影响。打雷的声音由游戏引擎控制，并根据玩家和闪电的距离计算出真实延迟。
+
+## 人群声
+
+狂猎音频团队努力使Crowd和Walla声具有更好的临场感，使这些声音会随着玩家的Action而发生移动及旋转。为了让音效获得一定的距离感和方向感，人群系统被分成四个象限，程序会计算每个象限中的人群的数量和距离Listener的平均距离，然后把这些参数传给Wwise。这个系统还会随着玩家及NPC的运动，实时跟踪每个NPC是否落在象限内、外，以及NPC的状态，如恐惧或不恐惧。
 
 ## References
 
 [Wwise Tour 2016 - CD Projekt Red Witcher (2 of 6) - Ambience](https://www.youtube.com/watch?v=VJUuI_dw8Cc){:target="about:blank"}
+[Wwise Tour 2016 - CD Projekt Red Witcher (3 of 6) - Crowds and Walla](https://www.youtube.com/watch?v=bv4LBbrmu0A){:target="about:blank"}
