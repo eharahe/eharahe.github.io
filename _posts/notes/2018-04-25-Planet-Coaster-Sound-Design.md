@@ -58,10 +58,10 @@ Crowd Soundbox围绕三个阶段不断循环迭代，并将计算量分配到多
 1. 计算人群质心
 ![](http://info.audiokinetic.com/hubfs/Blog_Images/Planet%20Coaster/Blog2/Blog2_Image_11_CentreOfMassFormula.png)
 
-2. 计算人群散布值，并用该值修改质心极坐标系下的Distance（用来控制Wwise的Spread衰减曲线），该distance不衰减Volume
-![](http://info.audiokinetic.com/hubfs/Blog_Images/Planet%20Coaster/Blog2/Blog2_Image_12_TopDownViewOfCrowds.png)
+2. 计算人群散布值。算法是以Listener和质心的连线为基线，以Listener为轴心向两侧扫描，直到90%的人群包含在在扇面范围内，所得到的角度即为散布值。在保证质心相对于Listener的朝向的基础上，用散布值修改质心的Distance，这样Wwise衰减曲线的Spread参数就能反映人群相对于Listener的散布。但是该distance不衰减Volume：
+![Crowd Spread](/assets/images/crowd_spread.png "计算人群散布值")
 
-3. 单独建一个描述真实的质心到听者距离的RTPC: **DistanceToListener** 控制Volume, LPF等的衰减
+3. 由于(2)中把Distance给用了，所以要单独建一个真实的质心到Listener距离的RTPC: **DistanceToListener** 来控制Volume, LPF等的衰减
 ![](http://info.audiokinetic.com/hubfs/Blog_Images/Planet%20Coaster/Blog2/Blog2_Image_13_DunamicSpredInWwise.png)
 
 ## 过山车音效设计
