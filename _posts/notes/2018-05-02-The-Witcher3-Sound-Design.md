@@ -25,6 +25,8 @@ excerpt_separator: <!--break-->
 
 狂猎音频团队努力使Crowd和Walla声具有更好的临场感，使这些声音会随着玩家的Action而发生移动及旋转。为了让音效获得一定的距离感和方向感，人群系统被分成四个象限，程序会计算每个象限中的人群的数量和距离Listener的平均距离，然后把这些参数传给Wwise。这个系统还会检测每个NPC是在室内还是室外（是否和玩家角色处在同一个空间），以及NPC的状态，如恐惧或不恐惧。
 
+![crowds](\assets\images\crowds.jpg)
+
 ## 战斗系统
 
 Weapon Switches:
