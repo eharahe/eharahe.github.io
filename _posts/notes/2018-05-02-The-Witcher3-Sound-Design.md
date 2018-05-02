@@ -37,6 +37,17 @@ Weapon Switches:
 
 ![weapon](\assets\images\weapon.jpg)
 
+## 互动音乐
+
+Stats: 探索模式的白天、晚上，普通战斗，昆特牌之间的切换  
+Switches: 对白音乐，换场Cues，普通gameplay，boss战之间的切换  
+RTPCs: intensity（探索模式，调查模式）；threat（普通gameplay） 
+
+战斗系统音乐对齐：  
+* 音乐按小节、拍、grid回调
+* AI会等待至可预期的同步点和音乐同步
+* 设置AI的最大等待时长
+
 ## References
 
 [Wwise Tour 2016 - CD Projekt Red Witcher (2 of 6) - Ambience](https://www.youtube.com/watch?v=VJUuI_dw8Cc){:target="about:blank"}  
