@@ -13,15 +13,15 @@ VR Regatta（VR 赛艇）是一款航行游戏。从声音的角度来说，每�
 ## 世界底噪 Camera_Ambience
 
 构建一个基本的背景风声环绕在玩家周围，那么当他们前后转头的时候，就会听到风声声源角度的变化。  
-创造出四个循环的风声源分别位于听者的东、南、西、北方向。在Position Source控制中，你必须取消Follow Listener Orientation的勾选。这意味着当VR头部追踪在跟踪玩家的头部动作时，循环风声的朝向不会改变，即它们在世界中的位置锁定不变。
+创造出四个循环的风声源分别位于听者的东、南、西、北方向。在Position Source控制中，取消Follow Listener Orientation的勾选。这意味着当VR头部追踪在跟踪玩家的头部动作时，循环风声的朝向不会改变，即它们在世界中的位置锁定不变。
 
 ![Positioning](http://info.audiokinetic.com/hubfs/Blog_Images/VR%20Regatta%20-%20Stephen%20S./Picture2.png)
 
-风声对象有一系列由RTPC（**PointOfSail**, **BoatSpeed**）控制的状态，可以按需增强或减弱风声的强度；风声素材按风的强度分为三层。那么随着风速增加时，围绕玩家的风将会从清风徐徐慢慢增加为狂风咆哮。
+风声对象有一系列由RTPC（**PointOfSail**, **BoatSpeed**）控制的状态，可以按需增强或减弱风声的强度；风声素材按风的强度分为三层，由Wind_Speed参数加以混合，那么随着风速增加时，围绕玩家的风将会从清风徐徐慢慢增加为狂风咆哮。
 
 ![Amb RTPC](http://info.audiokinetic.com/hubfs/Blog_Images/VR%20Regatta%20-%20Stephen%20S./Picture3.png)
 
-因为玩家视角是锁定在船内的，所以我可以为海的声音创造相同的效果。位于船周围的发声体会A播放水花拍打船体的声音，进一步增强了玩家被风和水包围的感觉。当船开始移动时，会有额外的声音来强化移动感。通过**Boat_Speed**参数跟踪船速。
+因为玩家视角是锁定在船内的，所以可以为海的声音创造相同的效果。位于船周围的发声体会播放水花拍打船体的声音，进一步增强了玩家被风和水包围的感觉。当船开始移动时，会有额外的声音来强化移动感。通过**Boat_Speed**参数跟踪船速。
 
 ## 方向风声 Directional_Wind
 
