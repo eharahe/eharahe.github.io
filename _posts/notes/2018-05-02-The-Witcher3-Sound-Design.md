@@ -14,7 +14,7 @@ excerpt_separator: <!--break-->
 
 **Global Wind**， **Glabal Rain** 是全局的环境音效。它们的强度分别由 **wind_intensity** 和 **rain_intensity** 两个RTPC加以控制，实现素材分层。然后通过blend container进行混合，如nml_global_wind，由基底(bass)，两个人物周围的环绕声(New Blend Track 1/2)和草声(grass)四层构成。
 
-![global_wind](\assets\images|global_wind.jpg)
+![global_wind](\assets\images\global_wind.jpg)
 
 当玩家进入森林、城市、村落、沼泽等具体场景时（通过 Trigger触发，游戏程序控制），会用 **amb_global_override** 这个参数，把global的wind或者rain给fade下去，而覆盖以局部的环境声。  
 
