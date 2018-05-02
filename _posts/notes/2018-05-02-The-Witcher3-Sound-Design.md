@@ -23,7 +23,7 @@ excerpt_separator: <!--break-->
 
 ## 人群声
 
-狂猎音频团队努力使Crowd和Walla声具有更好的临场感，使这些声音会随着玩家的Action而发生移动及旋转。为了让音效获得一定的距离感和方向感，人群系统被分成四个象限，程序会计算每个象限中的人群的数量和距离Listener的平均距离，然后把这些参数传给Wwise。这个系统还会随着玩家及NPC的运动，实时跟踪每个NPC是否落在象限内、外，以及NPC的状态，如恐惧或不恐惧。
+狂猎音频团队努力使Crowd和Walla声具有更好的临场感，使这些声音会随着玩家的Action而发生移动及旋转。为了让音效获得一定的距离感和方向感，人群系统被分成四个象限，程序会计算每个象限中的人群的数量和距离Listener的平均距离，然后把这些参数传给Wwise。这个系统还会检测每个NPC是在室内还是室外（是否和玩家角色处在同一个空间），以及NPC的状态，如恐惧或不恐惧。
 
 ## 战斗系统
 
@@ -39,7 +39,7 @@ Weapon Switches:
 
 ## 互动音乐
 
-Stats: 探索模式的白天、晚上，普通战斗，昆特牌之间的切换  
+States: 探索模式的白天、晚上，普通战斗，昆特牌之间的切换  
 Switches: 对白音乐，换场Cues，普通gameplay，boss战之间的切换  
 RTPCs: intensity（探索模式，调查模式）；threat（普通gameplay） 
 
@@ -51,5 +51,5 @@ RTPCs: intensity（探索模式，调查模式）；threat（普通gameplay）
 ## References
 
 [Wwise Tour 2016 - CD Projekt Red Witcher (2 of 6) - Ambience](https://www.youtube.com/watch?v=VJUuI_dw8Cc){:target="about:blank"}  
-[Wwise Tour 2016 - CD Projekt Red Witcher (3 of 6) - Crowds and Walla](https://www.youtube.com/watch?v=bv4LBbrmu0A){:target="about:blank"}
+[Wwise Tour 2016 - CD Projekt Red Witcher (3 of 6) - Crowds and Walla](https://www.youtube.com/watch?v=bv4LBbrmu0A){:target="about:blank"}  
 [Wwise Tour 2016 - CD Projekt Red Witcher (4 of 6) - Combat: Global Approach](https://www.youtube.com/watch?v=hM4hoZ3gFJs){:target="about:blank"}  
