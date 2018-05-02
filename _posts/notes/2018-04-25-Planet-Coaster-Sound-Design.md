@@ -30,12 +30,12 @@ Planet Coaster（过山车之星）的乐趣在于建造并管理世界最伟大
 1. 采用流体力学（而不是路径查找）对人流建模。
 2. 对镜头观察的范围划分网格（动态的），分别计算每个网格内的人流密度，人群分布，情绪，行为等统计信息。
 3. 将(2)中的工作分摊到多帧中进行计算，每帧大概能计算1/30的网格数。
-4. 根据前两步的分析数据，用位于东，南，西，北方向的四个点声源**Close 1 - Close 4**表示镜头周围的人群。
+4. 根据前两步的分析数据，用位于东，南，西，北方向的四个点声源 **Close 1** - **Close 4** 表示镜头周围的人群。
 5. 在(4)的基础上叠加一层关联网格整体的人流密度的背景人群声：**Far 1**
 
 ![Crowd Soundbox](http://info.audiokinetic.com/hubfs/Blog_Images/Planet%20Coaster/Blog2/Blog2_Image_05_ExtractingDataFromCrowdSimulation.png "Crowd Soundbox")
 
-#### 人群大小及种类：Sound Assets
+#### 人群划分
 * **Crowd Size**: Small, Medium, Large
 * **Crowd Diversities**: Adult male, Adult female, Teenage male Teenage female, Child
 
