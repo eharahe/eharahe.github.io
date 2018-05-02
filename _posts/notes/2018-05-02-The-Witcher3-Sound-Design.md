@@ -27,14 +27,18 @@ excerpt_separator: <!--break-->
 
 ## 战斗系统
 
-Weapon Switchs:
+Weapon Switches:
 * 武器类型
 * 被击中的护甲类型
 * 武器尺寸，对于部分武器（斧头，锤子）区别尺寸，但用得不多
-* 攻击类型及被击中的位置：body, head..
+* 攻击类型及被击中的位置：body, head..  
+
+这样划分的好处：程序中可以采用同样一种形式来触发巫师3庞大世界中的任何一种武器声音，使得测试工作变得简单。
+
 ![weapon](\assets\images\weapon.jpg)
 
 ## References
 
 [Wwise Tour 2016 - CD Projekt Red Witcher (2 of 6) - Ambience](https://www.youtube.com/watch?v=VJUuI_dw8Cc){:target="about:blank"}  
 [Wwise Tour 2016 - CD Projekt Red Witcher (3 of 6) - Crowds and Walla](https://www.youtube.com/watch?v=bv4LBbrmu0A){:target="about:blank"}
+[Wwise Tour 2016 - CD Projekt Red Witcher (4 of 6) - Combat: Global Approach](https://www.youtube.com/watch?v=hM4hoZ3gFJs){:target="about:blank"}  
