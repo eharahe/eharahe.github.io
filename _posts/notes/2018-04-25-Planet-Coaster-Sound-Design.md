@@ -30,12 +30,12 @@ Planet Coaster（过山车之星）的乐趣在于建造并管理世界最伟大
 1. 采用流体力学（而不是路径查找）对人流建模。
 2. 对镜头观察的范围划分网格（动态的），分别计算每个网格内的人流密度，人群分布，情绪，行为等统计信息。
 3. 将(2)中的工作分摊到多帧中进行计算，每帧大概能计算1/30的网格数。
-4. 镜头周围的人群，用四个方向上的点声源表示：**Close 1 - Close 4**
-5. 叠加一层关联网格整体的人流密度的背景人群声：**Far 1**
+4. 根据前两步的分析数据，用位于东，南，西，北方向的四个点声源**Close 1 - Close 4**表示镜头周围的人群。
+5. 在(4)的基础上叠加一层关联网格整体的人流密度的背景人群声：**Far 1**
 
 ![Crowd Soundbox](http://info.audiokinetic.com/hubfs/Blog_Images/Planet%20Coaster/Blog2/Blog2_Image_05_ExtractingDataFromCrowdSimulation.png "Crowd Soundbox")
 
-#### Sound Assets
+#### 人群大小及种类：Sound Assets
 * **Crowd Size**: Small, Medium, Large
 * **Crowd Diversities**: Adult male, Adult female, Teenage male Teenage female, Child
 
@@ -64,13 +64,13 @@ Crowd Soundbox围绕三个阶段不断循环迭代，并将计算量分配到多
 3. 单独建一个描述真实的质心到听者距离的RTPC: **DistanceToListener** 控制Volume, LPF等的衰减
 ![](http://info.audiokinetic.com/hubfs/Blog_Images/Planet%20Coaster/Blog2/Blog2_Image_13_DunamicSpredInWwise.png)
 
-### 过山车音效设计
+## 过山车音效设计
 
 1. 将原始素材拆分成Track Wind Car Clunks & Flanges
 2. 使用Acceleration, Weight, Speed, Lateral Rotation等RTPC触发一些素材（如轨道间隙，转向时的咔咔声等），以及实时控制Loop的滤波、Pitch特性。
 3. 根据RTPC实时控制Loop的Pitch，效果不够真实；采用带通滤波，控制其通带宽度的做法要更好。
 
-### References
+## References
 
 [“The Challenge of Creating Audio for Planet Coaster” - Using contextual impressions and data gathering to design crowd audio.](https://vimeo.com/255463243){:target="about:blank"}
 
