@@ -17,7 +17,7 @@ VR Regatta（VR 赛艇）是一款航行游戏。从声音的角度来说，每�
 
 ![Positioning](http://info.audiokinetic.com/hubfs/Blog_Images/VR%20Regatta%20-%20Stephen%20S./Picture2.png)
 
-风声对象有一系列由RTPC（**PointOfSail**, **BoatSpeed**）控制的状态，可以按需增强或减弱风声的强度；风声素材按风的强度分为三层，由Wind_Speed参数加以混合，那么随着风速增加时，围绕玩家的风将会从清风徐徐慢慢增加为狂风咆哮。
+风声对象有一系列由RTPC（**PointOfSail**, **BoatSpeed**）控制的状态，可以按需增强或减弱风声的强度；风声素材按风的强度分为三层，由**Wind_Speed**参数加以混合，那么随着风速增加时，围绕玩家的风将会从清风徐徐慢慢增加为狂风咆哮。
 
 ![Amb RTPC](http://info.audiokinetic.com/hubfs/Blog_Images/VR%20Regatta%20-%20Stephen%20S./Picture3.png)
 
