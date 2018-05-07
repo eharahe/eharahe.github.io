@@ -32,7 +32,7 @@ Rainbow Six: Seige（彩虹六号：围攻）中最主要的创新之一是通�
 
 2. 传播路径的变化并不是单向的。墙面可以被破坏也可以被加固。加固后衍射路径的计算仍然会被考虑，并不是完全封死的。同时加固的材料（木头，金属）会导致不同的传播效果。  
 
-3. 在可穿墙的环境中，防御者要做的就是尽可能多的加固墙体，并且等待攻击者经过没有加固的墙边，然后朝他射击。攻击者永远不知道袭击他们的人躲在哪（因为Obstruction改变了虚像点位置）。然后玩家开始吐槽：[对于枪声定位Reddit上玩家并不买账](https://www.reddit.com/r/Rainbow6/comments/5oqwbz/great_article_on_how_rainbow_six_siege_audio/){:target="about:blank"} 
+3. 在可穿墙的环境中，防御者要做的就是尽可能多的加固墙体，并且等待攻击者经过没有加固的墙边，然后朝他射击。攻击者永远不知道袭击他们的人躲在哪（因为Obstruction改变了虚像点位置）。这样看上去似乎有些不公平，但真实世界里的情况就是如此，音频团队对这个结果的态度是十分坚持肯定的。但是玩家开始吐槽：[对于枪声定位Reddit上玩家并不买账](https://www.reddit.com/r/Rainbow6/comments/5oqwbz/great_article_on_how_rainbow_six_siege_audio/){:target="about:blank"} 
 
 ## References
 
