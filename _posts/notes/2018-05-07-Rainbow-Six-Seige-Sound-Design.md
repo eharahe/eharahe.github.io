@@ -6,7 +6,7 @@ tags: sound-design Wwise
 category: sound-system-design
 excerpt_separator: <!--break-->
 ---
-Rainbow Six: Seige（彩虹六号：围攻）中最主要的创新之一是通过在地图中放置一系列的Propagation Nodes来计算声源到玩家之间的加权路径，从而实现声音的衍射（Obstruction）。
+Rainbow Six: Seige（彩虹六号：围攻）中最主要的创新之一是通过在地图中放置一系列的 **Propagation Nodes** 来计算声源到玩家之间的加权路径，从而实现声音的衍射。
 
 <!--break-->
 
