@@ -27,11 +27,11 @@ excerpt_separator: <!--break-->
 
 * Stimulus driven 事件是响应式的，瞬间触发的
 * Criteria selection
-* Server authentication
+* Server authentication 拥有更多的权限控制能力
 * Fast prototyping and audio post processing workflow with Reaper and Wwise
-* Wwise External Voices
+* Wwise external voices
 
-VO例子
+Server Authentication VO例子：
 
 ![](\assets\images\overwatch_vo0.jpg)  
 ![](\assets\images\overwatch_vo1.jpg)  
