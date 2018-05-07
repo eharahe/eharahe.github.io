@@ -1,0 +1,45 @@
+---
+layout: default
+title: Overwatch Sound Design
+permalink: /notes/overwatch-sound-design
+tags: sound-design Wwise
+category: sound-system-design
+excerpt_separator: <!--break-->
+---
+“游戏至上”是暴雪的核心价值之一。Overwatch的音频团队制订了颇具雄心的目标“Play by Sound”：通过声音指导与影响gameplay，而不是简单的加强gameplay体验。Overwatch团队采用了Dolby Atmos Binaural Mixer plug-in技术。
+
+<!--break-->
+
+## 工程整体结构
+
+1. Master-Mixer Hierarchies的总线最高层级是按照2D_Audio和3D_Audio进行划分的。
+2. Actor-Mixer Hierarchies中，声音是按照类别进行组织的，而不是按照角色。在每个类别的较高层级区分1P和3P，从而可以在较高层级上实现统一的参数调整，如RTPC，发送等，减少bug出现的几率。
+
+## 主要目标和方案
+
+* 翔实的英雄VO
+* 清晰的混音
+* 高度的精确性
+* Gameplay信息
+* 经典条件反射（巴夫洛夫条件反射）
+
+## 翔实的英雄VO
+
+* Stimulus driven 事件是响应式的，瞬间触发的
+* Criteria selection
+* Server authentication
+* Fast prototyping and audio post processing workflow with Reaper and Wwise
+* Wwise External Voices
+
+VO例子
+
+![](\assets\images\overwatch_vo0.jpg)  
+![](\assets\images\overwatch_vo1.jpg)  
+![](\assets\images\overwatch_vo2.jpg)  
+![](\assets\images\overwatch_vo3.jpg)  
+
+
+## References
+
+[Overwatch - Game Audio Using Wwise (part 1/2)](https://blog.audiokinetic.com/overwatch-game-audio-using-wwise-1/){:target="about:blank"}
+[Overwatch - Game Audio Using Wwise (part 2/2)](https://blog.audiokinetic.com/overwatch-game-audio-using-wwise-part-2/){:target="about:blank"}
