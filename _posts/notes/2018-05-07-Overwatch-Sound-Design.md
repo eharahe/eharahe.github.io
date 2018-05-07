@@ -31,11 +31,15 @@ excerpt_separator: <!--break-->
 * Fast prototyping and audio post processing workflow with Reaper and Wwise
 * Wwise external voices
 
-Server Authentication VO例子：
+Server Authentication VO例子：  
+Pharah开大；Reinhardt开盾挡住伤害；Widowmaker躲在Reinhardt后面狙杀掉Rharah；Reinhardt冲刺撞在墙上。
 
 ![](\assets\images\overwatch_vo0.jpg)  
+
 ![](\assets\images\overwatch_vo1.jpg)  
+
 ![](\assets\images\overwatch_vo2.jpg)  
+
 ![](\assets\images\overwatch_vo3.jpg)  
 
 
