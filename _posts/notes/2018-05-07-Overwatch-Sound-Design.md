@@ -46,7 +46,7 @@ Pharah开大；Reinhardt开盾挡住伤害；Widowmaker躲在Reinhardt后面狙�
 
 团队在开始尝试使用HDR，但问题是实际运行时可能导致大量预期之外的ducking。最终游戏采用了一套“重要性系统”，让玩家能优先听到更重要的声音。
 
-1. 设定（敌方）英雄重要性的计算方式：  
+1) 设定（敌方）英雄重要性的计算方式：  
 
   | 类别                    | 权重      | 最小持续时间 |
   | ----------------------- |:---------:| ------------:|
@@ -58,10 +58,11 @@ Pharah开大；Reinhardt开盾挡住伤害；Widowmaker躲在Reinhardt后面狙�
   | Seen By                 | 0.3       | 2            |
   | Shot At                 | 0.6       | 2            |
 
-2. 对所有英雄按照重要性排序，将排序结果划分为4个级别：  
-![](\assets\images\overwatch_priority.jpg)  
+2) 对所有英雄按照重要性排序，将排序结果划分为4个级别：  
 
-3. 对不同的级别设置不同的RTPC值，如Volume, Priority, Filters, Pitch等等。
+  ![](\assets\images\overwatch_priority.jpg)  
+
+3) 对不同的级别设置不同的RTPC值，如Volume, Priority, Filters, Pitch等等。
 
 
 ## References
