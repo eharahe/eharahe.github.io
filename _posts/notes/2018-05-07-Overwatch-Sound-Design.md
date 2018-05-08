@@ -6,7 +6,7 @@ tags: sound-design Wwise
 category: sound-system-design
 excerpt_separator: <!--break-->
 ---
-“游戏至上”是暴雪的核心价值之一。Overwatch的音频团队制订了颇具雄心的目标“Play by Sound”：通过声音指导与影响gameplay，而不是简单的加强gameplay体验。Overwatch团队采用了Dolby Atmos Binaural Mixer plug-in技术。
+“游戏至上”是暴雪的核心价值之一。Overwatch的音频团队制订了颇具雄心的目标“Play by Sound”：通过声音传达尽可能多的信息，指导与影响玩家操作，而不是简单的加强gameplay体验。Overwatch团队采用了Dolby Atmos Binaural Mixer plug-in技术。
 
 <!--break-->
 
@@ -34,17 +34,11 @@ excerpt_separator: <!--break-->
 Server Authentication VO例子：  
 Pharah开大；Reinhardt开盾挡住伤害；Widowmaker躲在Reinhardt后面狙杀掉Rharah；Reinhardt冲刺撞在墙上。
 
-![](\assets\images\overwatch_vo0.jpg)  
-
-![](\assets\images\overwatch_vo1.jpg)  
-
-![](\assets\images\overwatch_vo2.jpg)  
-
-![](\assets\images\overwatch_vo3.jpg)  
+![](\assets\images\overwatch_vo.jpg)  
 
 ## 清晰的混音
 
-团队在一开始尝试使用HDR，但实际问题是运行时可能导致大量意料外的ducking出现。最终游戏采用了一套“重要性系统”，让玩家能优先听到最重要的声音。
+团队在一开始尝试使用 HDR (High Dynamic Range)，但实际问题是运行时可能导致大量意料外的ducking出现。最终游戏采用了一套“重要性系统”，让玩家能优先听到最重要的声音。
 
 1) 设定英雄**重要性**的计算方式，即按如下分类计算加权总值：  
 
