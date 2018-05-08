@@ -12,12 +12,12 @@ excerpt_separator: <!--break-->
 
 ## Voice的设计
 
-### Voice的目标
+#### Voice的目标
 
 1. Natural and adaptable audio playback  
 2. Integration of physical and emotional states
 
-## Voice实现 - 素材录制   
+#### Voice实现 - 素材录制   
 
 * 录制呼吸声素材时，首先按照Action、Emotion等进行分类，通过Switch Container进行组织。  
 * 对于每一种类型，都会录制一段包含不同Intensity Level的素材（角色运动越剧烈Intensity越高，呼吸越急促）  
@@ -25,7 +25,7 @@ excerpt_separator: <!--break-->
 
 ![](\assets\images\inside_voice.jpg) 
 
-## Voice实现 - 程序实现
+#### Voice实现 - 程序实现
 
 程序通过修改Wwise Unity Integration实现了Voice Sequencer。它是一个播放器，用来无缝地循环播放Inhale和Exhale。Voice Sequencer工作在两种模式：*连续模式* 和 *节奏模式*。  
 
@@ -46,13 +46,21 @@ excerpt_separator: <!--break-->
 
 ![](\assets\images\inside_voice3.png)  
 
-## Voice实现 - 其它细节
+#### Voice实现 - 其它细节
 
 小男孩的面向（朝屏幕里面还是外面）会影响声音。
 Intensity相关：
   1. 小男孩的运动量的平均值（原文用的 'Lowpass'， 是指消除抖动后的均值）即为Intensity
   2. Intensity决定样本的选取；用来表现身体的消耗程度和角色情感的紧张程度。
   3. Intensity曲线会受到 **场景位置** 和 **时间** 因素的Clamping来满足具体的游戏需求。
+
+## 换场
+
+角色死亡后直到换场结束在存档点重生，声音希望是连续的：
+* Wwise updates are paused during scene change:
+* Retains audio state during scene change
+* Wwise commands accumulated during load （需要2MB的缓存队列）
+* All commands are executed at once when scene change is complete
 
 ## References
 
