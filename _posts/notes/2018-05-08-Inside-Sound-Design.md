@@ -17,9 +17,7 @@ excerpt_separator: <!--break-->
 1. Natural and adaptable audio playback  
 2. Integration of physical and emotional states
 
-### Voice实现
-
-**素材录制**  
+## Voice实现 - 素材录制   
 
 * 录制呼吸声素材时，首先按照Action、Emotion等进行分类，通过Switch Container进行组织。  
 * 对于每一种类型，都会录制一段包含不同Intensity Level的素材（角色运动越剧烈Intensity越高，呼吸越急促）  
@@ -27,7 +25,7 @@ excerpt_separator: <!--break-->
 
 ![](\assets\images\inside_voice.jpg) 
 
-**程序这边**
+## Voice实现 - 程序实现
 
 程序通过修改Wwise Unity Integration实现了Voice Sequencer。它是一个播放器，用来无缝地循环播放Inhale和Exhale。Voice Sequencer工作在两种模式：*连续模式* 和 *节奏模式*。  
 
@@ -41,14 +39,14 @@ excerpt_separator: <!--break-->
 
 ![](\assets\images\inside_voice2.png)   
 
-节奏模式工作在角色跑步时。这时动画速度是固定的，声音需要对齐动画：两步一个呼吸循环。其难点在于从连续模式切换到连续模式，声音应该如何过渡：
-  1. 首先计算在连续模式下上一次完整呼吸的频率和相位；而我们已知节奏模式下的频率（动画决定）和相位（为0），所以问题变为两个Circle的频率和相位的过渡，类似DJ打碟。
+节奏模式工作在角色跑步时。这时动画速度是固定的，声音需要对齐动画：两步一个呼吸循环。其难点在于从连续模式切换到节奏模式，声音应该如何过渡：
+  1. 首先计算在连续模式上一次完整呼吸的频率和相位；而我们已知节奏模式的频率（动画决定）和相位（为0），所以问题变为两个圆周运动频率和相位的同步，类似DJ打碟。
   2. 将频率从连续模式渐变至节奏模式
-  3. 调整频率补偿（缩小）相位差：有时为了追赶相位频率会over compensate，但稳定后会和节奏模式同步。
+  3. 调整频率补偿（缩小）相位差：有时为了追赶相位，频率会over compensate，等到相位追上后再逐渐回到正确频率。
 
 ![](\assets\images\inside_voice3.png)  
 
-**其它细节**
+## Voice实现 - 其它细节
 
 小男孩的面向（朝屏幕里面还是外面）会影响声音。
 Intensity相关：
