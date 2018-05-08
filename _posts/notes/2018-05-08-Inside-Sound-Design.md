@@ -12,12 +12,12 @@ excerpt_separator: <!--break-->
 
 ## Voice
 
-#### Voice的目标
+### Voice的目标
 
 1. Natural and adaptable audio playback  
 2. Integration of physical and emotional states
 
-#### Voice实现
+### Voice实现
 
 **素材录制**  
 
