@@ -61,7 +61,7 @@ excerpt_separator: <!--break-->
   3. Low - 4-10个  
   4. CULL - 其它
 
-3) 对不同的级别设置不同的RTPC值，如Volume, Priority, Filters, Pitch等等。
+3) 对不同的级别设置不同的RTPC值，如Volume, Priority, Filters, Pitch等等。对于Low和CULL级别，声音衰减非常明显，很多时候基本上听不到；空间大都落在前两个级别的声音上。
 
 ## 高度的精确性
 
@@ -81,7 +81,7 @@ excerpt_separator: <!--break-->
 * Focus & Spread
 * Reverb & Quad Delay
 
-Quad Delay是自研的插件。通过4个multi-tap delay，4个EQ，4个panner来模拟混响ER。游戏中实时将玩家面向的左前、右前、左后、右后四个方向到障碍物的距离传给插件，计算出早期反射。原则上是，离墙越近声音越明亮；离墙越远则声音越闷。
+Quad Delay是自研的插件。通过4个multi-tap delay，4个EQ，4个panner来模拟混响的ER。游戏中实时将玩家面向的左前、右前、左后、右后四个方向到障碍物的距离传给插件，计算出早期反射。原则上是，离墙越近声音越明亮；离墙越远则声音越闷。
 
 #### Doby Atmos
 
@@ -95,4 +95,5 @@ Quad Delay是自研的插件。通过4个multi-tap delay，4个EQ，4个panner�
 ## References
 
 [Overwatch - Game Audio Using Wwise (part 1/2)](https://blog.audiokinetic.com/overwatch-game-audio-using-wwise-1/){:target="about:blank"}  
-[Overwatch - Game Audio Using Wwise (part 2/2)](https://blog.audiokinetic.com/overwatch-game-audio-using-wwise-part-2/){:target="about:blank"}
+[Overwatch - Game Audio Using Wwise (part 2/2)](https://blog.audiokinetic.com/overwatch-game-audio-using-wwise-part-2/){:target="about:blank"}  
+[Overwatch - The Elusive Goal: Play by Sound on GDC pdf](http://gdcvault.com/play/1023010/Overwatch-The-Elusive-Goal-Play){:target="about:blank"}  
