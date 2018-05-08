@@ -27,12 +27,14 @@ excerpt_separator: <!--break-->
 
 * Stimulus driven 事件是响应式的，瞬间触发的
 * Criteria selection
-* Server authentication 拥有更多的权限控制能力
+* Server authentication 拥有更多的权限控制能力，玩家之间交流
 * Fast prototyping and audio post processing workflow with Reaper and Wwise
 * Wwise external voices
 
-Server Authentication VO例子：  
-Pharah开大；Reinhardt开盾挡住伤害；Widowmaker躲在Reinhardt后面狙杀掉Rharah；Reinhardt冲刺撞在墙上。
+**翔实的英雄VO例子：** 
+
+场景：Pharah是一队；Reinhardt和Widowmaker是另一队。Pharah放大招-发射导弹；Reinhardt开盾挡住伤害；Widowmaker躲在Reinhardt后面狙杀掉Rharah；Reinhardt冲刺撞在墙上。  
+每一个英雄都根据不同的播报类型听到不同的语音事件：  
 
 ![](\assets\images\overwatch_vo.jpg)  
 
