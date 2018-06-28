@@ -19,9 +19,9 @@ excerpt_separator: <!--break-->
 
 #### Voice实现 - 素材录制   
 
-* 录制呼吸声素材时，首先按照Action、Emotion等进行分类，通过Switch Container进行组织。  
+* 录制呼吸声素材时，首先按照Action、Emotion等进行分类，最终在Wwise中通过Switch Container进行组织。  
 * 对于每一种类型，都会录制一段包含不同Intensity Level的素材（角色运动越剧烈Intensity越高，呼吸越急促）  
-* 这些素材按照Inhale和Exhale切片，分层放入到不同的Random Container中，**但是每一个切片的长度是不定的**。  
+* 这些素材按照Inhale和Exhale切片，分别放入到不同的Random Container中，**但是每一个切片的长度是不定的**。  
 
 ![](\assets\images\inside_voice.jpg) 
 
@@ -29,7 +29,7 @@ excerpt_separator: <!--break-->
 
 程序通过修改Wwise Unity Integration实现了Voice Sequencer。它是一个播放器，用来无缝地循环播放Inhale和Exhale。Voice Sequencer工作在两种模式：*连续模式* 和 *节奏模式*。  
 
-连续模式工作在角色闲置，攀爬，落地等时刻。由于每个呼吸素材的切片长度不定，因此需要SDK的回调API通知Sequencer上个素材已经播完了，继续播放下一个素材。具体的循环逻辑是：
+连续模式工作在角色闲置，攀爬，落地等时刻。由于每个呼吸素材的切片长度不定，因此需要SDK的回调API通知Sequencer上个素材已经播完，可继续播放下一个素材。具体的循环逻辑是：
   1. 设置呼吸状态：呼气还是吸气
   2. 设置Switch，确定呼吸的类型
   3. 调用Event，播放声音切片
