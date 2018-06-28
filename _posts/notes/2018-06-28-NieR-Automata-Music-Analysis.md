@@ -41,18 +41,15 @@ excerpt_separator: <!--break-->
 | 顕現シタ異物 | Ver1 No Vocal | 杂兵战 | 3:40 | 53 | 2:47 | 55 | <1 |
 | イニシエノウタ | No Vocal | 大型兵器 | 2:38 | 22 | 2:16 | 50 | <1 |
 | 顕現シタ異物 | Ver2 No Vocal | 杂兵战 | 2:50 | 3 | 2:47 | 7:56 | <3 |
-| 顕現シタ異物 | Ver2 With Vocal | "杂兵战  |
-| 进入最后一个杂兵房间，完成对话后过渡到vocal版本" | 2:50 | 3 | 2:47 | 1:03 | <1 |
+| 顕現シタ異物 | Ver2 With Vocal | 杂兵战进入最后一个杂兵房间，完成对话后过渡到vocal版本 | 2:50 | 3 | 2:47 | 1:03 | <1 |
 | 双極ノ悪夢 | No Vocal | 桥上大型兵器出现 | 2:29 | 3 | 2:26 | 58 | <1 |
 | 双極ノ悪夢 | With Vocal | 大型兵器变身 | 2:29 | 3 | 2:26 | 2:56 | <2 |
 | 顕現シタ異物 | Ver2 With Vocal | 大型兵器身上杂兵战 | 2:50 | 3 | 2:47 | 1:14 | <1 |
-| 終ワリノ音 | "Full Arrangements |
-| Main Layer +Vocal Layer" | 大型兵器最终战 | 2:18 | 9 | 2:09 | 2:25 | <2 |
+| 終ワリノ音 | Full Arrangements Main Layer +Vocal Layer | 大型兵器最终战 | 2:18 | 9 | 2:09 | 2:25 | <2 |
 | 茫洋タル病 | Full Arrangements | 线性叙事 | 1:33 | 31 | 1:02 | 55 | <1 |
 | 偽リノ城塞 | Full Arrangements | 太空总部 | 2:15 | 15 | 2:00 | 6:40 | <4 |
 | 崩壊ノ虚妄 |  | 线性叙事，向地球进发 | 1:36 | 1 | 1:35 | 2:10 | <2 |
-| 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | "探索地球废墟。 |
-| 从Pad层起，概率性过渡到Guitar Piano层" | 1:55 | 0 | 1:55 | 5:09 | <3 |
+| 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | 探索地球废墟。 从Pad层起，概率性过渡到Guitar Piano层 | 1:55 | 0 | 1:55 | 5:09 | <3 |
 | 穏ヤカナ眠リ | No Vocal | 反抗军营地 | 2:14 | 14 | 2:00 | 2:25 | <2 |
 | 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | 进入废墟，从Pad层起，概率性过渡到Guitar Piano层。上面再叠加Vocal层 （Vocal是独立的） | 1:55 | 0 | 1:55 | 4:00 | <3 |
 | 砂塵ノ記憶 | Pad Layer | 进入沙漠Pad | 2:14 | 22 | 1:52 | 5:38 | <3 |
@@ -69,21 +66,18 @@ excerpt_separator: <!--break-->
 | 遊園施設 | Pad + Grove + Vocal | 在几根层级间随机切换 | 2:14 | 0 | 2:14 | 2:28 | <2 |
 | パスカル | No Vocal / With Vocal | 村里人物，对话 | 2:15 | 15 | 2:00 | 4:00 | <2 |
 | オバアチャン | No Vocal / With Vocal | 开始Boss战时过渡到带Vocal | 1:48 | 14 | 1:34 | 5:31 | <4 |
-| 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | "探索大型兵器陷落大坑。 |
-| 从Pad层起，概率性过渡到Guitar Piano层" | 1:55 | 0 | 1:55 | 5:00 | <3 |
+| 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | 探索大型兵器陷落大坑。 从Pad层起，概率性过渡到Guitar Piano层 | 1:55 | 0 | 1:55 | 5:00 | <3 |
 | 茫洋タル病 | Full Arrangements | 进入地下 | 1:33 | 31 | 1:02 | 1:20 | <1 |
 | 異形ノ末路 | Full Arrangements | 打Adam | 2:21 | 13 | 2:08 | 2:30 | <2 |
 | 森ノ王国 | Pad  Lead Drum + Vocal | 三个层级叠加Vocal层的排列组合 | 1:48 | 8 | 1:40 | 7:56 | <6 |
 | 顕現シタ異物 | Ver1 With Vocal | A2 之前的杂兵战 | 3:40 | 53 | 2:47 | 4:25 | <2 |
 | 双極ノ悪夢 | No Vocal No Drum | A2 Boss战 | 2:29 | 3 | 2:26 | 1:16 | <1 |
-| 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | "从管道中出来，来到flooded city。 |
-| 以Pad为主，最后过渡到Guitar层" | 1:55 | 0 | 1:55 | 4:48 | <4 |
+| 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | 从管道中出来，来到flooded city。 以Pad为主，最后过渡到Guitar层 | 1:55 | 0 | 1:55 | 4:48 | <4 |
 | 終ワリノ音 | No Vocal No Drum | 海上空战，从弦乐声部逐渐过渡到带打击声部的变奏 | 2:18 | 9 | 2:09 | 4:48 | <3 |
 | 全テヲ破壊スル黒キ巨人/怪獣 | Organ / No Vocal No Drum | Boss战第一阶段，管风琴一遍，过渡到管弦编配 | 2:02 | 14 | 1:48 | 3:41 | <3 |
 | 全テヲ破壊スル黒キ巨人/怪獣 | Organ / No Vocal No Drum | Boss战第二阶段，管弦编配 | 2:02 | 14 | 1:48 | 1:32 | <1 |
 | 全テヲ破壊スル黒キ巨人/怪獣 | Full Arrangements | Boss战第三阶段，从管弦过渡到全编配 | 2:02 | 14 | 1:48 | 5:43 | <4 |
-| 複製サレタ街 | Full Arrangements | "进入复制之城到Boss战Adam第一阶段。 |
-| 从Pad逐步过渡到全编配，进入Boss战时进Vocal变奏" | 1:58 | 16 | 1:42 | 4:52 | <3 |
+| 複製サレタ街 | Full Arrangements | 进入复制之城到Boss战Adam第一阶段。 从Pad逐步过渡到全编配，进入Boss战时进Vocal变奏 | 1:58 | 16 | 1:42 | 4:52 | <3 |
 | 複製サレタ街 | Dance | Boss战第二阶段，舞曲编配 | 2:21 | 14 | 2:07 | 1:51 | <1 |
 | 愚カシイ兵器 | Full Arrangements | 甲乙丙 + Vocal层 | 2:45 | 16 | 2:29 | 1:14 | <1 |
 | 生マレ出ヅル意思 | Full Arrangements | 邪教杂兵战，多个层次间的切换 | 2:47 | 29 | 2:18 | 16:41 | <7 |
