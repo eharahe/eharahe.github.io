@@ -81,7 +81,7 @@ excerpt_separator: <!--break-->
 | 複製サレタ街 | Dance | Boss战第二阶段，舞曲编配 | 2:21 | 14 | 2:07 | 1:51 | <1 |
 | 愚カシイ兵器 | Full Arrangements | 甲乙丙 + Vocal层 | 2:45 | 16 | 2:29 | 1:14 | <1 |
 | 生マレ出ヅル意思 | Full Arrangements | 邪教杂兵战，多个层次间的切换 | 2:47 | 29 | 2:18 | 16:41 | <7 |
-| 取リ憑イタ業病 | Full Arrangements | 从Robot Vocal层逐层过渡到全编配 | 3:56 | 51 | 2:05 | 4:14 | <2 |  |
+| 取リ憑イタ業病 | Full Arrangements | 从Robot Vocal层逐层过渡到全编配 | 3:56 | 51 | 2:05 | 4:14 | <2 |
 | 生マレ出ヅル意思 | Full Arrangements | 反抗军营地杂兵战 | 2:47 | 29 | 2:18 | 5:14 | <3 |
 | 終ワリノ音 | No Vocal | Boss战第一阶段 | 2:18 | 9 | 2:09 | 3:14 | <2 |
 | 依存スル弱者 | No Vocal | Boss战第二阶段 | 2:30 | 13 | 2:17 | 3:06 | <2 |
