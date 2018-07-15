@@ -22,7 +22,7 @@ excerpt_separator: <!--break-->
 
 在5.1 7.1等的基础上增加垂直维度的一层，以及天花板正上方的声道。
 
-![Auro-3D-13.1](\assets\images\Auro-3D-13.1.png)  
+![Auro-3D-13.1](\assets\images\AURO-3D-13.1.png)  
 *Auro-3D-13.1*  
 
 #### Dolby Atmos 2012
