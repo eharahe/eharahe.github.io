@@ -14,7 +14,7 @@ excerpt_separator: <!--break-->
 
 * **Dolby SR** 1985 and **Ultra-stereo** 1984。4通道，Left - Center - Right - Surround (LCRS)
 * **Dolby Digital** 1992 and **DTS** 1993。6通道，即5.1
-* **Sony SDDS** 1987。8通道，Left - Left Center - Center-Right - Center-Right - Left Surround - Right Surround - Subwoofer
+* **Sony SDDS** 1987。8通道，Left - Left Center - Center - Right Center - Right - Left Surround - Right Surround - Subwoofer
 
 ## 2010年以后的主要系统   
 
@@ -22,21 +22,25 @@ excerpt_separator: <!--break-->
 
 在5.1 7.1等的基础上增加垂直维度的一层，以及天花板正上方的声道。
 
-![weapon](\assets\images\AURO-3D-13.1.png)
+![AURO-3D-13.1](\assets\images\AURO-3D-13.1.png)  
+*AURO-3D-13.1*  
 
 #### Dolby Atmos 2012
 
 增加上方播放阵列，形成半球包裹式的3D定位。提供了影院、家庭、耳机的解决方案。
 
-![weapon](\assets\images\Dolby-Atmos-9.1.6.png)
+![Dolby-Atmos-9.1.6](\assets\images\Dolby-Atmos-9.1.6.png)  
+*Dolby-Atmos-9.1.6*  
 
-![weapon](\assets\images\Dolby-Atmos-24.1.10.png)
+![Dolby-Atmos-24.1.10](\assets\images\Dolby-Atmos-24.1.10.png)  
+*Dolby-Atmos-24.1.10*  
 
 #### DTS: X 2015
 
 和Dolby Atmos方案类似，增加上方播放阵列。
 
-![weapon](\assets\images\DTS-X-7.1.4.png)
+![DTS-X-7.1.4](\assets\images\DTS-X-7.1.4.png)  
+*DTS-X-7.1.4*  
 
 ## References
 
