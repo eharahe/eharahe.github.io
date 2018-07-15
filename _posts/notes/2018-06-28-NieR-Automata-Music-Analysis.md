@@ -2,8 +2,8 @@
 layout: default
 title: NieR:Automata Music Analysis
 permalink: /notes/nieR-automata-music-analysis
-tags: sound-design Wwise
-category: sound-system-design music
+tags: sound-design Wwise music
+category: sound-system-design
 excerpt_separator: <!--break-->
 ---
 
