@@ -18,7 +18,7 @@ excerpt_separator: <!--break-->
 * RMS表及VU表：RMS表的读数是对窗口内采样求均方根后的平均值，常见的窗口大小是50ms - 400ms；VU表的磁针受惯性影响不可能发生瞬移，因此反映的是平均后的电平数值。在模拟领域它虽然是个有着悠久传统的表头，但在数字领域更多是用在模拟硬件的效果器UI展示中，其算法更接近RMS表，固归为一类。
 * 响度表：比较通用的算法是LKFS和LUFS，两者唯一的区别是LUFS多增加了一个Peak Level的概念。Wwise的Loudness Meter用的是EBU的LUFS。
 
-## 响度感知及LKFS算法
+## 二、响度感知及LKFS算法
 
 响度感知是心理声学的研究范畴，其影响因素众多。频率、波形包络、动态变化、声场、混响、听音者的年龄、心情状态等都会影响最终的感知。
 
@@ -48,3 +48,24 @@ LKFS算法是广电游戏等领域广泛使用的响度评估算法。根据ITU-
 
 ![BS.1770 structure](\assets\images\BS.1770-global.jpg) 
 
+可以看到这个Demo是5.0声道的例子。每个声道的采样，先通过K-滤波器 —— 一个二级带权FIR滤波电路；然后做均方处理，窗口为400ms，混叠为75%；然后对所有声道做带权叠加，再取对数得到响度值。
+
+滤波电路的第一级是2kHz左右的4dB的搁架提升，补偿等响曲线中人耳对4k左右高频的敏感度；第二级为70Hz左右的低切，削弱低频信号的权重。这两级滤波可以看成是对等响曲线的比较粗略的近似。
+
+![BS.1770 filter](\assets\images\BS.1770-filter.jpg) 
+
+均方根的计算
+
+$$z_i=\frac{1}{T}\int^T_0y^2_idt$$
+
+通道加权如下表：
+
+| 通道 | 加权，Gi |
+| ---- | -------- |
+| 左边(GL) | 1.0 (0 dB) |
+| 右边 (GR) | 1.0 (0 dB) |
+| 中间 (GC) | 1.0 (0 dB) |
+| 左边环绕 (GLs) | 1.41 (~ +1.5 dB) |
+| 右边环绕 (GRs) | 1.41 (~ +1.5 dB) |
+
+<script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
