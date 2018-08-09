@@ -82,7 +82,7 @@ $$L_K=–0.691+10 log_{10}\sum_iG_i·z_i$$
 
 ![BS.1770 reference level 1](\assets\images\reflevel1.png) 
 
-![BS.1770 reference level 2](\assets\images\reflevel2.png) 
+![BS.1770 reference level 2](\assets\images\reflevel2.jpg) 
 
 ![BS.1770 reference level 3](\assets\images\reflevel3.png) 
 
