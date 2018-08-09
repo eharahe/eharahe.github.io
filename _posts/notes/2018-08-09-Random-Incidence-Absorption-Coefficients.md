@@ -7,10 +7,10 @@ category: acoustics
 excerpt_separator: <!--break-->
 ---
 
-
+Table of Sound Absorption Coefficients that can be found on internet.
 <!--break-->
 
-## Table from Auralization:
+## Table from ***Auralization***:
 
 | Type | Material | 125 | 250 | 500 | 1k | 2k | 4k | 8k |
 | ---- | -------- |:---:|:---:|:---:|:--:|:--:|:--:|:--:|
@@ -110,7 +110,7 @@ excerpt_separator: <!--break-->
 
  | Type | Material | Thickness | 125 | 250 | 500 | 1000 | 2000 | 4000 |
  | ---- | -------- |:---------:|:---:|:---:|:---:|:----:|:----:|:----:|
- | **Masonry Walls | Rough concrete** |  | 0.02 | 0.03 | 0.03 | 0.03 | 0.04 | 0.07 |
+ | **Masonry Walls** | Rough concrete |  | 0.02 | 0.03 | 0.03 | 0.03 | 0.04 | 0.07 |
  |  | Smooth unpainted concrete |  | 0.01 | 0.01 | 0.02 | 0.02 | 0.02 | 0.05 |
  |  | Smooth concrete, painted or glazed |  | 0.01 | 0.01 | 0.01 | 0.02 | 0.02 | 0.02 |
  |  | Porous concrete blocks (no surface finish) |  | 0.05 | 0.05 | 0.05 | 0.08 | 0.14 | 0.2 |
