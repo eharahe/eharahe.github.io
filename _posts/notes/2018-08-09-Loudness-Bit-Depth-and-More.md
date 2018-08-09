@@ -70,6 +70,6 @@ $$z_i=\frac{1}{T}\int^T_0y^2_idt$$
 
 最终的响度值为：
 
-$$L_K=–0.691+10log_10\sum_iG_iz_i$$
+$$L_K=–0.691+10 log_{10}\sum_iG_iz_i$$
 
 <script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
