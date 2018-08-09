@@ -46,5 +46,5 @@ excerpt_separator: <!--break-->
 LKFS算法是广电游戏等领域广泛使用的响度评估算法。根据ITU-R BS.1770-4 建议书中的算法，大致分析一下这套标准到底都考虑了上述哪些影响因素。
 整体结构如下：
 
-![BS.1770 structure](\assets\images\BS.1770global.jpg) 
+![BS.1770 structure](\assets\images\BS.1770-global.jpg) 
 
