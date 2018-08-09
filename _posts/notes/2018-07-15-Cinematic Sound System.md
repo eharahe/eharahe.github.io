@@ -3,7 +3,7 @@ layout: default
 title: Cinematic Sound System
 permalink: /notes/cinematic-sound-system
 tags: sound
-category: sound-system-design
+category: acoustics
 excerpt_separator: <!--break-->
 ---
 
