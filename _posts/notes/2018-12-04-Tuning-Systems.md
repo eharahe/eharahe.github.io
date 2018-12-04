@@ -148,3 +148,6 @@ excerpt_separator: <!--break-->
 | 9 | 8343.70  |  |  |  |  |  |  |  |  |  |  |  |  
 | Ratio | 32/27 | 5/4 | 4/3 | 45/32 | 40/27 | 128/81 | 5/3 | 8/9 | 15/8 | 1 | 256/243 | 10/9 |  
 | Cents | -5.87  | -13.69  | -1.96  | -9.78  | -19.55  | -7.82  | -15.64  | -3.91  | -11.73  | 0.00  | -9.78  | -17.60  |  
+
+## 原始数据表格
+[原始数据——xlsx格式](https://github.com/eharahe/eharahe.github.io/blob/master/assets/docs/Tuning.xlsx){:target="about:blank"} 
