@@ -63,9 +63,8 @@ function loadAudioFile(url) {
 }
 
 $('y').click(function(e){
-    console.log(e)
-})
-
-loadAudioFile('/assets/audio/raag/SA2.mp3');
-loadAudioFile('/assets/audio/raag/PA2.mp3');
+    let pre = '/assets/audio/raag/',
+        post = '.mp3';
+    loadAudioFile(pre+$(e.target).attr('key')+post);
+});
 </script>
