@@ -23,6 +23,7 @@ function stopSound() {
     }
 }
 function playSound() {
+    console.log('123');
     source = context.createBufferSource();
     source.buffer = audioBuffer;
     source.loop = true;
