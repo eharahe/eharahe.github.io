@@ -12,7 +12,7 @@ The basic information about 82 main raags
 
 | Names         | Are                | Cool              |
 | ------------- |:------------------:|:-----------------:|
-| Shadja        | <y>***SA***</y>           |                   |
+| Shadja        | ***<y>SA</y>***           |                   |
 | rishabha      | Komal ***ri***     | Madhya ***ri***   |
 | Rishabha      | Suddha ***RI***    | Tivra ***RI***    |
 | gandhara      | Ati-komal ***ga*** | Komal ***ga***    |
