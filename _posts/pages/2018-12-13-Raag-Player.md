@@ -19,30 +19,29 @@ var source = null;
 var audioBuffer = null;
 function stopSound() {
     if (source) {
-        source.noteOff(0); //立即停止
+        source.stop(0);
     }
 }
 function playSound() {
-    console.log('123');
     source = context.createBufferSource();
     source.buffer = audioBuffer;
     source.loop = true;
     source.connect(context.destination);
-    source.noteOn(0); //立即播放
+    source.start(); //立即播放
 }
 function initSound(arrayBuffer) {
-    context.decodeAudioData(arrayBuffer, function(buffer) { //解码成功时的回调函数
+    context.decodeAudioData(arrayBuffer, function(buffer) { 
         audioBuffer = buffer;
         playSound();
-    }, function(e) { //解码出错时的回调函数
+    }, function(e) {
         console.log('Error decoding file', e);
     });
 }
 function loadAudioFile(url) {
-    var xhr = new XMLHttpRequest(); //通过XHR下载音频文件
+    var xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.responseType = 'arraybuffer';
-    xhr.onload = function(e) { //下载完成
+    xhr.onload = function(e) {
         initSound(this.response);
     };
     xhr.send();
