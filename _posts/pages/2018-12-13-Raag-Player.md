@@ -46,5 +46,5 @@ function loadAudioFile(url) {
     };
     xhr.send();
 }
-loadAudioFile('assets/audio/raag/SA2.mp3');
+loadAudioFile('/assets/audio/raag/SA2.mp3');
 </script>
