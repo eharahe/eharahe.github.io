@@ -20,7 +20,7 @@ excerpt_separator: <!--break-->
 印度的四度律和五度律原理上是完全一样的，至中音之后开始做趋近。因此四度律和平均律的误差值与五度律和平均律的误差值正好相反，一个是正的，一个是负的，且绝对值相同。 对于同一音名的两个音，其音差正好为 ***1 Śruti** = 81/80 = 21.5 cents*  
 
 ![Tuning](\assets\images\Hindu%20Tuning.png)   
-suddha = 'pure', tivra = sharp, komal = flat ('soft'), chyuta = 'fallen'  
+suddha = pure, tivra = sharp, komal = flat (soft), chyuta = fallen  
 由于五度律和四度律得到的结果一个略高，一个略低，所以印度的传统音乐Tuning得到一共22个音（基本音Sa和五度音Pa相等——2×12-2=22）
 
 ## 440Hz vs 432Hz
