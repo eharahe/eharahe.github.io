@@ -25,9 +25,9 @@ function stopSound() {
 function playSound() {
     source = context.createBufferSource();
     source.buffer = audioBuffer;
-    source.loop = true;
+    source.loop = false;
     source.connect(context.destination);
-    source.start(); //立即播放
+    source.start();
 }
 function initSound(arrayBuffer) {
     context.decodeAudioData(arrayBuffer, function(buffer) { 
