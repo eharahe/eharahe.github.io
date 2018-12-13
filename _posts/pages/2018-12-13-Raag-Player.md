@@ -10,6 +10,20 @@ excerpt_separator: <!--break-->
 The basic information about 82 main raags
 <!--break-->
 
+| Names         | Are        | Cool      |
+| ------------- |:----------:| ---------:|
+| Shadja        | Shadja     |           |
+| rishabha      | Komal      | Madhya    |
+| Rishabha      | Suddha     | Tivra     |
+| gandhara      | Ati-komal  | Komal     |
+| Gandhara      | Suddha     | Tivra     |
+| madhyama      | Suddha     | Ekasruti  |
+| Madhyama      | Tivra      | Tivratara |
+| Panchama      | Panchama   |           |
+| dhaivata      | Ati-komal  | Komal     |
+| Dhaivata      | Suddha     | Tivra     |
+| nishada       | Ati-komal  | Komal     |
+| Nishada       | Suddha     | Tivra     |
 <div>
 </div>
 
@@ -27,7 +41,7 @@ function playSound() {
     source.buffer = audioBuffer;
     source.loop = false;
     source.connect(context.destination);
-    source.start(); //立即播放
+    source.start(); 
 }
 function initSound(arrayBuffer) {
     context.decodeAudioData(arrayBuffer, function(buffer) { 
