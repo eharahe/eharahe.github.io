@@ -10,20 +10,20 @@ excerpt_separator: <!--break-->
 The basic information about 82 main raags
 <!--break-->
 
-| Names         | Are            | Cool          |
-| ------------- |:--------------:|:-------------:|
-| Shadja        | *SA*           |               |
-| rishabha      | Komal *ri*     | Madhya *ri*   |
-| Rishabha      | Suddha *RI*    | Tivra *RI*    |
-| gandhara      | Ati-komal *ga* | Komal *ga*    |
-| Gandhara      | Suddha *GA*    | Tivra *GA*    |
-| madhyama      | Suddha *ma*    | Ekasruti *ma* |
-| Madhyama      | Tivra *MA*     | Tivratara *MA*|
-| Panchama      | *PA*           |               |
-| dhaivata      | Ati-komal *dha*| Komal *dha*   |
-| Dhaivata      | Suddha *DHA*   | Tivra *DHA*   |
-| nishada       | Ati-komal *ni* | Komal *ni*    |
-| Nishada       | Suddha *NI*    | Tivra *NI*    |
+| Names         | Are                | Cool              |
+| ------------- |:------------------:|:-----------------:|
+| Shadja        | ***SA***           |                   |
+| rishabha      | Komal ***ri***     | Madhya ***ri***   |
+| Rishabha      | Suddha ***RI***    | Tivra ***RI***    |
+| gandhara      | Ati-komal ***ga*** | Komal ***ga***    |
+| Gandhara      | Suddha ***GA***    | Tivra ***GA***    |
+| madhyama      | Suddha ***ma***    | Ekasruti ***ma*** |
+| Madhyama      | Tivra ***MA***     | Tivratara ***MA***|
+| Panchama      | ***PA***           |                   |
+| dhaivata      | Ati-komal ***dha***| Komal ***dha***   |
+| Dhaivata      | Suddha ***DHA***   | Tivra ***DHA***   |
+| nishada       | Ati-komal ***ni*** | Komal ***ni***    |
+| Nishada       | Suddha ***NI***    | Tivra ***NI***    |
 
 <div>
 </div>
