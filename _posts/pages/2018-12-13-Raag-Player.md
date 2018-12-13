@@ -27,7 +27,7 @@ function playSound() {
     source.buffer = audioBuffer;
     source.loop = false;
     source.connect(context.destination);
-    source.start();
+    source.start(); //立即播放
 }
 function initSound(arrayBuffer) {
     context.decodeAudioData(arrayBuffer, function(buffer) { 
@@ -47,4 +47,5 @@ function loadAudioFile(url) {
     xhr.send();
 }
 loadAudioFile('/assets/audio/raag/SA2.mp3');
+loadAudioFile('/assets/audio/raag/PA2.mp3');
 </script>
