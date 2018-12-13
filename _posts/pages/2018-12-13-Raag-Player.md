@@ -24,6 +24,7 @@ The basic information about 82 main raags
 | Dhaivata      | Suddha     | Tivra     |
 | nishada       | Ati-komal  | Komal     |
 | Nishada       | Suddha     | Tivra     |
+
 <div>
 </div>
 
