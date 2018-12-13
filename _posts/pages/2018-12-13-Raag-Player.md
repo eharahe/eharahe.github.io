@@ -15,20 +15,21 @@ y{
 }
 </style>
 
-| Names         | Are                | Cool              |
-| ------------- |:------------------:|:-----------------:|
-| Shadja        | ***<y key="SA2">SA</y>***           |                   |
-| rishabha      | Komal ***ri***     | Madhya ***ri***   |
-| Rishabha      | Suddha ***RI***    | Tivra ***RI***    |
-| gandhara      | Ati-komal ***ga*** | Komal ***ga***    |
-| Gandhara      | Suddha ***GA***    | Tivra ***GA***    |
-| madhyama      | Suddha ***ma***    | Ekasruti ***ma*** |
-| Madhyama      | Tivra ***MA***     | Tivratara ***MA***|
-| Panchama      | ***PA***           |                   |
-| dhaivata      | Ati-komal ***dha***| Komal ***dha***   |
-| Dhaivata      | Suddha ***DHA***   | Tivra ***DHA***   |
-| nishada       | Ati-komal ***ni*** | Komal ***ni***    |
-| Nishada       | Suddha ***NI***    | Tivra ***NI***    |
+| Names         | Are                              | Cool                            |
+| ------------- |:--------------------------------:|:-------------------------------:|
+| Shadja        | ***<y k="6">SA</y>***            |                                 |
+| rishabha      | Komal ***<y k="7">ri</y>***      | Madhya ***<y k="8">ri</y>***    |
+| Rishabha      | Suddha ***<y k="9">RI</y>***     | Tivra ***<y k="10">RI</y>***    |
+| gandhara      | Ati-komal ***<y k="11">ga</y>*** | Komal ***<y k="12">ga</y>***    |
+| Gandhara      | Suddha ***<y k="13">GA</y>***    | Tivra ***<y k="14">GA</y>***    |
+| madhyama      | Suddha ***<y k="15">ma</y>***    | Ekasruti ***<y k="16">ma</y>*** |
+| Madhyama      | Tivra ***<y k="17">MA</y>***     | Tivratara ***<y k="18">MA</y>***|
+| Panchama      | ***<y k="19">PA</y>***           |                                 |
+| dhaivata      | Ati-komal ***<y k="20">dha</y>***| Komal ***<y k="21">dha</y>***   |
+| Dhaivata      | Suddha ***<y k="22">DHA</y>***   | Tivra ***<y k="23">DHA</y>***   |
+| nishada       | Ati-komal ***<y k="24">ni</y>*** | Komal ***<y k="25">ni</y>***    |
+| Nishada       | Suddha ***<y k="26">NI</y>***    | Tivra ***<y k="27">NI</y>***    |
+
 
 <div>
 </div>
@@ -66,10 +67,59 @@ function loadAudioFile(url) {
     };
     xhr.send();
 }
+function getAudioURL(k) {
+  let arr = [
+      'Shuddha DHA1',
+      'Tivra DHA1',
+      'Ati-Komal ni1',
+      'Komal ni1',
+      'Shuddha NI1',
+      'Tivra NI1',
+      'SA2',
+      'Komal ri2',
+      'Madhya ri2',
+      'Suddha RI2',
+      'Tivra RI2',
+      'Ati-komal ga2',
+      'Komal ga2',
+      'Suddha GA2',
+      'Tivra GA2',
+      'Suddha ma2',
+      'Ekasruti ma2',
+      'Tivra MA2',
+      'Tivratara MA2',
+      'PA2',
+      'Ati-komal dha2',
+      'Komal dha2',
+      'Shuddha DHA2',
+      'Tivra DHA2',
+      'Ati-Komal ni2',
+      'Komal ni2',
+      'Shuddha NI2',
+      'Tivra NI2',
+      'SA3',
+      'Komal ri3',
+      'Madhya ri3',
+      'Suddha RI3',
+      'Tivra RI3',
+      'Ati-komal ga3',
+      'Komal ga3',
+      'Suddha GA3',
+      'Tivra GA3',
+      'Suddha ma3',
+      'Ekasruti ma3',
+      'Tivra MA3',
+      'Tivratara MA3',
+      'PA3',
+      'Ati-komal dha3',
+      'Komal dha3',
+  ];
+  let pre = '/assets/audio/raag/',
+      post = '.mp3';
 
+  return pre + arr[k] + post;
+}
 $('y').click(function(e){
-    let pre = '/assets/audio/raag/',
-        post = '.mp3';
-    loadAudioFile(pre+$(e.target).attr('key')+post);
-});
+    loadAudioFile(getAudioURL($(e.target).attr('k')));
+})
 </script>
