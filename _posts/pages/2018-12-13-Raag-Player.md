@@ -9,6 +9,11 @@ excerpt_separator: <!--break-->
 
 The basic information about 82 main raags
 <!--break-->
+<style>
+y{
+  cursor:pointer;    
+}
+</style>
 
 | Names         | Are                | Cool              |
 | ------------- |:------------------:|:-----------------:|
