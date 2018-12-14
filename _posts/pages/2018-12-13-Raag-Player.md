@@ -216,12 +216,12 @@ function getAudioURL(k) {
       'P1',
       'd Ati-komal1',
       'd Komal1',
-      'D Shuddha1',
+      'D Suddha1',
       'D Tivra1',
       'n Ati-komal1',
 
       'n Komal1', //10
-      'N Shuddha1',
+      'N Suddha1',
       'N Tivra1',
       'S2',
       'r Komal2',
@@ -240,12 +240,12 @@ function getAudioURL(k) {
       'P2',
       'd Ati-komal2',
       'd Komal2',
-      'D Shuddha2',
+      'D Suddha2',
 
       'D Tivra2', //30
       'n Ati-komal2',
       'n Komal2',
-      'N Shuddha2',
+      'N Suddha2',
       'N Tivra2',
       'S3',
       'r Komal3',
