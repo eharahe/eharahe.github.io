@@ -57,8 +57,6 @@ y{
               <option>Todi</option>
             </select>
           </span>
-        </div>
-        <div class="control">
           <a id="play_btn" class="button is-info">Play</a>
         </div>
       </div>
