@@ -86,7 +86,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 
 ## Raags
 
-| SN | RAAG NAME | THAAT | AROH | AVROH | PAKAD - MUKHYANG | V    | SV      | TIME | REMARKS |
+| SN | RAAG NAME | THAAT | AROH | AVROH | PAKAD - MUKHYANG | V    | SV      | TIME | RM |
 | -- | --------- | ----- | ---- | ----- | ---------------- | ---- | ------- | ---- | ------- |
 | 01 | Aabhogi | Kafi | S R g M D Ś | Ś n D M g R S | D S R g M R S | S | M | morning |  |
 | 02 | Abhogi Kanhra | Kafi | S R g M D Ś | Ś D M g R S, Ḍ S | MgRS, ḌSRg, MDMg, RS, | S | M | 10 ~ 13 |  |
@@ -126,7 +126,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 36 | Kafi | Kafi | S R g M P D n Ś | Ś n D P M g R S | SS RR gg MM P | P | R | 1 ~ 3pm |  |
 | 37 | Kalavati | Khamaj | S G M P D n Ś | Ś n D P M G R S | G M P D n D, M P D MG | P | S | 22 ~ 1 |  |
 | 38 | Kamod | Kalyan | S, RP, M' PDP, NDŚ | ŚNDP, M' PDP, GMP, GM, RS | RP, M' PDP, GMP,GMRS | P | S | 19 ~ 22 |  |
-| 39 | Kausi Kanhda | Asavari | S R g M P D n Ś | Ś n D P M g R S |  | M | S | 22 ~ 1 | Bageshri Ang |
+| 39 | Kausi Kanhda | Asavari | S R g M P D n Ś | Ś n D P M g R S |  | M | S | 22 ~ 1 |  |
 | 40 | Kedar | Kalyan | S M, M P, D P, N D Ś | Ś NDP, M' PDPM, PMRS | S M, M P, D P M, P M R S | S | M | 19 ~ 22 |  |
 | 41 | Khamaj | Khamaj | S G M P D N Ś | Ś n D P M G R S | G M P D n D, M P D,MG | G | N | 22 ~ 1 |  |
 | 42 | Lalit | Marva | Ṇ r G M, M' M G, M' D Ś | Ŕ N D, M' D M' M G, R S | ṆRGM, DM', MG, M'GRS | M | S | 4 ~ 7 |  |
@@ -170,6 +170,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 80 | Vridavani Sarang | Kafi | S R M P N Ś | Ś n P M R S | Ṇ S R, MR, PMR, S | P | R | 10 ~ 13 |  |
 | 81 | Yaman Kalyan | Kalyan | S R G M' P D N Ś | Ś N D P M' G RS | Ṇ R G, R S, P M' G R S | G | N | 19 ~ 22 |  |
 | 82 | Yamani Bilaval | Bilaval | Ṇ R G, M R G P, M' P, D N Ś | Ś N D P, M' P M G, R G R S | Ṇ R G, M' PMG, RGRS | P | S | morning |  |
+
 
 <script>
 var context = new window.AudioContext();
