@@ -303,8 +303,8 @@ function sleep(ms){
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 async function playRaag(str, thaat){
-  var tArr = new Array(str);
-console.log(tArr)
+  var tArr = new Array(str.split(""));
+
   while(tArr.length > 0){
     playTone(tArr.splice(0, 1), thaat);
     await sleep(1200);
