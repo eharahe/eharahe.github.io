@@ -305,8 +305,8 @@ function sleep(ms){
 async function playRaag(str, thaat){
   var tArr = new Array(str);
 
-  while(toPlay.length > 0){
-    playTone(toPlay.splice(0, 1), thaat);
+  while(tArr.length > 0){
+    playTone(tArr.splice(0, 1), thaat);
     await sleep(1200);
   }
 }
