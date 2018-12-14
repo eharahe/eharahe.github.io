@@ -300,6 +300,8 @@ function init(){
   tuneMap.set('Ḿ', {Bilaval:46});
 }
 function playRaag(str, thaat){
+  console.log(str);
+  console.log(thaat);
   var id = (tuneMap.get(str))[thaat];
   loadAudioFile(getAudioURL(id));
 }
