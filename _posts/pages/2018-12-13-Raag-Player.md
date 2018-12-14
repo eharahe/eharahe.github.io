@@ -299,9 +299,9 @@ function init(){
   tuneMap.set('ḿ', {Bilaval:44});
   tuneMap.set('Ḿ', {Bilaval:46});
 }
-function playRaag(str, thaat){
-  var toPlay = str,
-      sleep = new Promise(resolve => setTimeout(resolve, 1000));
+var sleep = new Promise(resolve => setTimeout(resolve, 1000))
+async function playRaag(str, thaat){
+  var toPlay = str;
 
   while(toPlay.length > 0){
     playTone(toPlay.substr(0, 1), thaat);
