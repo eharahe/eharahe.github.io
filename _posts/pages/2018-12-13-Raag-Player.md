@@ -305,7 +305,7 @@ function playRaag(str, thaat){
   var id = (tuneMap.get(str))[thaat];
   loadAudioFile(getAudioURL(id));
 }
-$('#play_btn'),click(function(e){
+$('#play_btn').click(function(e){
   var t = $('#player_text'),
       s = $('#player_sel:selected');
   playRaag(t.val(), s.text());
