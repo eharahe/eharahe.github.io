@@ -34,12 +34,12 @@ y{
 
 ## Player
 
-<div>
+<div class="panel">
   <textarea id="player_text" rows="1" class="textarea" placeholder="S R G M P D N Ś" style="resize: none;margin-bottom: 10px;"></textarea>
   <div class="level">
     <div class="level-left">
       <div class="level-item">
-        <p class="subtitle is-5">Thaat</p>
+        <p class="subtitle is-6"><strong>Thaat</strong></p>
       </div>
       <div class="level-item">
         <span class="select is-small">
@@ -62,7 +62,7 @@ y{
       <div class="level-item">
         <div id="play_btn" class="button is-info">
           <span class="icon">
-            <i class="fas play-circle"></i>
+            <i class="fas fa-play-circle"></i>
           </span>
           <span>
             Play
