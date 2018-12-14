@@ -39,11 +39,12 @@ y{
   </textarea>
 </div>
 
-| Thaat | Eponymous raga[10] | Notes[10] | Western | Carnatic mela[10] |
+| Thaat | Eponymous Raga | Notes | Western | Carnatic Mela |
+| ----- | -------------- | ----- | ------- | ----------------- |
 | Bilaval | Bilaval | S R G M P D N Ś | Ionian | All pure notes |
 | Kafi | Kafi | S R g M P D n Ś | Dorian | ga and ni komal |
 | Bhairavi | Bhairavi | S r g M P d n Ś | Phrygian | re, ga, dha and ni komal |
-| Kalyan | Yaman(earlier known as Kalyan) | S R G m P D N Ś | Lydian | MA’ tivra |
+| Kalyan | Yaman(Kalyan) | S R G m P D N Ś | Lydian | MA’ tivra |
 | Khamaj | Khamaj | S R G M P D n Ś | Mixolydian | ni komal |
 | Asavari | Asavari | S R g M P d n Ś | Aeolian | ga, dha and ni komal |
 | Bhairav | Bhairav | S r G M P d N Ś | Double Harmonic | re and dha komal |
