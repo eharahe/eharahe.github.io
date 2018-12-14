@@ -36,8 +36,10 @@ y{
 
 <div>
   <textarea id="player_text" rows="1" class="textarea" placeholder="S R G M P D N Ś" style="resize: none;"></textarea>
-  <div>
-    <label class="label">Thaat</label>
+  <div class="field is-horizontal">
+    <div class="field-label is-normal">
+      <label class="label">Thaat</label>
+    </div>
     <span class="select">
       <select>
         <option selected>Bilaval</option>
