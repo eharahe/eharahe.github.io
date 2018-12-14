@@ -40,25 +40,31 @@ y{
     <div class="field-label is-normal">
       <label class="label">Thaat</label>
     </div>
-    <span class="select">
-      <select>
-        <option selected>Bilaval</option>
-        <option>Kafi</option>
-        <option>Bhairavi</option>
-        <option>Kalyan</option>
-        <option>Khamaj</option>
-        <option>Asavari</option>
-        <option>Bhairav</option>
-        <option>Marva</option>
-        <option>Poorvi</option>
-        <option>Todi</option>
-      </select>
-    </span>
-    <a id="play_btn" class="button is-info">Play</a>
+    <div class="field-body">
+      <div class="field">
+        <div class="control">
+          <span class="select">
+            <select>
+              <option selected>Bilaval</option>
+              <option>Kafi</option>
+              <option>Bhairavi</option>
+              <option>Kalyan</option>
+              <option>Khamaj</option>
+              <option>Asavari</option>
+              <option>Bhairav</option>
+              <option>Marva</option>
+              <option>Poorvi</option>
+              <option>Todi</option>
+            </select>
+          </span>
+        </div>
+        <div class="control">
+          <a id="play_btn" class="button is-info">Play</a>
+        </div>
+      </div>
+    </div>  
   </div>
 </div>
-
-#### Thaat
 
 | Thaat | Eponymous Raga | Notes | Western | Carnatic Mela |
 | ----- | -------------- | ----- | ------- | ----------------- |
