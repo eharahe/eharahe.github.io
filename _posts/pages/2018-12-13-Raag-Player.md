@@ -59,6 +59,7 @@ y{
 </div>
 
 #### Thaat
+
 | Thaat | Eponymous Raga | Notes | Western | Carnatic Mela |
 | ----- | -------------- | ----- | ------- | ----------------- |
 | Bilaval | Bilaval | S R G M P D N Ś | Ionian | All pure notes |
