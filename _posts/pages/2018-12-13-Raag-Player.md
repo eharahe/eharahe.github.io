@@ -304,7 +304,7 @@ function sleep(ms){
 }
 async function playRaag(str, thaat){
   var tArr = str.split("");
-console.log(tArr)
+
   while(tArr.length > 0){
     playTone(tArr.splice(0, 1), thaat);
     await sleep(1200);
@@ -312,6 +312,7 @@ console.log(tArr)
 }
 function playTone(tone, thaat){
   var tuneVal = (tuneMap.get(tone));
+  console.log(tuneVal)
   if(tuneVal){
     loadAudioFile(getAudioURL(tuneVal[thaat]));
   }
