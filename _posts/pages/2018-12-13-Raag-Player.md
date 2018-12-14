@@ -54,6 +54,8 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 
 ## Tones
 
+ṃ Ṃ P̣ ḍ Ḍ ṇ Ṇ S r R g G m M P d D n N Ś ŕ Ŕ ǵ Ǵ ḿ Ḿ
+
 | Names         | Are                              | Cool                            |
 | ------------- |:--------------------------------:|:-------------------------------:|
 | Shadja        | ***<y k="6">SA</y>***            |                                 |
