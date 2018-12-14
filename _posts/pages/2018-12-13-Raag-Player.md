@@ -313,6 +313,9 @@ async function playRaag(str, thaat){
 function playTone(tone, thaat){
   var tuneVal = (tuneMap.get(tone));
   console.log(tuneVal)
+  console.log(tuneMap)
+  console.log(tone)
+  console.log(thaat)
   if(tuneVal){
     loadAudioFile(getAudioURL(tuneVal[thaat]));
   }
