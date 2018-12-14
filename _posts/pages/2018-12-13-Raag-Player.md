@@ -22,7 +22,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
       </div>
       <div class="level-item">
         <span class="select is-small">
-          <select>
+          <select id="player_sel">
             <option selected>Bilaval</option>
             <option>Kafi</option>
             <option>Bhairavi</option>
@@ -267,7 +267,48 @@ function getAudioURL(k) {
 
   return pre + arr[k] + post;
 }
+//ṃ Ṃ P̣ ḍ Ḍ ṇ Ṇ S r R g G m M P d D n N Ś ŕ Ŕ ǵ Ǵ ḿ Ḿ
+var tuneMap = new Map();
+function init(){
+  tuneMap.set('ṃ', {Bilaval:0});
+  tuneMap.set('Ṃ', {Bilaval:2});
+  tuneMap.set('P̣', {Bilaval:4});
+  tuneMap.set('ḍ', {Bilaval:5});
+  tuneMap.set('Ḍ', {Bilaval:7});
+  tuneMap.set('ṇ', {Bilaval:9});
+  tuneMap.set('Ṇ', {Bilaval:11});
+
+  tuneMap.set('S', {Bilaval:13});
+  tuneMap.set('r', {Bilaval:14});
+  tuneMap.set('R', {Bilaval:16});
+  tuneMap.set('g', {Bilaval:18});
+  tuneMap.set('G', {Bilaval:20});
+  tuneMap.set('m', {Bilaval:22});
+  tuneMap.set('M', {Bilaval:24});
+  tuneMap.set('P', {Bilaval:26});
+  tuneMap.set('d', {Bilaval:27});
+  tuneMap.set('D', {Bilaval:29});
+  tuneMap.set('n', {Bilaval:31});
+  tuneMap.set('N', {Bilaval:33});
+
+  tuneMap.set('Ś', {Bilaval:35});
+  tuneMap.set('ŕ', {Bilaval:36});
+  tuneMap.set('Ŕ', {Bilaval:38});
+  tuneMap.set('ǵ', {Bilaval:40});
+  tuneMap.set('Ǵ', {Bilaval:42});
+  tuneMap.set('ḿ', {Bilaval:44});
+  tuneMap.set('Ḿ', {Bilaval:46});
+}
+function playRaag(str, thaat){
+  var id = (tuneMap.get(str))[thaat];
+  loadAudioFile(getAudioURL(id));
+}
+$('#play_btn'),click(function(e){
+  var t = $('#player_text'),
+      s = $('#player_sel:selected');
+  playRaag(t.val(), s.text());
+})
 $('y').click(function(e){
-    loadAudioFile(getAudioURL($(e.target).attr('k')));
+  loadAudioFile(getAudioURL($(e.target).attr('k')));
 })
 </script>
