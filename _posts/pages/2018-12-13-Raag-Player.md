@@ -7,13 +7,15 @@ category: page
 excerpt_separator: <!--break-->
 ---
 
-The basic information about 82 main raags
+Player for basic Raag AROH, AVROH and PAKAD playing. Specified by Thaat.
 <!--break-->
 <style>
 y{
   cursor:pointer;    
 }
 </style>
+
+## Tones
 
 | Names         | Are                              | Cool                            |
 | ------------- |:--------------------------------:|:-------------------------------:|
@@ -30,9 +32,24 @@ y{
 | nishada       | Ati-komal ***<y k="24">ni</y>*** | Komal ***<y k="25">ni</y>***    |
 | Nishada       | Suddha ***<y k="26">NI</y>***    | Tivra ***<y k="27">NI</y>***    |
 
+## Player
 
 <div>
+  <textarea id="player_text" rows="3" placeholder="S R G M P D N Ś	">
+  </textarea>
 </div>
+
+| Thaat | Eponymous raga[10] | Notes[10] | Western | Carnatic mela[10] |
+| Bilaval | Bilaval | S R G M P D N Ś | Ionian | All pure notes |
+| Kafi | Kafi | S R g M P D n Ś | Dorian | ga and ni komal |
+| Bhairavi | Bhairavi | S r g M P d n Ś | Phrygian | re, ga, dha and ni komal |
+| Kalyan | Yaman(earlier known as Kalyan) | S R G m P D N Ś | Lydian | MA’ tivra |
+| Khamaj | Khamaj | S R G M P D n Ś | Mixolydian | ni komal |
+| Asavari | Asavari | S R g M P d n Ś | Aeolian | ga, dha and ni komal |
+| Bhairav | Bhairav | S r G M P d N Ś | Double Harmonic | re and dha komal |
+| Marva | Marva | S r G m P D N Ś | - | re komal and MA’ tivra |
+| Poorvi | Poorvi | S r G m P d N Ś | Hungarian Minor | re and dha komal and MA’ tivra |
+| Todi | Miyan ki Todi | S r g m P d N Ś | - | re, ga and dha komal and MA’ tivra |
 
 <script>
 var context = new window.AudioContext();
