@@ -89,86 +89,86 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | SN | RAAG NAME | THAAT | AROH | AVROH | PAKAD - MUKHYANG | V    | SV      | TIME | REMARKS |
 | -- | --------- | ----- | ---- | ----- | ---------------- | ---- | ------- | ---- | ------- |
 | 01 | Aabhogi | Kafi | S R g M D Ś | Ś n D M g R S | D S R g M R S | S | M | morning |  |
-| 02 | Abhogi Kanhra | Kafi | S R g M D Ś | Ś D M g R S, Ḍ S | MgRS, ḌSRg, MDMg, RS, | S | M | 10 am to 1 pm |  |
-| 03 | Adana | Asavari | S R M P, d N Ś | Ś d n P M P, g M R S | Ś d N Ś , d , n PMP, g M R S | Ś | P | 1 to 4 am |  |
+| 02 | Abhogi Kanhra | Kafi | S R g M D Ś | Ś D M g R S, Ḍ S | MgRS, ḌSRg, MDMg, RS, | S | M | 10am ~ 1pm |  |
+| 03 | Adana | Asavari | S R M P, d N Ś | Ś d n P M P, g M R S | Ś d N Ś , d , n PMP, g M R S | Ś | P | 1 ~ 4am |  |
 | 04 | Ahir Bhairav | Bhairav | S r G M, P D n Ś | Ś n D P, M G r S | G M r S, Ḍ Ṇ r S | M | S | morning |  |
 | 05 | Alahiya Bilaval | Bilaval | SR GMGR, GP,D N Ś | Ś NDP, DnDP, MG MRS | G R GP,MGMR, GPDnDP | D | G | morning |  |
-| 06 | Asavari | Asavari | S R M P d Ś | Ś n d P M g R S | R M P, n d P, d M P, g R S | D | G | 10 am to 1 pm |  |
-| 07 | Bageshri | Kafi | S g M D n Ś | Ś n D M g R S | S ṇ Ḍ S, M g, M D n D, Mg, M g R S | M | S | 10 pm to 1 am |  |
-| 08 | Bahar | Kafi | ṇ S, g M P, g M, n D N Ś | Ś n D n P, M P g M R S | M P g M D N Ś | M | S | 10 am to 1 pm |  |
-| 09 | Basant | Poorvi | S G M' d ŕ S | ŕ N d P, M' G, M' d M' G , r S | M' d ŕ Ś, ŕ N d P, M' G M' G | Ś | P | 4 to 7 am |  |
-| 10 | Bhairav | Bhairav | S r G M P d N Ś | Ś N d P MG r S | DM r , GMP, MG, r S | D | R | 7 to 10 am |  |
+| 06 | Asavari | Asavari | S R M P d Ś | Ś n d P M g R S | R M P, n d P, d M P, g R S | D | G | 10am ~ 1pm |  |
+| 07 | Bageshri | Kafi | S g M D n Ś | Ś n D M g R S | S ṇ Ḍ S, M g, M D n D, Mg, M g R S | M | S | 10pm ~ 1am |  |
+| 08 | Bahar | Kafi | ṇ S, g M P, g M, n D N Ś | Ś n D n P, M P g M R S | M P g M D N Ś | M | S | 10am ~ 1pm |  |
+| 09 | Basant | Poorvi | S G M' d ŕ S | ŕ N d P, M' G, M' d M' G , r S | M' d ŕ Ś, ŕ N d P, M' G M' G | Ś | P | 4 ~ 7am |  |
+| 10 | Bhairav | Bhairav | S r G M P d N Ś | Ś N d P MG r S | DM r , GMP, MG, r S | D | R | 7 ~ 10am |  |
 | 11 | Bhairavi | Bhairavi | S r g M P d n Ś | Ś n d P M g r S | S g M P, d  p | M | S | morning |  |
-| 12 | Bhimpalasi | Kafi | ṇ S g M P n Ś | Ś n D P M g R S | ṇ S M, M P g, M g R S | M | S | 10 am to 1 pm |  |
-| 13 | Bhupali | Kalyan | S R G P D Ś | Ś D P G R S | GRŚD, SRG, PG, DPG, R S | G | D | 7 to 10 pm |  |
-| 14 | Bihag | Bilaval | Ṇ S G M P N Ś | Ś N D P M G R S | ṆS, GMP, GMG, RS | G | N | 7 to 10 pm |  |
-| 15 | Bihagra | Bilaval | Ṇ S G, G M P D n D P, N Ś | Ś N D, n D P, G M G R S | GMPDnDP, GMGRS | M | S | 10 pm to 1 am | Some use M' also |
-| 16 | Bilaskhani Todi | Bhairavi | S r g, M G, P d, n d, Ś | Ś ŕ n d P, M g r g r S | ḍ S r g, Mg, r g, r S | d | g | 10 am to 1 pm |  |
+| 12 | Bhimpalasi | Kafi | ṇ S g M P n Ś | Ś n D P M g R S | ṇ S M, M P g, M g R S | M | S | 10am ~ 1pm |  |
+| 13 | Bhupali | Kalyan | S R G P D Ś | Ś D P G R S | GRŚD, SRG, PG, DPG, R S | G | D | 7 ~ 10pm |  |
+| 14 | Bihag | Bilaval | Ṇ S G M P N Ś | Ś N D P M G R S | ṆS, GMP, GMG, RS | G | N | 7 ~ 10pm |  |
+| 15 | Bihagra | Bilaval | Ṇ S G, G M P D n D P, N Ś | Ś N D, n D P, G M G R S | GMPDnDP, GMGRS | M | S | 10pm ~ 1am | Some use M' also |
+| 16 | Bilaskhani Todi | Bhairavi | S r g, M G, P d, n d, Ś | Ś ŕ n d P, M g r g r S | ḍ S r g, Mg, r g, r S | d | g | 10am ~ 1pm |  |
 | 17 | Bilaval | Bilaval | S R G M P D Ś | Ś N D P M G RS | G R GP, DNŚ | D | G | morning |  |
 | 18 | Chandrakauns |  | Ṇ S g M d N Ś | Ś N d M g M g S | g M N d M g M g Ṇ S | M | S | mid night |  |
-| 19 | Chayanat | Kalyan | S, RGMP, DP, ND, Ś | Ś NDP, M' PDP, RGMP, GMRS | P R, RGMP, MG MR, S | R | P | 7 to 10 pm |  |
-| 20 | Darbari Kanhdra | Asavari | ṇ S R g R S, M P d n Ŕ Ś | Ś d n P, M P, g M R S | g M R S, ḍ ṇ S R S | R | P | 10 pm to 1 am |  |
-| 21 | Des | Kamaj | S R M P N Ś | Ś n D P M G R G S | RMP, nDP, DMGR, ǴNS | P | R | 7 to 10 pm | Some consider R vadi and P samvadi |
-| 22 | Deshkar | Bilaval | S R G P D, Ś | Ś D P, G R S | D D P, G P D P, G R S | D | G | 7 to 10 am |  |
-| 23 | Desi | Asavari | R g R S R ṇ S, R M P n Ś | Ś P, D M P R g S R ṇ S | RgRSŔnS, RMPDMPgRgRSŔnS | P | R | 10 am to 1 pm |  |
-| 24 | Dhanashri | Kafi | ṇ S, g M P, n Ś | Ś n D P, M P g, M g R S | ṇ S, GMP, g , MgRS | P | S | 1 to 4 pm |  |
-| 25 | Durga | Bilaval | S R M P D Ś | Ś D P M R S | DMR, MPDMR, ḌS | M | S | 10 am to 1 pm |  |
-| 26 | Gaur Malhar | Kafi | R G R M, G R S, M R P M P, D Ś | Ś n D n P, D G P M, R G R M G R S | RGRM, GRS, PM, PD, Ś , D P M | M | S | 1 to 4 pm | Some consider thaat Bilaval |
-| 27 | Gaur Sarang | Kalyan | S, GR, M' G, PM' , DP, ND, Ś | Ś DNP, DM' PG, MR, PR, S | S, GRMG, PRS | G | D | 7 to 10 am |  |
-| 28 | Gurjari Todi | Todi | S r g M' d N Ś | Ś n d M' g r, g r S | ḍ ṇ S r g, r S, M' g r g r S | d | r | 10 am to 1 pm |  |
-| 29 | Hamir | Kalyan | S R S , G M D, N D Ś | Ś N D P, M' P D P, G M R S | S R S, G M D | D | G | 7 to 10 pm |  |
-| 30 | Hansadhvani | Bilaval | S G R, G P, N Ś | Ś N P, G P G R, S | SGRS, ṆP̣, GR, GPGR, S | S | P | 7 to 10 pm | Some consider G - Vadi and N - Samvadi |
-| 31 | Hindol | Kalyan | S G, M' D N D, Ś | Ś , N D , M' G , S | SG, M'DND, M'GS | D | G | 7 to 10 am | N is used less to avoid Sohni |
-| 32 | Jai Jai Vanti | Kamaj | S, R g R S, ṇ ḌP̣, R, GMP, NŚ | Ś n D P, G M, R g R S | R g RS, ṇḌP̣, R, GM, R g R S | R | P | 10 am to 1 pm |  |
-| 33 | Jaunpuri | Asavari | S RM P d n Ś | Ś n d P, M g R S | RMP, n d P, d M P, gRS | d | g | 10 am to 1 pm |  |
-| 34 | Jhinjhoti | Khamaj | S R G M P D n Ś | Ś n D P M G R S | ḌS, RM, G, PMGR, ŚnḌP̣ | G | n | 10 am to 1 pm |  |
+| 19 | Chayanat | Kalyan | S, RGMP, DP, ND, Ś | Ś NDP, M' PDP, RGMP, GMRS | P R, RGMP, MG MR, S | R | P | 7 ~ 10pm |  |
+| 20 | Darbari Kanhdra | Asavari | ṇ S R g R S, M P d n Ŕ Ś | Ś d n P, M P, g M R S | g M R S, ḍ ṇ S R S | R | P | 10pm ~ 1am |  |
+| 21 | Des | Kamaj | S R M P N Ś | Ś n D P M G R G S | RMP, nDP, DMGR, ǴNS | P | R | 7 ~ 10pm | Some consider R vadi and P samvadi |
+| 22 | Deshkar | Bilaval | S R G P D, Ś | Ś D P, G R S | D D P, G P D P, G R S | D | G | 7 ~ 10am |  |
+| 23 | Desi | Asavari | R g R S R ṇ S, R M P n Ś | Ś P, D M P R g S R ṇ S | RgRSŔnS, RMPDMPgRgRSŔnS | P | R | 10am ~ 1pm |  |
+| 24 | Dhanashri | Kafi | ṇ S, g M P, n Ś | Ś n D P, M P g, M g R S | ṇ S, GMP, g , MgRS | P | S | 1 ~ 4pm |  |
+| 25 | Durga | Bilaval | S R M P D Ś | Ś D P M R S | DMR, MPDMR, ḌS | M | S | 10am ~ 1pm |  |
+| 26 | Gaur Malhar | Kafi | R G R M, G R S, M R P M P, D Ś | Ś n D n P, D G P M, R G R M G R S | RGRM, GRS, PM, PD, Ś , D P M | M | S | 1 ~ 4pm | Some consider thaat Bilaval |
+| 27 | Gaur Sarang | Kalyan | S, GR, M' G, PM' , DP, ND, Ś | Ś DNP, DM' PG, MR, PR, S | S, GRMG, PRS | G | D | 7 ~ 10am |  |
+| 28 | Gurjari Todi | Todi | S r g M' d N Ś | Ś n d M' g r, g r S | ḍ ṇ S r g, r S, M' g r g r S | d | r | 10am ~ 1pm |  |
+| 29 | Hamir | Kalyan | S R S , G M D, N D Ś | Ś N D P, M' P D P, G M R S | S R S, G M D | D | G | 7 ~ 10pm |  |
+| 30 | Hansadhvani | Bilaval | S G R, G P, N Ś | Ś N P, G P G R, S | SGRS, ṆP̣, GR, GPGR, S | S | P | 7 ~ 10pm | Some consider G - Vadi and N - Samvadi |
+| 31 | Hindol | Kalyan | S G, M' D N D, Ś | Ś , N D , M' G , S | SG, M'DND, M'GS | D | G | 7 ~ 10am | N is used less ~ avoid Sohni |
+| 32 | Jai Jai Vanti | Kamaj | S, R g R S, ṇ ḌP̣, R, GMP, NŚ | Ś n D P, G M, R g R S | R g RS, ṇḌP̣, R, GM, R g R S | R | P | 10am ~ 1pm |  |
+| 33 | Jaunpuri | Asavari | S RM P d n Ś | Ś n d P, M g R S | RMP, n d P, d M P, gRS | d | g | 10am ~ 1pm |  |
+| 34 | Jhinjhoti | Khamaj | S R G M P D n Ś | Ś n D P M G R S | ḌS, RM, G, PMGR, ŚnḌP̣ | G | n | 10am ~ 1pm |  |
 | 35 | Jogiya | Bhairav | S r M P d Ś | Ś N d P M r S | M, r S, S r r M r S | M | S | morning |  |
-| 36 | Kafi | Kafi | S R g M P D n Ś | Ś n D P M g R S | SS RR gg MM P | P | R | 1 to 3 pm |  |
-| 37 | Kalavati | Khamaj | S G M P D n Ś | Ś n D P M G R S | G M P D n D, M P D MG | P | S | 10 pm to 1 am |  |
-| 38 | Kamod | Kalyan | S, RP, M' PDP, NDŚ | ŚNDP, M' PDP, GMP, GM, RS | RP, M' PDP, GMP,GMRS | P | S | 7 to 10 pm |  |
-| 39 | Kausi Kanhda | Asavari | S R g M P D n Ś | Ś n D P M g R S |  | M | S | 10 pm to 1 am | Bageshri Ang |
-| 40 | Kedar | Kalyan | S M, M P, D P, N D Ś | Ś NDP, M' PDPM, PMRS | S M, M P, D P M, P M R S | S | M | 7 to 10 pm |  |
-| 41 | Khamaj | Khamaj | S G M P D N Ś | Ś n D P M G R S | G M P D n D, M P D,MG | G | N | 10 pm to 1 am |  |
-| 42 | Lalit | Marva | Ṇ r G M, M' M G, M' D Ś | Ŕ N D, M' D M' M G, R S | ṆRGM, DM', MG, M'GRS | M | S | 4 to 7 am |  |
-| 43 | Madhuvanti | Todi | Ṇ S g M' P N Ś | Ś N D P M' g R S | ṆSGM'P, M'GRS | P | S | 4 to 7 pm |  |
-| 44 | Madhyamad Sarang | Kafi | ṇ S R M P n Ś | Ś n P , M R S | ṇSR, RMRPR, nP, MRS | R | P | 7 to 10 am |  |
+| 36 | Kafi | Kafi | S R g M P D n Ś | Ś n D P M g R S | SS RR gg MM P | P | R | 1 ~ 3pm |  |
+| 37 | Kalavati | Khamaj | S G M P D n Ś | Ś n D P M G R S | G M P D n D, M P D MG | P | S | 10pm ~ 1am |  |
+| 38 | Kamod | Kalyan | S, RP, M' PDP, NDŚ | ŚNDP, M' PDP, GMP, GM, RS | RP, M' PDP, GMP,GMRS | P | S | 7 ~ 10pm |  |
+| 39 | Kausi Kanhda | Asavari | S R g M P D n Ś | Ś n D P M g R S |  | M | S | 10pm ~ 1am | Bageshri Ang |
+| 40 | Kedar | Kalyan | S M, M P, D P, N D Ś | Ś NDP, M' PDPM, PMRS | S M, M P, D P M, P M R S | S | M | 7 ~ 10pm |  |
+| 41 | Khamaj | Khamaj | S G M P D N Ś | Ś n D P M G R S | G M P D n D, M P D,MG | G | N | 10pm ~ 1am |  |
+| 42 | Lalit | Marva | Ṇ r G M, M' M G, M' D Ś | Ŕ N D, M' D M' M G, R S | ṆRGM, DM', MG, M'GRS | M | S | 4 ~ 7am |  |
+| 43 | Madhuvanti | Todi | Ṇ S g M' P N Ś | Ś N D P M' g R S | ṆSGM'P, M'GRS | P | S | 4 ~ 7pm |  |
+| 44 | Madhyamad Sarang | Kafi | ṇ S R M P n Ś | Ś n P , M R S | ṇSR, RMRPR, nP, MRS | R | P | 7 ~ 10am |  |
 | 45 | Malgunji | Kafi | Ḍ Ṇ S R G M, G M, D N Ś | Ś N D P M G, M g R S | GMgRS, ḌṇSRGM | S | M | night |  |
-| 46 | Malkauns | Bharavi | ṇ S g M d n Ś | Ś n d M g M g S | M g, M d n d, M g, M g, S | M | S | 1 to 4 am |  |
-| 47 | Maluha Kedar | Bilaval | Ṇ R S, G M P, D P M, M P N Ś | Ś N D P, G M P G M R S | ṆSGMP, GMRS, ḌP̣ṂP̣ṆS | M | S | 10 pm to 1 am |  |
+| 46 | Malkauns | Bharavi | ṇ S g M d n Ś | Ś n d M g M g S | M g, M d n d, M g, M g, S | M | S | 1 ~ 4am |  |
+| 47 | Maluha Kedar | Bilaval | Ṇ R S, G M P, D P M, M P N Ś | Ś N D P, G M P G M R S | ṆSGMP, GMRS, ḌP̣ṂP̣ṆS | M | S | 10pm ~ 1am |  |
 | 48 | Mand | Bilaval | S G R M G, P M D P, N D Ś | Ś D N P, D M P G M S | S, RG, S, R, MMP, D, PDŚ | S | P | all time |  |
-| 49 | Maru Bihag | Kalyan | Ṇ S G M P N Ś | Ś N D P, M' G M' G R S | M' G, RS, RS, SMGP, M' G M' G RS | G | N | 10 pm to 1 am |  |
+| 49 | Maru Bihag | Kalyan | Ṇ S G M P N Ś | Ś N D P, M' G M' G R S | M' G, RS, RS, SMGP, M' G M' G RS | G | N | 10pm ~ 1am |  |
 | 50 | Marva | Marva | Ṇ r G M' D N Ś | Ś N D M' G r S | D, M' G r, G M' G r S | D | R | evening | It is a Sandhi Prakash Raag |
-| 51 | Miya Ki Sarang | Kafi | S R M R, M P n D N Ś | Ś n D n P, M P, M R M R, S Ṇ S | SRS, ṇDṇP, ṂP̣ṇḌṆS, R, MR, PMŔNS | R | P | 10 am to 1 pm |  |
-| 52 | Miya Malhar | Kafi | R M R S, M R P, M P n D, N Ś | Ś n D, n M P, g M R S | RMR S ṇ P̣, Ṃ P̣ ṇ Ḍ Ṇ S, P g M R S | M | S | 10 pm to 1 am |  |
-| 53 | Multani | Todi | Ṇ S g M' P N Ś | Ś N d P M' g r S | Ṇ S, M' g, P g, r S | P | S | 1 to 4 pm |  |
-| 54 | Nand - Anandi | Kalyan | S G M , P D , N P Ś | Ś D, N P, D M' P, G M D P R S | GMDP, RSGM | S | P | 10 pm to 1 am |  |
+| 51 | Miya Ki Sarang | Kafi | S R M R, M P n D N Ś | Ś n D n P, M P, M R M R, S Ṇ S | SRS, ṇDṇP, ṂP̣ṇḌṆS, R, MR, PMŔNS | R | P | 10am ~ 1pm |  |
+| 52 | Miya Malhar | Kafi | R M R S, M R P, M P n D, N Ś | Ś n D, n M P, g M R S | RMR S ṇ P̣, Ṃ P̣ ṇ Ḍ Ṇ S, P g M R S | M | S | 10pm ~ 1am |  |
+| 53 | Multani | Todi | Ṇ S g M' P N Ś | Ś N d P M' g r S | Ṇ S, M' g, P g, r S | P | S | 1 ~ 4pm |  |
+| 54 | Nand - Anandi | Kalyan | S G M , P D , N P Ś | Ś D, N P, D M' P, G M D P R S | GMDP, RSGM | S | P | 10pm ~ 1am |  |
 | 55 | Pahadi | Bilaval | S R G P D Ś | Ś D P , G P, G R S | G, RS, Ḍ, P̣ḌS | S | P | all time |  |
-| 56 | Paraj | Poorvi | Ṇ S G, M' d N Ś | Ś N d P, M' P d P, G M G, M' G r S | Ś, N d P, M' P d P, G M G | Ś | P | 4 to 7 am |  |
-| 57 | Patdeep | Kafi | S g M P N Ś | Ś N D P M g R S | D P, g, M P N Ś | P | S | 1 to 4 pm | It's N is little sharper |
-| 58 | Piloo | Kafi | Ṇ S G M P N Ś | Ś n D P n d P d P M g S Ṇ S | P̣ Ṇ S R g S, G M P g S, Ṇ S | G | N | 1 to 4 pm | All 12 notes are used in this raag |
+| 56 | Paraj | Poorvi | Ṇ S G, M' d N Ś | Ś N d P, M' P d P, G M G, M' G r S | Ś, N d P, M' P d P, G M G | Ś | P | 4 ~ 7am |  |
+| 57 | Patdeep | Kafi | S g M P N Ś | Ś N D P M g R S | D P, g, M P N Ś | P | S | 1 ~ 4pm | It's N is little sharper |
+| 58 | Piloo | Kafi | Ṇ S G M P N Ś | Ś n D P n d P d P M g S Ṇ S | P̣ Ṇ S R g S, G M P g S, Ṇ S | G | N | 1 ~ 4pm | All 12 notes are used in this raag |
 | 59 | Pooriya | Marva | Ṇ r S, G, M' D, N ŕŚ | Ś N D M' G r S | G, Ṇ r S, ṆḌṆṂ’Ḍ, r S | G | M' | evening | It is a Sandhi Prakash Raag |
 | 60 | Pooriya Dhanashri | Poorvi | Ṇ r G M' P, D P, N Ś | Ś N d P, M' G M' r G, r S | Ṇ r G, M' P, DP, M' G, M' r G, r S | P | r | evening | It is a Sandhi Prakash Raag |
 | 61 | Poorvi | Poorvi | Ṇ r G, M' P, d N Ś | Ś N d P M', GMG, r S | Ṇ, S r G, MG, M' G r S | G | N | evening | It is a Sandhi Prakash Raag |
-| 62 | Rageshwari | Khamaj | S G M D N Ś | Ś n D M G R S | GMDN Ś n DM, GMRS, Ḍ ṇ S G M | M | S | 10 pm to 1 am |  |
+| 62 | Rageshwari | Khamaj | S G M D N Ś | Ś n D M G R S | GMDN Ś n DM, GMRS, Ḍ ṇ S G M | M | S | 10pm ~ 1am |  |
 | 63 | Ramdasi Malhar | Kafi | Ṇ S, R G M, n D n P N Ś | Ś n D n P, D P M, P g, M P g, M R S | RPMGM, nPgMRS | M | S | rainy season |  |
 | 64 | Ramkali | Bhairav | S r G M P d N Ś | Ś N d P, M' P d n d P, G M r S | d P, M'PdndP, GM', r PMG r S | P | S | morning |  |
 | 65 | Rasranjani | Bilaval | S R M D N Ś | Ś N D M, D M R S |  | M | S | midnight |  |
 | 66 | Saraswati | Khamaj | S R M' P, n D P, n D Ś | Ŕ n D P M' R M P, M' R S |  | P | R | midnight |  |
-| 67 | Shankara | Bilaval | S G P N Ś | Ś NP, ND Ś NP, GPGS | Ś NP, ND Ś NP, GPGS | G | N | 10 pm to 1 am |  |
+| 67 | Shankara | Bilaval | S G P N Ś | Ś NP, ND Ś NP, GPGS | Ś NP, ND Ś NP, GPGS | G | N | 10pm ~ 1am |  |
 | 68 | Shivranjani | Kafi | S R g P D Ś | Ś D P g R S |  | P | S | midnight |  |
 | 69 | Shri | Poorvi | S r r S, r M' P N Ś | Ś Nd P, M' P d M' G r, P r G r S | S r r S, r M' P, d M' G r G r S | R | P | evening | It is a Sandhi Prakash Raag |
-| 70 | Shuddh Kalyan | Kalyan | S R G P D Ś | Ś N D, N D P, M' G R, G R P R G R S | GRS, ṆḌṆḌP̣, S, GR, PR, GRS | G | D | 7 to 10 pm |  |
-| 71 | Shuddh Sarang | Kafi | S R M P, M' P N Ś | Ś N D P M' G R S |  | R | P | 10 am to 1 pm |  |
-| 72 | Shyam Kalyan | Kalyan | Ṇ S R M' P N Ś | Ś N D P M' P G M R Ṇ S | Ṇ S R M' P, G M R Ṇ S | P | S | 7 to 10 pm |  |
-| 73 | Sindhu Bhairavi | Asavari | S R g M P d n Ś | Ś n d P M g R S |  | M | S | 10 am to 1 pm |  |
-| 74 | Sohni | Marva | S G M' D N Ś | Ś ŕ Ś N D, G M' D, G M' G, M' G r S | Ś N D, G M' DNŚ ŕ Ś | D | G | 4 to 7 am |  |
-| 75 | Sughrai | Kafi | ṇ S R g, M P, N Ś | Ś D, N P, M P, g , M R S | ṇ S R g, MP n P, DP, MP g MRS | P | S | 10 am to 1 pm |  |
-| 76 | Tilak Kamod | Khamaj | S R G S, R M P D, M P, Ś | Ś P D M G, S R G, S Ṇ | P̣ṆSRG, S, RPMG, ŚN | R | P | 10 pm to 1 am |  |
-| 77 | Tilang | Khamaj | S G M P N Ś | Ś n P M G S | ṆSGMP, NŚ , Ś nP, GMGS | G | N | 10 pm to 1 am |  |
-| 78 | Todi | Todi | S r g M' P d N Ś | Ś N d P M' g r S | ḍ NS, r , g r, s, M'g r g r S | d | g | 10 am to 1 pm |  |
+| 70 | Shuddh Kalyan | Kalyan | S R G P D Ś | Ś N D, N D P, M' G R, G R P R G R S | GRS, ṆḌṆḌP̣, S, GR, PR, GRS | G | D | 7 ~ 10pm |  |
+| 71 | Shuddh Sarang | Kafi | S R M P, M' P N Ś | Ś N D P M' G R S |  | R | P | 10am ~ 1pm |  |
+| 72 | Shyam Kalyan | Kalyan | Ṇ S R M' P N Ś | Ś N D P M' P G M R Ṇ S | Ṇ S R M' P, G M R Ṇ S | P | S | 7 ~ 10pm |  |
+| 73 | Sindhu Bhairavi | Asavari | S R g M P d n Ś | Ś n d P M g R S |  | M | S | 10am ~ 1pm |  |
+| 74 | Sohni | Marva | S G M' D N Ś | Ś ŕ Ś N D, G M' D, G M' G, M' G r S | Ś N D, G M' DNŚ ŕ Ś | D | G | 4 ~ 7am |  |
+| 75 | Sughrai | Kafi | ṇ S R g, M P, N Ś | Ś D, N P, M P, g , M R S | ṇ S R g, MP n P, DP, MP g MRS | P | S | 10am ~ 1pm |  |
+| 76 | Tilak Kamod | Khamaj | S R G S, R M P D, M P, Ś | Ś P D M G, S R G, S Ṇ | P̣ṆSRG, S, RPMG, ŚN | R | P | 10pm ~ 1am |  |
+| 77 | Tilang | Khamaj | S G M P N Ś | Ś n P M G S | ṆSGMP, NŚ , Ś nP, GMGS | G | N | 10pm ~ 1am |  |
+| 78 | Todi | Todi | S r g M' P d N Ś | Ś N d P M' g r S | ḍ NS, r , g r, s, M'g r g r S | d | g | 10am ~ 1pm |  |
 | 79 | Vibhas | Bhairav | S r G P d P Ś | Ś d P G P d P, G r S | d , P , GP, G r S | d | G | morning |  |
-| 80 | Vridavani Sarang | Kafi | S R M P N Ś | Ś n P M R S | Ṇ S R, MR, PMR, S | P | R | 10 am to 1 pm |  |
-| 81 | Yaman Kalyan | Kalyan | S R G M' P D N Ś | Ś N D P M' G RS | Ṇ R G, R S, P M' G R S | G | N | 7 to 10 pm |  |
+| 80 | Vridavani Sarang | Kafi | S R M P N Ś | Ś n P M R S | Ṇ S R, MR, PMR, S | P | R | 10am ~ 1pm |  |
+| 81 | Yaman Kalyan | Kalyan | S R G M' P D N Ś | Ś N D P M' G RS | Ṇ R G, R S, P M' G R S | G | N | 7 ~ 10pm |  |
 | 82 | Yamani Bilaval | Bilaval | Ṇ R G, M R G P, M' P, D N Ś | Ś N D P, M' P M G, R G R S | Ṇ R G, M' PMG, RGRS | P | S | morning |  |
 
 <script>
