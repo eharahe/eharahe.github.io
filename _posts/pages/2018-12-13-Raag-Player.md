@@ -58,18 +58,18 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 
 | Names         | Are                              | Cool                            |
 | ------------- |:--------------------------------:|:-------------------------------:|
-| Shadja        | ***<y k="6">SA</y>***            |                                 |
-| rishabha      | Komal ***<y k="7">ri</y>***      | Madhya ***<y k="8">ri</y>***    |
-| Rishabha      | Suddha ***<y k="9">RI</y>***     | Tivra ***<y k="10">RI</y>***    |
-| gandhara      | Ati-komal ***<y k="11">ga</y>*** | Komal ***<y k="12">ga</y>***    |
-| Gandhara      | Suddha ***<y k="13">GA</y>***    | Tivra ***<y k="14">GA</y>***    |
-| madhyama      | Suddha ***<y k="15">ma</y>***    | Ekasruti ***<y k="16">ma</y>*** |
-| Madhyama      | Tivra ***<y k="17">MA</y>***     | Tivratara ***<y k="18">MA</y>***|
-| Panchama      | ***<y k="19">PA</y>***           |                                 |
-| dhaivata      | Ati-komal ***<y k="20">dha</y>***| Komal ***<y k="21">dha</y>***   |
-| Dhaivata      | Suddha ***<y k="22">DHA</y>***   | Tivra ***<y k="23">DHA</y>***   |
-| nishada       | Ati-komal ***<y k="24">ni</y>*** | Komal ***<y k="25">ni</y>***    |
-| Nishada       | Suddha ***<y k="26">NI</y>***    | Tivra ***<y k="27">NI</y>***    |
+| Shadja        | ***<y k="13">SA</y>***           |                                 |
+| rishabha      | Komal ***<y k="14">ri</y>***     | Madhya ***<y k="15">ri</y>***   |
+| Rishabha      | Suddha ***<y k="16">RI</y>***    | Tivra ***<y k="17">RI</y>***    |
+| gandhara      | Ati-komal ***<y k="18">ga</y>*** | Komal ***<y k="19">ga</y>***    |
+| Gandhara      | Suddha ***<y k="20">GA</y>***    | Tivra ***<y k="21">GA</y>***    |
+| madhyama      | Suddha ***<y k="22">ma</y>***    | Ekasruti ***<y k="23">ma</y>*** |
+| Madhyama      | Tivra ***<y k="24">MA</y>***     | Tivratara ***<y k="25">MA</y>***|
+| Panchama      | ***<y k="26">PA</y>***           |                                 |
+| dhaivata      | Ati-komal ***<y k="27">dha</y>***| Komal ***<y k="28">dha</y>***   |
+| Dhaivata      | Suddha ***<y k="29">DHA</y>***   | Tivra ***<y k="30">DHA</y>***   |
+| nishada       | Ati-komal ***<y k="31">ni</y>*** | Komal ***<y k="32">ni</y>***    |
+| Nishada       | Suddha ***<y k="33">NI</y>***    | Tivra ***<y k="34">NI</y>***    |
 
 ## Thaats
 
@@ -209,50 +209,58 @@ function loadAudioFile(url) {
 }
 function getAudioURL(k) {
   let arr = [
-      'Shuddha DHA1',
-      'Tivra DHA1',
-      'Ati-Komal ni1',
-      'Komal ni1',
-      'Shuddha NI1',
-      'Tivra NI1',
-      'SA2',
-      'Komal re2',
-      'Madhya re2',
-      'Suddha RE2',
-      'Tivra RE2',
-      'Ati-Komal ga2',
-      'Komal ga2',
-      'Suddha GA2',
-      'Tivra GA2',
-      'Suddha ma2',
-      'Ekasruti ma2',
-      'Tivra Ma2',
-      'Tivratara MA2',
-      'PA2',
-      'Ati-Komal dha2',
-      'Komal dha2',
-      'Shuddha DHA2',
-      'Tivra DHA2',
-      'Ati-Komal ni2',
-      'Komal ni2',
-      'Shuddha NI2',
-      'Tivra NI2',
-      'SA3',
-      'Komal re3',
-      'Madhya re3',
-      'Suddha RE3',
-      'Tivra RE3',
-      'Ati-Komal ga3',
-      'Komal ga3',
-      'Suddha GA3',
-      'Tivra GA3',
-      'Suddha ma3',
-      'Ekasruti ma3',
-      'Tivra Ma3',
-      'Tivratara MA3',
-      'PA3',
-      'Ati-Komal dha3',
-      'Komal dha3',
+      'm Suddha1', //0
+      'm Ekasruti1',
+      'M Tivra1',
+      'M Tivratara1',
+      'P1',
+      'd Ati-Komal1',
+      'd Komal1',
+      'D Shuddha1',
+      'D Tivra1',
+      'n Ati-Komal1',
+
+      'n Komal1', //10
+      'N Shuddha1',
+      'N Tivra1',
+      'S2',
+      'r Komal2',
+      'r Madhya2',
+      'R Suddha2',
+      'R Tivra2',
+      'g Ati-Komal2',
+      'g Komal2',
+
+      'G Suddha2', //20
+      'G Tivra2',
+      'm Suddha2',
+      'm Ekasruti2',
+      'M Tivra2',
+      'M Tivratara2',
+      'P2',
+      'd Ati-Komal2',
+      'd Komal2',
+      'D Shuddha2',
+
+      'D Tivra2', //30
+      'n Ati-Komal2',
+      'n Komal2',
+      'N Shuddha2',
+      'N Tivra2',
+      'S3',
+      'r Komal3',
+      'r Madhya3',
+      'R Suddha3',
+      'R Tivra3',
+
+      'g Ati-Komal3', //40
+      'g Komal3',
+      'G Suddha3',
+      'G Tivra3',
+      'm Suddha3',
+      'm Ekasruti3',
+      'M Tivra3',
+      'M Tivratara3',
   ];
   let pre = '/assets/audio/raag/',
       post = '.mp3';
