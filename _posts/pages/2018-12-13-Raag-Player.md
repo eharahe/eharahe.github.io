@@ -263,7 +263,7 @@ function getAudioURL(k) {
       'M Tivratara3',
   ];
   let pre = '/assets/audio/raag/',
-      post = '.mp3';
+      post = '.ogg';
 
   return pre + arr[k] + post;
 }
