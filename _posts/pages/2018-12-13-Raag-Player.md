@@ -36,8 +36,27 @@ y{
 
 <div>
   <textarea id="player_text" rows="1" class="textarea" placeholder="S R G M P D N Ś" style="resize: none;"></textarea>
+  <div>
+    <label class="label">Thaat</label>
+    <span class="select">
+      <select>
+        <option selected>Bilaval</option>
+        <option>Kafi</option>
+        <option>Bhairavi</option>
+        <option>Kalyan</option>
+        <option>Khamaj</option>
+        <option>Asavari</option>
+        <option>Bhairav</option>
+        <option>Marva</option>
+        <option>Poorvi</option>
+        <option>Todi</option>
+      </select>
+    </span>
+    <a id="play_btn" class="button is-info">Play</a>
+  </div>
 </div>
 
+#### Thaat
 | Thaat | Eponymous Raga | Notes | Western | Carnatic Mela |
 | ----- | -------------- | ----- | ------- | ----------------- |
 | Bilaval | Bilaval | S R G M P D N Ś | Ionian | All pure notes |
