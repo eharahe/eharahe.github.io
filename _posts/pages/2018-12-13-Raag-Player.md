@@ -113,7 +113,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 23 | Desi | Asavari | R g R S R ṇ S, R M P n Ś | Ś P, D M P R g S R ṇ S | RgRSŔnS, RMPDMPgRgRSŔnS | P | R | 10 ~ 13 |  |
 | 24 | Dhanashri | Kafi | ṇ S, g M P, n Ś | Ś n D P, M P g, M g R S | ṇ S, GMP, g , MgRS | P | S | 13 ~ 16 |  |
 | 25 | Durga | Bilaval | S R M P D Ś | Ś D P M R S | DMR, MPDMR, ḌS | M | S | 10 ~ 13 |  |
-| 26 | Gaur Malhar | Kafi | R G R M, G R S, M R P M P, D Ś | Ś n D n P, D G P M, R G R M G R S | RGRM, GRS, PM, PD, Ś , D P M | M | S | 13 ~ 16 | Some consider thaat Bilaval |
+| 26 | Gaur Malhar | Kafi / Bilaval | R G R M, G R S, M R P M P, D Ś | Ś n D n P, D G P M, R G R M G R S | RGRM, GRS, PM, PD, Ś , D P M | M | S | 13 ~ 16 |  |
 | 27 | Gaur Sarang | Kalyan | S, GR, M' G, PM' , DP, ND, Ś | Ś DNP, DM' PG, MR, PR, S | S, GRMG, PRS | G | D | 7 ~ 10 |  |
 | 28 | Gurjari Todi | Todi | S r g M' d N Ś | Ś n d M' g r, g r S | ḍ ṇ S r g, r S, M' g r g r S | d | r | 10 ~ 13 |  |
 | 29 | Hamir | Kalyan | S R S , G M D, N D Ś | Ś N D P, M' P D P, G M R S | S R S, G M D | D | G | 19 ~ 22 |  |
@@ -137,7 +137,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 47 | Maluha Kedar | Bilaval | Ṇ R S, G M P, D P M, M P N Ś | Ś N D P, G M P G M R S | ṆSGMP, GMRS, ḌP̣ṂP̣ṆS | M | S | 22 ~ 1 |  |
 | 48 | Mand | Bilaval | S G R M G, P M D P, N D Ś | Ś D N P, D M P G M S | S, RG, S, R, MMP, D, PDŚ | S | P | all time |  |
 | 49 | Maru Bihag | Kalyan | Ṇ S G M P N Ś | Ś N D P, M' G M' G R S | M' G, RS, RS, SMGP, M' G M' G RS | G | N | 22 ~ 1 |  |
-| 50 | Marva | Marva | Ṇ r G M' D N Ś | Ś N D M' G r S | D, M' G r, G M' G r S | D | R | evening | It is a Sandhi Prakash Raag |
+| 50 | Marva | Marva | Ṇ r G M' D N Ś | Ś N D M' G r S | D, M' G r, G M' G r S | D | R | sunset |  |
 | 51 | Miya Ki Sarang | Kafi | S R M R, M P n D N Ś | Ś n D n P, M P, M R M R, S Ṇ S | SRS, ṇDṇP, ṂP̣ṇḌṆS, R, MR, PMŔNS | R | P | 10 ~ 13 |  |
 | 52 | Miya Malhar | Kafi | R M R S, M R P, M P n D, N Ś | Ś n D, n M P, g M R S | RMR S ṇ P̣, Ṃ P̣ ṇ Ḍ Ṇ S, P g M R S | M | S | 22 ~ 1 |  |
 | 53 | Multani | Todi | Ṇ S g M' P N Ś | Ś N d P M' g r S | Ṇ S, M' g, P g, r S | P | S | 13 ~ 16 |  |
@@ -146,9 +146,9 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 56 | Paraj | Poorvi | Ṇ S G, M' d N Ś | Ś N d P, M' P d P, G M G, M' G r S | Ś, N d P, M' P d P, G M G | Ś | P | 4 ~ 7 |  |
 | 57 | Patdeep | Kafi | S g M P N Ś | Ś N D P M g R S | D P, g, M P N Ś | P | S | 13 ~ 16 | It's N is little sharper |
 | 58 | Piloo | Kafi | Ṇ S G M P N Ś | Ś n D P n d P d P M g S Ṇ S | P̣ Ṇ S R g S, G M P g S, Ṇ S | G | N | 13 ~ 16 | All 12 notes are used in this raag |
-| 59 | Pooriya | Marva | Ṇ r S, G, M' D, N ŕŚ | Ś N D M' G r S | G, Ṇ r S, ṆḌṆṂ’Ḍ, r S | G | M' | evening | It is a Sandhi Prakash Raag |
-| 60 | Pooriya Dhanashri | Poorvi | Ṇ r G M' P, D P, N Ś | Ś N d P, M' G M' r G, r S | Ṇ r G, M' P, DP, M' G, M' r G, r S | P | r | evening | It is a Sandhi Prakash Raag |
-| 61 | Poorvi | Poorvi | Ṇ r G, M' P, d N Ś | Ś N d P M', GMG, r S | Ṇ, S r G, MG, M' G r S | G | N | evening | It is a Sandhi Prakash Raag |
+| 59 | Pooriya | Marva | Ṇ r S, G, M' D, N ŕŚ | Ś N D M' G r S | G, Ṇ r S, ṆḌṆṂ’Ḍ, r S | G | M' | sunset |  |
+| 60 | Pooriya Dhanashri | Poorvi | Ṇ r G M' P, D P, N Ś | Ś N d P, M' G M' r G, r S | Ṇ r G, M' P, DP, M' G, M' r G, r S | P | r | sunset |  |
+| 61 | Poorvi | Poorvi | Ṇ r G, M' P, d N Ś | Ś N d P M', GMG, r S | Ṇ, S r G, MG, M' G r S | G | N | sunset |  |
 | 62 | Rageshwari | Khamaj | S G M D N Ś | Ś n D M G R S | GMDN Ś n DM, GMRS, Ḍ ṇ S G M | M | S | 22 ~ 1 |  |
 | 63 | Ramdasi Malhar | Kafi | Ṇ S, R G M, n D n P N Ś | Ś n D n P, D P M, P g, M P g, M R S | RPMGM, nPgMRS | M | S | rainy season |  |
 | 64 | Ramkali | Bhairav | S r G M P d N Ś | Ś N d P, M' P d n d P, G M r S | d P, M'PdndP, GM', r PMG r S | P | S | morning |  |
@@ -156,7 +156,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 66 | Saraswati | Khamaj | S R M' P, n D P, n D Ś | Ŕ n D P M' R M P, M' R S |  | P | R | midnight |  |
 | 67 | Shankara | Bilaval | S G P N Ś | Ś NP, ND Ś NP, GPGS | Ś NP, ND Ś NP, GPGS | G | N | 22 ~ 1 |  |
 | 68 | Shivranjani | Kafi | S R g P D Ś | Ś D P g R S |  | P | S | midnight |  |
-| 69 | Shri | Poorvi | S r r S, r M' P N Ś | Ś Nd P, M' P d M' G r, P r G r S | S r r S, r M' P, d M' G r G r S | R | P | evening | It is a Sandhi Prakash Raag |
+| 69 | Shri | Poorvi | S r r S, r M' P N Ś | Ś Nd P, M' P d M' G r, P r G r S | S r r S, r M' P, d M' G r G r S | R | P | sunset |  |
 | 70 | Shuddh Kalyan | Kalyan | S R G P D Ś | Ś N D, N D P, M' G R, G R P R G R S | GRS, ṆḌṆḌP̣, S, GR, PR, GRS | G | D | 19 ~ 22 |  |
 | 71 | Shuddh Sarang | Kafi | S R M P, M' P N Ś | Ś N D P M' G R S |  | R | P | 10 ~ 13 |  |
 | 72 | Shyam Kalyan | Kalyan | Ṇ S R M' P N Ś | Ś N D P M' P G M R Ṇ S | Ṇ S R M' P, G M R Ṇ S | P | S | 19 ~ 22 |  |
@@ -170,6 +170,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 80 | Vridavani Sarang | Kafi | S R M P N Ś | Ś n P M R S | Ṇ S R, MR, PMR, S | P | R | 10 ~ 13 |  |
 | 81 | Yaman Kalyan | Kalyan | S R G M' P D N Ś | Ś N D P M' G RS | Ṇ R G, R S, P M' G R S | G | N | 19 ~ 22 |  |
 | 82 | Yamani Bilaval | Bilaval | Ṇ R G, M R G P, M' P, D N Ś | Ś N D P, M' P M G, R G R S | Ṇ R G, M' PMG, RGRS | P | S | morning |  |
+
 
 
 <script>
