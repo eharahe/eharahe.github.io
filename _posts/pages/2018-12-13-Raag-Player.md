@@ -306,8 +306,7 @@ async function playRaag(str, thaat){
   var toPlay = str;
 
   while(toPlay.length > 0){
-    playTone(toPlay.substr(0, 1), thaat);
-    toPlay.slice(1);
+    playTone(toPlay.splice(0, 1), thaat);
     await sleep(1200);
   }
 }
