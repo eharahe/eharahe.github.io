@@ -86,7 +86,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 
 ## Raags
 
-| SN | RAAG NAME | THAAT | AROH | AVROH | PAKAD - MUKHYANG | VADI | SAMVADI | TIME | REMARKS |
+| SN | RAAG NAME | THAAT | AROH | AVROH | PAKAD - MUKHYANG | V    | SV      | TIME | REMARKS |
 | -- | --------- | ----- | ---- | ----- | ---------------- | ---- | ------- | ---- | ------- |
 | 01 | Aabhogi | Kafi | S R g M D Ś | Ś n D M g R S | D S R g M R S | S | M | morning |  |
 | 02 | Abhogi Kanhra | Kafi | S R g M D Ś | Ś D M g R S, Ḍ S | MgRS, ḌSRg, MDMg, RS, | S | M | 10 am to 1 pm |  |
