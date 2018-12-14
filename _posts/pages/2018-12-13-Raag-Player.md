@@ -35,14 +35,14 @@ y{
 ## Player
 
 <div>
-  <textarea id="player_text" rows="1" class="textarea" placeholder="S R G M P D N Ś" style="resize: none;"></textarea>
+  <textarea id="player_text" rows="1" class="textarea" placeholder="S R G M P D N Ś" style="resize: none;margin-bottom: 10px;"></textarea>
   <div class="level">
     <div class="level-left">
       <div class="level-item">
         <p class="subtitle is-5">Thaat</p>
       </div>
       <div class="level-item">
-        <span class="select">
+        <span class="select is-small">
           <select>
             <option selected>Bilaval</option>
             <option>Kafi</option>
@@ -60,7 +60,14 @@ y{
     </div>
     <div class="level-right">
       <div class="level-item">
-        <a id="play_btn" class="button is-info">Play</a>
+        <div id="play_btn" class="button is-info">
+          <span class="icon">
+            <i class="fas play-circle"></i>
+          </span>
+          <span>
+            Play
+          </span>
+         </div>
       </div>
     </div>  
   </div>
