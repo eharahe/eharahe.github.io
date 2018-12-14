@@ -304,7 +304,7 @@ function sleep(ms){
 }
 async function playRaag(str, thaat){
   var tArr = new Array(str.split(""));
-
+console.log(tArr)
   while(tArr.length > 0){
     playTone(tArr.splice(0, 1), thaat);
     await sleep(1200);
