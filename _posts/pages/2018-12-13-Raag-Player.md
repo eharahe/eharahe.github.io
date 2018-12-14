@@ -311,4 +311,5 @@ $('#play_btn').click(function(e){
 $('y').click(function(e){
   loadAudioFile(getAudioURL($(e.target).attr('k')));
 })
+init();
 </script>
