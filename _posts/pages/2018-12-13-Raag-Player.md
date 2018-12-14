@@ -6,7 +6,7 @@ tags: music world
 category: page
 excerpt_separator: <!--break-->
 ---
-<style>y{cursor:pointer;}</style>
+<style>y{cursor:pointer} table{font-size: 12px}</style>
 
 Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when specific Thaat is chosen.
 <!--break-->
@@ -98,7 +98,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 08 | Bahar | Kafi | ṇ S, g M P, g M, n D N Ś | Ś n D n P, M P g M R S | M P g M D N Ś | M | S | 10 am to 1 pm |  |
 | 09 | Basant | Poorvi | S G M' d ŕ S | ŕ N d P, M' G, M' d M' G , r S | M' d ŕ Ś, ŕ N d P, M' G M' G | Ś | P | 4 to 7 am |  |
 | 10 | Bhairav | Bhairav | S r G M P d N Ś | Ś N d P MG r S | DM r , GMP, MG, r S | D | R | 7 to 10 am |  |
-| 11 | Bhairavi | Bhairavi | S r g M P d n Ś | Ś n d P M g r S | S g M P, d — p | M | S | morning |  |
+| 11 | Bhairavi | Bhairavi | S r g M P d n Ś | Ś n d P M g r S | S g M P, d  p | M | S | morning |  |
 | 12 | Bhimpalasi | Kafi | ṇ S g M P n Ś | Ś n D P M g R S | ṇ S M, M P g, M g R S | M | S | 10 am to 1 pm |  |
 | 13 | Bhupali | Kalyan | S R G P D Ś | Ś D P G R S | GRŚD, SRG, PG, DPG, R S | G | D | 7 to 10 pm |  |
 | 14 | Bihag | Bilaval | Ṇ S G M P N Ś | Ś N D P M G R S | ṆS, GMP, GMG, RS | G | N | 7 to 10 pm |  |
