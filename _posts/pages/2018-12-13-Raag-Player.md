@@ -35,7 +35,7 @@ y{
 ## Player
 
 <div>
-  <textarea id="player_text" rows="3" placeholder="S R G M P D N Ś" style="width:100%;resize: none;"></textarea>
+  <textarea id="player_text" rows="1" class="textarea" placeholder="S R G M P D N Ś" style="resize: none;"></textarea>
 </div>
 
 | Thaat | Eponymous Raga | Notes | Western | Carnatic Mela |
