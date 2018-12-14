@@ -6,31 +6,10 @@ tags: music world
 category: page
 excerpt_separator: <!--break-->
 ---
+<style>y{cursor:pointer;}</style>
 
-Player for basic Raag AROH, AVROH and PAKAD playing. Specified by Thaat.
+Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when specific Thaat is chosen.
 <!--break-->
-<style>
-y{
-  cursor:pointer;    
-}
-</style>
-
-## Tones
-
-| Names         | Are                              | Cool                            |
-| ------------- |:--------------------------------:|:-------------------------------:|
-| Shadja        | ***<y k="6">SA</y>***            |                                 |
-| rishabha      | Komal ***<y k="7">ri</y>***      | Madhya ***<y k="8">ri</y>***    |
-| Rishabha      | Suddha ***<y k="9">RI</y>***     | Tivra ***<y k="10">RI</y>***    |
-| gandhara      | Ati-komal ***<y k="11">ga</y>*** | Komal ***<y k="12">ga</y>***    |
-| Gandhara      | Suddha ***<y k="13">GA</y>***    | Tivra ***<y k="14">GA</y>***    |
-| madhyama      | Suddha ***<y k="15">ma</y>***    | Ekasruti ***<y k="16">ma</y>*** |
-| Madhyama      | Tivra ***<y k="17">MA</y>***     | Tivratara ***<y k="18">MA</y>***|
-| Panchama      | ***<y k="19">PA</y>***           |                                 |
-| dhaivata      | Ati-komal ***<y k="20">dha</y>***| Komal ***<y k="21">dha</y>***   |
-| Dhaivata      | Suddha ***<y k="22">DHA</y>***   | Tivra ***<y k="23">DHA</y>***   |
-| nishada       | Ati-komal ***<y k="24">ni</y>*** | Komal ***<y k="25">ni</y>***    |
-| Nishada       | Suddha ***<y k="26">NI</y>***    | Tivra ***<y k="27">NI</y>***    |
 
 ## Player
 
@@ -72,6 +51,25 @@ y{
     </div>  
   </div>
 </div>
+
+## Tones
+
+| Names         | Are                              | Cool                            |
+| ------------- |:--------------------------------:|:-------------------------------:|
+| Shadja        | ***<y k="6">SA</y>***            |                                 |
+| rishabha      | Komal ***<y k="7">ri</y>***      | Madhya ***<y k="8">ri</y>***    |
+| Rishabha      | Suddha ***<y k="9">RI</y>***     | Tivra ***<y k="10">RI</y>***    |
+| gandhara      | Ati-komal ***<y k="11">ga</y>*** | Komal ***<y k="12">ga</y>***    |
+| Gandhara      | Suddha ***<y k="13">GA</y>***    | Tivra ***<y k="14">GA</y>***    |
+| madhyama      | Suddha ***<y k="15">ma</y>***    | Ekasruti ***<y k="16">ma</y>*** |
+| Madhyama      | Tivra ***<y k="17">MA</y>***     | Tivratara ***<y k="18">MA</y>***|
+| Panchama      | ***<y k="19">PA</y>***           |                                 |
+| dhaivata      | Ati-komal ***<y k="20">dha</y>***| Komal ***<y k="21">dha</y>***   |
+| Dhaivata      | Suddha ***<y k="22">DHA</y>***   | Tivra ***<y k="23">DHA</y>***   |
+| nishada       | Ati-komal ***<y k="24">ni</y>*** | Komal ***<y k="25">ni</y>***    |
+| Nishada       | Suddha ***<y k="26">NI</y>***    | Tivra ***<y k="27">NI</y>***    |
+
+## Thaats
 
 | Thaat | Eponymous Raga | Notes | Western | Carnatic Mela |
 | ----- | -------------- | ----- | ------- | ----------------- |
