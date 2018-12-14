@@ -214,11 +214,11 @@ function getAudioURL(k) {
       'M Tivra1',
       'M Tivratara1',
       'P1',
-      'd Ati-Komal1',
+      'd Ati-komal1',
       'd Komal1',
       'D Shuddha1',
       'D Tivra1',
-      'n Ati-Komal1',
+      'n Ati-komal1',
 
       'n Komal1', //10
       'N Shuddha1',
@@ -228,7 +228,7 @@ function getAudioURL(k) {
       'r Madhya2',
       'R Suddha2',
       'R Tivra2',
-      'g Ati-Komal2',
+      'g Ati-komal2',
       'g Komal2',
 
       'G Suddha2', //20
@@ -238,12 +238,12 @@ function getAudioURL(k) {
       'M Tivra2',
       'M Tivratara2',
       'P2',
-      'd Ati-Komal2',
+      'd Ati-komal2',
       'd Komal2',
       'D Shuddha2',
 
       'D Tivra2', //30
-      'n Ati-Komal2',
+      'n Ati-komal2',
       'n Komal2',
       'N Shuddha2',
       'N Tivra2',
@@ -253,7 +253,7 @@ function getAudioURL(k) {
       'R Suddha3',
       'R Tivra3',
 
-      'g Ati-Komal3', //40
+      'g Ati-komal3', //40
       'g Komal3',
       'G Suddha3',
       'G Tivra3',
