@@ -36,29 +36,31 @@ y{
 
 <div>
   <textarea id="player_text" rows="1" class="textarea" placeholder="S R G M P D N Ś" style="resize: none;"></textarea>
-  <div class="field is-horizontal">
-    <div class="field-label is-normal">
-      <label class="label">Thaat</label>
+  <div class="level">
+    <div class="level-left">
+      <div class="level-item">
+        <p class="subtitle is-5">Thaat</p>
+      </div>
+      <div class="level-item">
+        <span class="select">
+          <select>
+            <option selected>Bilaval</option>
+            <option>Kafi</option>
+            <option>Bhairavi</option>
+            <option>Kalyan</option>
+            <option>Khamaj</option>
+            <option>Asavari</option>
+            <option>Bhairav</option>
+            <option>Marva</option>
+            <option>Poorvi</option>
+            <option>Todi</option>
+          </select>
+        </span>
+      </div>
     </div>
-    <div class="field-body">
-      <div class="field">
-        <div class="control">
-          <span class="select">
-            <select>
-              <option selected>Bilaval</option>
-              <option>Kafi</option>
-              <option>Bhairavi</option>
-              <option>Kalyan</option>
-              <option>Khamaj</option>
-              <option>Asavari</option>
-              <option>Bhairav</option>
-              <option>Marva</option>
-              <option>Poorvi</option>
-              <option>Todi</option>
-            </select>
-          </span>
-          <a id="play_btn" class="button is-info">Play</a>
-        </div>
+    <div class="level-right">
+      <div class="level-item">
+        <a id="play_btn" class="button is-info">Play</a>
       </div>
     </div>  
   </div>
