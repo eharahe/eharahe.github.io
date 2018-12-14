@@ -300,14 +300,12 @@ function init(){
   tuneMap.set('Ḿ', {Bilaval:46});
 }
 function playRaag(str, thaat){
-  console.log(str);
-  console.log(thaat);
   var id = (tuneMap.get(str))[thaat];
   loadAudioFile(getAudioURL(id));
 }
 $('#play_btn').click(function(e){
   var t = $('#player_text'),
-      s = $('#player_sel:selected');
+      s = $('#player_sel option:selected');
   playRaag(t.val(), s.text());
 })
 $('y').click(function(e){
