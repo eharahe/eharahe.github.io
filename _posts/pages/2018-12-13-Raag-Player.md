@@ -300,8 +300,20 @@ function init(){
   tuneMap.set('Ḿ', {Bilaval:46});
 }
 function playRaag(str, thaat){
-  var id = (tuneMap.get(str))[thaat];
-  loadAudioFile(getAudioURL(id));
+  var toPlay = str,
+      sleep = new Promise(resolve => setTimeout(resolve, 1000));
+
+  while(toPlay.length > 0){
+    playTone(toPlay.substr(0, 1), thaat);
+    toPlay.slice(1);
+    await sleep();
+  }
+}
+function playTone(tone, thaat){
+  var tuneVal = (tuneMap.get(tone));
+  if(tuneVal){
+    loadAudioFile(getAudioURL(tuneVal[thaat]));
+  }
 }
 $('#play_btn').click(function(e){
   var t = $('#player_text'),
