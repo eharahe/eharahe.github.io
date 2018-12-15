@@ -173,7 +173,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 78   | Todi              | Todi           | SrgMPdNŚ                   | ŚNdPMgrS                 | ḍNS, r, gr, s, MgrgrS             | d    | g    | 10 ~ 13      |      |
 | 79   | Vibhas            | Bhairav        | SrGPdPŚ                    | ŚdPGPdP, GrS             | d, P, GP, GrS                     | d    | G    | morning      |      |
 | 80   | Vridavani Sarang  | Kafi           | SRmPNŚ                     | ŚnPmRS                   | ṆSR, mR, PmR, S                   | P    | R    | 10 ~ 13      |      |
-| 81   | **Yaman Kalyan**  | Kalyan         | Ṇ-R-G-M-D-N-Ś              | Ś-N-D-P-M-G-R-S          | ṆRG, RS, PMGRS                    | G    | N    | 19 ~ 22      |      |
+| 81   | **Yaman Kalyan**  | Kalyan         | Ṇ-R-G-M-D-N-Ś              | Ś-N-D-P-M-G-R-S          | ṆRGMDNŚ, ŚNGMGRS                  | G    | N    | 19 ~ 22      |      |
 | 82   | Yamani Bilaval    | Bilaval        | ṆRG, mRGP, MP, DNŚ         | ŚNDP, MPmG, RGRS         | ṆRG, MPmG, RGRS                   | P    | S    | morning      |      |
 
 
