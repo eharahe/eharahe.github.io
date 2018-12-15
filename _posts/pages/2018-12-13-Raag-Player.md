@@ -54,7 +54,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 
 ## Tones
 
-ṃ Ṃ P̣ ḍ Ḍ ṇ Ṇ S r R g G m M P d D n N Ś ŕ Ŕ ǵ Ǵ ḿ Ḿ
+ṃ Ṃ Ꝓ ḍ Ḍ ṇ Ṇ S r R g G m M P d D n N Ś ŕ Ŕ ǵ Ǵ ḿ Ḿ
 
 | Names         | Are                              | Cool                            |
 | ------------- |:--------------------------------:|:-------------------------------:|
@@ -119,11 +119,11 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 27 | Gaur Sarang | Kalyan | S, GR, M' G, PM' , DP, ND, Ś | Ś DNP, DM' PG, MR, PR, S | S, GRMG, PRS | G | D | 7 ~ 10 |  |
 | 28 | Gurjari Todi | Todi | S r g M' d N Ś | Ś n d M' g r, g r S | ḍ ṇ S r g, r S, M' g r g r S | d | r | 10 ~ 13 |  |
 | 29 | Hamir | Kalyan | S R S , G M D, N D Ś | Ś N D P, M' P D P, G M R S | S R S, G M D | D | G | 19 ~ 22 |  |
-| 30 | Hansadhvani | Bilaval | S G R, G P, N Ś | Ś N P, G P G R, S | SGRS, ṆP̣, GR, GPGR, S | S/G | P/N | 19 ~ 22 |  |
+| 30 | Hansadhvani | Bilaval | S G R, G P, N Ś | Ś N P, G P G R, S | SGRS, ṆꝒ, GR, GPGR, S | S/G | P/N | 19 ~ 22 |  |
 | 31 | Hindol | Kalyan | S G, M' D N D, Ś | Ś , N D , M' G , S | SG, M'DND, M'GS | D | G | 7 ~ 10 |  |
-| 32 | Jai Jai Vanti | Kamaj | S, R g R S, ṇ ḌP̣, R, GMP, NŚ | Ś n D P, G M, R g R S | R g RS, ṇḌP̣, R, GM, R g R S | R | P | 10 ~ 13 |  |
+| 32 | Jai Jai Vanti | Kamaj | S, R g R S, ṇ ḌꝒ, R, GMP, NŚ | Ś n D P, G M, R g R S | R g RS, ṇḌꝒ, R, GM, R g R S | R | P | 10 ~ 13 |  |
 | 33 | Jaunpuri | Asavari | S RM P d n Ś | Ś n d P, M g R S | RMP, n d P, d M P, gRS | d | g | 10 ~ 13 |  |
-| 34 | Jhinjhoti | Khamaj | S R G M P D n Ś | Ś n D P M G R S | ḌS, RM, G, PMGR, ŚnḌP̣ | G | n | 10 ~ 13 |  |
+| 34 | Jhinjhoti | Khamaj | S R G M P D n Ś | Ś n D P M G R S | ḌS, RM, G, PMGR, ŚnḌꝒ | G | n | 10 ~ 13 |  |
 | 35 | Jogiya | Bhairav | S r M P d Ś | Ś N d P M r S | M, r S, S r r M r S | M | S | morning |  |
 | 36 | Kafi | Kafi | S R g M P D n Ś | Ś n D P M g R S | SS RR gg MM P | P | R | 1 ~ 3pm |  |
 | 37 | Kalavati | Khamaj | S G M P D n Ś | Ś n D P M G R S | G M P D n D, M P D MG | P | S | 22 ~ 1 |  |
@@ -136,18 +136,18 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 44 | Madhyamad Sarang | Kafi | ṇ S R M P n Ś | Ś n P , M R S | ṇSR, RMRPR, nP, MRS | R | P | 7 ~ 10 |  |
 | 45 | Malgunji | Kafi | Ḍ Ṇ S R G M, G M, D N Ś | Ś N D P M G, M g R S | GMgRS, ḌṇSRGM | S | M | night |  |
 | 46 | Malkauns | Bharavi | ṇ S g M d n Ś | Ś n d M g M g S | M g, M d n d, M g, M g, S | M | S | 1 ~ 4 |  |
-| 47 | Maluha Kedar | Bilaval | Ṇ R S, G M P, D P M, M P N Ś | Ś N D P, G M P G M R S | ṆSGMP, GMRS, ḌP̣ṂP̣ṆS | M | S | 22 ~ 1 |  |
+| 47 | Maluha Kedar | Bilaval | Ṇ R S, G M P, D P M, M P N Ś | Ś N D P, G M P G M R S | ṆSGMP, GMRS, ḌꝒṂꝒṆS | M | S | 22 ~ 1 |  |
 | 48 | Mand | Bilaval | S G R M G, P M D P, N D Ś | Ś D N P, D M P G M S | S, RG, S, R, MMP, D, PDŚ | S | P | all time |  |
 | 49 | Maru Bihag | Kalyan | Ṇ S G M P N Ś | Ś N D P, M' G M' G R S | M' G, RS, RS, SMGP, M' G M' G RS | G | N | 22 ~ 1 |  |
 | 50 | Marva | Marva | Ṇ r G M' D N Ś | Ś N D M' G r S | D, M' G r, G M' G r S | D | R | sunset |  |
-| 51 | Miya Ki Sarang | Kafi | S R M R, M P n D N Ś | Ś n D n P, M P, M R M R, S Ṇ S | SRS, ṇDṇP, ṂP̣ṇḌṆS, R, MR, PMŔNS | R | P | 10 ~ 13 |  |
-| 52 | Miya Malhar | Kafi | R M R S, M R P, M P n D, N Ś | Ś n D, n M P, g M R S | RMR S ṇ P̣, Ṃ P̣ ṇ Ḍ Ṇ S, P g M R S | M | S | 22 ~ 1 |  |
+| 51 | Miya Ki Sarang | Kafi | S R M R, M P n D N Ś | Ś n D n P, M P, M R M R, S Ṇ S | SRS, ṇDṇP, ṂꝒṇḌṆS, R, MR, PMŔNS | R | P | 10 ~ 13 |  |
+| 52 | Miya Malhar | Kafi | R M R S, M R P, M P n D, N Ś | Ś n D, n M P, g M R S | RMR S ṇ Ꝓ, Ṃ Ꝓ ṇ Ḍ Ṇ S, P g M R S | M | S | 22 ~ 1 |  |
 | 53 | Multani | Todi | Ṇ S g M' P N Ś | Ś N d P M' g r S | Ṇ S, M' g, P g, r S | P | S | 13 ~ 16 |  |
 | 54 | Nand - Anandi | Kalyan | S G M , P D , N P Ś | Ś D, N P, D M' P, G M D P R S | GMDP, RSGM | S | P | 22 ~ 1 |  |
-| 55 | Pahadi | Bilaval | S R G P D Ś | Ś D P , G P, G R S | G, RS, Ḍ, P̣ḌS | S | P | all time |  |
+| 55 | Pahadi | Bilaval | S R G P D Ś | Ś D P , G P, G R S | G, RS, Ḍ, ꝒḌS | S | P | all time |  |
 | 56 | Paraj | Poorvi | Ṇ S G, M' d N Ś | Ś N d P, M' P d P, G M G, M' G r S | Ś, N d P, M' P d P, G M G | Ś | P | 4 ~ 7 |  |
 | 57 | Patdeep | Kafi | S g M P N Ś | Ś N D P M g R S | D P, g, M P N Ś | P | S | 13 ~ 16 | N↑ |
-| 58 | Piloo | Kafi | Ṇ S G M P N Ś | Ś n D P n d P d P M g S Ṇ S | P̣ Ṇ S R g S, G M P g S, Ṇ S | G | N | 13 ~ 16 |  |
+| 58 | Piloo | Kafi | Ṇ S G M P N Ś | Ś n D P n d P d P M g S Ṇ S | Ꝓ Ṇ S R g S, G M P g S, Ṇ S | G | N | 13 ~ 16 |  |
 | 59 | Pooriya | Marva | Ṇ r S, G, M' D, N ŕŚ | Ś N D M' G r S | G, Ṇ r S, ṆḌṆṂ’Ḍ, r S | G | M' | sunset |  |
 | 60 | Pooriya Dhanashri | Poorvi | Ṇ r G M' P, D P, N Ś | Ś N d P, M' G M' r G, r S | Ṇ r G, M' P, DP, M' G, M' r G, r S | P | r | sunset |  |
 | 61 | Poorvi | Poorvi | Ṇ r G, M' P, d N Ś | Ś N d P M', GMG, r S | Ṇ, S r G, MG, M' G r S | G | N | sunset |  |
@@ -159,13 +159,13 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 67 | Shankara | Bilaval | S G P N Ś | Ś NP, ND Ś NP, GPGS | Ś NP, ND Ś NP, GPGS | G | N | 22 ~ 1 |  |
 | 68 | Shivranjani | Kafi | S R g P D Ś | Ś D P g R S |  | P | S | midnight |  |
 | 69 | Shri | Poorvi | S r r S, r M' P N Ś | Ś Nd P, M' P d M' G r, P r G r S | S r r S, r M' P, d M' G r G r S | R | P | sunset |  |
-| 70 | Shuddh Kalyan | Kalyan | S R G P D Ś | Ś N D, N D P, M' G R, G R P R G R S | GRS, ṆḌṆḌP̣, S, GR, PR, GRS | G | D | 19 ~ 22 |  |
+| 70 | Shuddh Kalyan | Kalyan | S R G P D Ś | Ś N D, N D P, M' G R, G R P R G R S | GRS, ṆḌṆḌꝒ, S, GR, PR, GRS | G | D | 19 ~ 22 |  |
 | 71 | Shuddh Sarang | Kafi | S R M P, M' P N Ś | Ś N D P M' G R S |  | R | P | 10 ~ 13 |  |
 | 72 | Shyam Kalyan | Kalyan | Ṇ S R M' P N Ś | Ś N D P M' P G M R Ṇ S | Ṇ S R M' P, G M R Ṇ S | P | S | 19 ~ 22 |  |
 | 73 | Sindhu Bhairavi | Asavari | S R g M P d n Ś | Ś n d P M g R S |  | M | S | 10 ~ 13 |  |
 | 74 | Sohni | Marva | S G M' D N Ś | Ś ŕ Ś N D, G M' D, G M' G, M' G r S | Ś N D, G M' DNŚ ŕ Ś | D | G | 4 ~ 7 |  |
 | 75 | Sughrai | Kafi | ṇ S R g, M P, N Ś | Ś D, N P, M P, g , M R S | ṇ S R g, MP n P, DP, MP g MRS | P | S | 10 ~ 13 |  |
-| 76 | Tilak Kamod | Khamaj | S R G S, R M P D, M P, Ś | Ś P D M G, S R G, S Ṇ | P̣ṆSRG, S, RPMG, ŚN | R | P | 22 ~ 1 |  |
+| 76 | Tilak Kamod | Khamaj | S R G S, R M P D, M P, Ś | Ś P D M G, S R G, S Ṇ | ꝒṆSRG, S, RPMG, ŚN | R | P | 22 ~ 1 |  |
 | 77 | Tilang | Khamaj | S G M P N Ś | Ś n P M G S | ṆSGMP, NŚ , Ś nP, GMGS | G | N | 22 ~ 1 |  |
 | 78 | Todi | Todi | S r g M' P d N Ś | Ś N d P M' g r S | ḍ NS, r , g r, s, M'g r g r S | d | g | 10 ~ 13 |  |
 | 79 | Vibhas | Bhairav | S r G P d P Ś | Ś d P G P d P, G r S | d , P , GP, G r S | d | G | morning |  |
@@ -175,149 +175,157 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 
 
 <script>
-var context = new window.AudioContext();
-var source = null;
-var audioBuffer = null;
-function stopSound() {
-    if (source) {
-        source.stop(0);
+var ctx = new window.AudioContext();
+var toneMap = new Map();
+
+var audioCacheArr = [
+  {fn:'m Suddha1', cache:null}, //0
+  {fn:'m Ekasruti1', cache:null},
+  {fn:'M Tivra1', cache:null},
+  {fn:'M Tivratara1', cache:null},
+  {fn:'P1', cache:null},
+  {fn:'d Ati-komal1', cache:null},
+  {fn:'d Komal1', cache:null},
+  {fn:'D Suddha1', cache:null},
+  {fn:'D Tivra1', cache:null},
+  {fn:'n Ati-komal1', cache:null},
+
+  {fn:'n Komal1', cache:null}, //10
+  {fn:'N Suddha1', cache:null},
+  {fn:'N Tivra1', cache:null},
+  {fn:'S2', cache:null},
+  {fn:'r Komal2', cache:null},
+  {fn:'r Madhya2', cache:null},
+  {fn:'R Suddha2', cache:null},
+  {fn:'R Tivra2', cache:null},
+  {fn:'g Ati-komal2', cache:null},
+  {fn:'g Komal2', cache:null},
+
+  {fn:'G Suddha2', cache:null}, //20 
+  {fn:'G Tivra2', cache:null},
+  {fn:'m Suddha2', cache:null},
+  {fn:'m Ekasruti2', cache:null},
+  {fn:'M Tivra2', cache:null},
+  {fn:'M Tivratara2', cache:null},
+  {fn:'P2', cache:null},
+  {fn:'d Ati-komal2', cache:null},
+  {fn:'d Komal2', cache:null},
+  {fn:'D Suddha2', cache:null},
+
+  {fn:'D Tivra2', cache:null}, //30
+  {fn:'n Ati-komal2', cache:null},
+  {fn:'n Komal2', cache:null},
+  {fn:'N Suddha2', cache:null},
+  {fn:'N Tivra2', cache:null},
+  {fn:'S3', cache:null},
+  {fn:'r Komal3', cache:null},
+  {fn:'r Madhya3', cache:null},
+  {fn:'R Suddha3', cache:null},
+  {fn:'R Tivra3', cache:null},
+
+  {fn:'g Ati-komal3', cache:null}, //40
+  {fn:'g Komal3', cache:null},
+  {fn:'G Suddha3',cache:null},
+  {fn:'G Tivra3',cache:null},
+  {fn:'m Suddha3',cache:null},
+  {fn:'m Ekasruti3',cache:null},
+  {fn:'M Tivra3',cache:null},
+  {fn:'M Tivratara3',cache:null}
+];
+
+function init(){
+  // set tone map
+  toneMap.set('ṃ', {Bilaval:0});
+  toneMap.set('Ṃ', {Bilaval:2});
+  toneMap.set('Ꝓ', {Bilaval:4});
+  toneMap.set('ḍ', {Bilaval:5});
+  toneMap.set('Ḍ', {Bilaval:7});
+  toneMap.set('ṇ', {Bilaval:9});
+  toneMap.set('Ṇ', {Bilaval:11});
+
+  toneMap.set('S', {Bilaval:13});
+  toneMap.set('r', {Bilaval:14});
+  toneMap.set('R', {Bilaval:16});
+  toneMap.set('g', {Bilaval:18});
+  toneMap.set('G', {Bilaval:20});
+  toneMap.set('m', {Bilaval:22});
+  toneMap.set('M', {Bilaval:24});
+  toneMap.set('P', {Bilaval:26});
+  toneMap.set('d', {Bilaval:27});
+  toneMap.set('D', {Bilaval:29});
+  toneMap.set('n', {Bilaval:31});
+  toneMap.set('N', {Bilaval:33});
+
+  toneMap.set('Ś', {Bilaval:35});
+  toneMap.set('ŕ', {Bilaval:36});
+  toneMap.set('Ŕ', {Bilaval:38});
+  toneMap.set('ǵ', {Bilaval:40});
+  toneMap.set('Ǵ', {Bilaval:42});
+  toneMap.set('ḿ', {Bilaval:44});
+  toneMap.set('Ḿ', {Bilaval:46});
+
+  // download audio files
+  for(i in audioCacheArr){
+    loadAudioFile(+i, false);
+  }
+}
+
+function playSound(ind) {
+  var source = ctx.createBufferSource();
+  source.buffer = audioCacheArr[ind].cache;
+  source.loop = false;
+  source.connect(ctx.destination);
+  source.start(); 
+}
+function createBuffer(arrayBuffer, ind, isPlay) {
+  ctx.decodeAudioData(arrayBuffer, function(buffer) { 
+    var audioBuffer = buffer;
+    audioCacheArr[ind].cache = audioBuffer;
+    if(isPlay){
+      playSound(ind);
     }
+  }, function(e) {
+    console.log('Error decoding file', e);
+  });
 }
-function playSound() {
-    source = context.createBufferSource();
-    source.buffer = audioBuffer;
-    source.loop = false;
-    source.connect(context.destination);
-    source.start(); 
-}
-function initSound(arrayBuffer) {
-    context.decodeAudioData(arrayBuffer, function(buffer) { 
-        audioBuffer = buffer;
-        playSound();
-    }, function(e) {
-        console.log('Error decoding file', e);
-    });
-}
-function loadAudioFile(url) {
+function loadAudioFile(ind, isPlay) {
+  if(!audioCacheArr[ind].cache){
+    if(isPlay){
+      playSound(ind);
+    }
+  }
+  else{
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
+    xhr.open('GET', getAudioURL(audioCacheArr[ind].fn), true);
     xhr.responseType = 'arraybuffer';
     xhr.onload = function(e) {
-        initSound(this.response);
+      createBuffer(this.response, ind, isPlay);
     };
     xhr.send();
+  }
 }
 function getAudioURL(k) {
-  let arr = [
-      'm Suddha1', //0
-      'm Ekasruti1',
-      'M Tivra1',
-      'M Tivratara1',
-      'P1',
-      'd Ati-komal1',
-      'd Komal1',
-      'D Suddha1',
-      'D Tivra1',
-      'n Ati-komal1',
-
-      'n Komal1', //10
-      'N Suddha1',
-      'N Tivra1',
-      'S2',
-      'r Komal2',
-      'r Madhya2',
-      'R Suddha2',
-      'R Tivra2',
-      'g Ati-komal2',
-      'g Komal2',
-
-      'G Suddha2', //20
-      'G Tivra2',
-      'm Suddha2',
-      'm Ekasruti2',
-      'M Tivra2',
-      'M Tivratara2',
-      'P2',
-      'd Ati-komal2',
-      'd Komal2',
-      'D Suddha2',
-
-      'D Tivra2', //30
-      'n Ati-komal2',
-      'n Komal2',
-      'N Suddha2',
-      'N Tivra2',
-      'S3',
-      'r Komal3',
-      'r Madhya3',
-      'R Suddha3',
-      'R Tivra3',
-
-      'g Ati-komal3', //40
-      'g Komal3',
-      'G Suddha3',
-      'G Tivra3',
-      'm Suddha3',
-      'm Ekasruti3',
-      'M Tivra3',
-      'M Tivratara3',
-  ];
   let pre = '/assets/audio/raag/',
       post = '.ogg';
-
-  return pre + arr[k] + post;
+  return pre + audioCacheArr[k].fn + post;
 }
-//ṃ Ṃ P̣ ḍ Ḍ ṇ Ṇ S r R g G m M P d D n N Ś ŕ Ŕ ǵ Ǵ ḿ Ḿ
-var tuneMap = new Map();
-function init(){
-  tuneMap.set('ṃ', {Bilaval:0});
-  tuneMap.set('Ṃ', {Bilaval:2});
-  tuneMap.set('P̣', {Bilaval:4});
-  tuneMap.set('ḍ', {Bilaval:5});
-  tuneMap.set('Ḍ', {Bilaval:7});
-  tuneMap.set('ṇ', {Bilaval:9});
-  tuneMap.set('Ṇ', {Bilaval:11});
+//ṃ Ṃ Ꝓ ḍ Ḍ ṇ Ṇ S r R g G m M P d D n N Ś ŕ Ŕ ǵ Ǵ ḿ Ḿ
 
-  tuneMap.set('S', {Bilaval:13});
-  tuneMap.set('r', {Bilaval:14});
-  tuneMap.set('R', {Bilaval:16});
-  tuneMap.set('g', {Bilaval:18});
-  tuneMap.set('G', {Bilaval:20});
-  tuneMap.set('m', {Bilaval:22});
-  tuneMap.set('M', {Bilaval:24});
-  tuneMap.set('P', {Bilaval:26});
-  tuneMap.set('d', {Bilaval:27});
-  tuneMap.set('D', {Bilaval:29});
-  tuneMap.set('n', {Bilaval:31});
-  tuneMap.set('N', {Bilaval:33});
-
-  tuneMap.set('Ś', {Bilaval:35});
-  tuneMap.set('ŕ', {Bilaval:36});
-  tuneMap.set('Ŕ', {Bilaval:38});
-  tuneMap.set('ǵ', {Bilaval:40});
-  tuneMap.set('Ǵ', {Bilaval:42});
-  tuneMap.set('ḿ', {Bilaval:44});
-  tuneMap.set('Ḿ', {Bilaval:46});
-}
 function sleep(ms){
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 async function playRaag(str, thaat){
   var tArr = str.split("");
-
   while(tArr.length > 0){
     playTone(tArr.splice(0, 1)[0], thaat);
     await sleep(600);
   }
 }
 function playTone(tone, thaat){
-  var tuneVal = (tuneMap.get(tone));
-  console.log(tuneVal)
-  console.log(tuneMap)
-  console.log(tone)
-  console.log(thaat)
-  if(tuneVal){
-    loadAudioFile(getAudioURL(tuneVal[thaat]));
+  var toneVal = (toneMap.get(tone));
+  console.log('play: ' + tone);
+  if(toneVal){
+    loadAudioFile(toneVal[thaat], true);
   }
 }
 $('#play_btn').click(function(e){
@@ -326,7 +334,7 @@ $('#play_btn').click(function(e){
   playRaag(t.val(), s.text());
 })
 $('y').click(function(e){
-  loadAudioFile(getAudioURL($(e.target).attr('k')));
+  loadAudioFile($(e.target).attr('k'), true);
 })
 init();
 </script>
