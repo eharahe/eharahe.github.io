@@ -81,7 +81,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | Bilaval  | Bilaval        | S R G m P D N Ś | Ionian          | All shuddha, and ni komal In Avroh          |
 | Kafi     | Kafi           | S R g m P D n Ś | Dorian          | ga and ni komal                             |
 | Bhairavi | Bhairavi       | S r g m P d n Ś | Phrygian        | re, ga, dha and ni komal                    |
-| Kalyan   | Yaman(Kalyan)  | S R G m P D N Ś | Lydian          | MA’ tivra                          |
+| Kalyan   | Yaman(Kalyan)  | S R G M P D N Ś | Lydian          | MA tivra                                    |
 | Khamaj   | Khamaj         | S R G M P D n Ś | Mixolydian      | ni komal                           |
 | Asavari  | Asavari        | S R g M P d n Ś | Aeolian         | ga, dha and ni komal               |
 | Bhairav  | Bhairav        | S r G M P d N Ś | Double Harmonic | re and dha komal                   |
@@ -173,7 +173,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 78   | Todi              | Todi           | SrgMPdNŚ                   | ŚNdPMgrS                 | ḍNS, r, gr, s, MgrgrS             | d    | g    | 10 ~ 13      |      |
 | 79   | Vibhas            | Bhairav        | SrGPdPŚ                    | ŚdPGPdP, GrS             | d, P, GP, GrS                     | d    | G    | morning      |      |
 | 80   | Vridavani Sarang  | Kafi           | SRmPNŚ                     | ŚnPmRS                   | ṆSR, mR, PmR, S                   | P    | R    | 10 ~ 13      |      |
-| 81   | **Yaman Kalyan**  | Kalyan         | SRGMPDNŚ                   | ŚNDPMGRS                 | ṆRG, RS, PMGRS                    | G    | N    | 19 ~ 22      |      |
+| 81   | **Yaman Kalyan**  | Kalyan         | Ṇ-R-G-M-D-N-Ś              | Ś-N-D-P-M-G-R-S          | ṆRG, RS, PMGRS                    | G    | N    | 19 ~ 22      |      |
 | 82   | Yamani Bilaval    | Bilaval        | ṆRG, mRGP, MP, DNŚ         | ŚNDP, MPmG, RGRS         | ṆRG, MPmG, RGRS                   | P    | S    | morning      |      |
 
 
