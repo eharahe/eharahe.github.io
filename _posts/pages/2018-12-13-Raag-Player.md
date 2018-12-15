@@ -318,8 +318,14 @@ function sleep(ms){
 async function playRaag(str, thaat){
   var tArr = str.split("");
   while(tArr.length > 0){
-    playTone(tArr.splice(0, 1)[0], thaat);
-    await sleep(600);
+    var tone = tArr.splice(0, 1)[0];
+    if(tone==" "){
+      continue;
+    }
+    else{
+      playTone(tone, thaat);
+      await sleep(600);
+    }
   }
 }
 function playTone(tone, thaat){
