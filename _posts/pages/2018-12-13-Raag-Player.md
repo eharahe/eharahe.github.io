@@ -104,7 +104,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 9    | Basant            | Poorvi         | SGMdŕ S                    | ŕ NdP, MG, MdMG, rS      | Mdŕ Ś, ŕ NdP, MGMG                | Ś    | P    | 4 ~ 7        |      |
 | 10   | Bhairav           | Bhairav        | SrGmPdNŚ                   | ŚNdPmGrS                 | Dmr, GmP, mG, rS                  | D    | R    | 7 ~ 10       |      |
 | 11   | **Bhairavi**      | Bhairavi       | S-r-g-m-P-d-n-Ś            | Ś-n-d-P-m-g-r-S          | ṇSgmdPmgmgrS                      | m    | S    | morning      |      |
-| 12   | Bhimpalasi        | Kafi           | ṇSgmPnŚ                    | ŚnDPmgRS                 | ṇSm, mPg, mgRS                    | m    | S    | 10 ~ 13      |      |
+| 12   | Bhimpalasi        | Kafi           | ṇ-S-g-m-P-n-Ś              | Ś-n-D-P, D-m-P-g, m-g-R-S| ṇSgmPg, mgRṇS                     | m    | S    | 15 ~ 18      |      |
 | 13   | Bhupali           | Kalyan         | SRGPDŚ                     | ŚDPGRS                   | GRŚD, SRG, PG, DPG, RS            | G    | D    | 9 ~ 12       |      |
 | 14   | Bihag             | Bilaval        | ṆSGmPNŚ                    | ŚNDPmGRS                 | ṆS, GmP, GmG, RS                  | G    | N    | 21 ~ 24      |      |
 | 15   | Bihagra           | Bilaval        | ṆSG, GmPDnDP, NŚ           | ŚND, nDP, GmGRS          | GmPDnDP, GmGRS                    | m    | S    | 10 ~ 13      | M    |
@@ -126,7 +126,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 31   | Hindol            | Kalyan         | SG, MDND, Ś                | Ś, ND, MG, S             | SG, MDND, MGS                     | D    | G    | 7 ~ 10       |      |
 | 32   | Jai Jai Vanti     | Kamaj          | S, RgRS,  ṇ ḌꝒ, R, GmP, NŚ | ŚnDP, Gm, RgRS           | RgRS,  ṇḌꝒ, R, Gm, RgRS           | R    | P    | 10 ~ 13      |      |
 | 33   | Jaunpuri          | Asavari        | SRmPdnŚ                    | ŚndP, mgRS               | RmP, ndP, dmP, gRS                | d    | g    | 10 ~ 13      |      |
-| 34   | Jhinjhoti         | Khamaj         | SRGmPDnŚ                   | ŚnDPmGRS                 | ḌS, Rm, G, PmGR, ŚnḌꝒ             | G    | n    | 10 ~ 13      |      |
+| 34   | Jhinjhoti         | Khamaj         | SRGmPDnŚ                   | ŚnDPmGRS                 | ḌS, Rm, G, PmGR, ŚnḌꝒ             | G    | n    | 21 ~ 24      |      |
 | 35   | Jogiya            | Bhairav        | SrmPdŚ                     | ŚNdPmrS                  | m, rS, SrrmrS                     | m    | S    | morning      |      |
 | 36   | **Kafi**          | Kafi           | S-R-g-m-P-D-n-Ś            | Ś-n-D-P-m-g-R-S          | SS-RR-gg-mm-P                     | P    | R    | 1 ~ 3pm      |      |
 | 37   | Kalavati          | Khamaj         | SGmPDnŚ                    | ŚnDPmGRS                 | GmPDnD, mPDmG                     | P    | S    | 22 ~ 1       |      |
