@@ -297,7 +297,7 @@ function loadAudioFile(ind, isPlay) {
   }
   else{
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', getAudioURL(audioCacheArr[ind].fn), true);
+    xhr.open('GET', getAudioURL(ind), true);
     xhr.responseType = 'arraybuffer';
     xhr.onload = function(e) {
       createBuffer(this.response, ind, isPlay);
