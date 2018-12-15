@@ -82,7 +82,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | Kafi     | Kafi           | S R g m P D n Ś | Dorian          | ga and ni komal                             |
 | Bhairavi | Bhairavi       | S r g m P d n Ś | Phrygian        | re, ga, dha and ni komal                    |
 | Kalyan   | Yaman(Kalyan)  | S R G M P D N Ś | Lydian          | MA tivra                                    |
-| Khamaj   | Khamaj         | S R G M P D n Ś | Mixolydian      | ni komal                           |
+| Khamaj   | Khamaj         | S R G m P D n Ś | Mixolydian      | ni komal                                    |
 | Asavari  | Asavari        | S R g M P d n Ś | Aeolian         | ga, dha and ni komal               |
 | Bhairav  | Bhairav        | S r G M P d N Ś | Double Harmonic | re and dha komal                   |
 | Marva    | Marva          | S r G m P D N Ś | -               | re komal and MA’ tivra             |
@@ -133,7 +133,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 38   | Kamod             | Kalyan         | S, RP, MPDP, NDŚ           | ŚNDP, MPDP, GmP, Gm, RS  | RP, MPDP, GmP, GmRS               | P    | S    | 19 ~ 22      |      |
 | 39   | Kausi Kanhda      | Asavari        | SRgmPDnŚ                   | ŚnDPmgRS                 |                                   | m    | S    | 22 ~ 1       |      |
 | 40   | Kedar             | Kalyan         | Sm, mP, DP, NDŚ            | ŚNDP, MPDPm, PmRS        | Sm, mP, DPm, PmRS                 | S    | m    | 19 ~ 22      |      |
-| 41   | Khamaj            | Khamaj         | SGmPDNŚ                    | ŚnDPmGRS                 | GmPDnD, mPD, mG                   | G    | N    | 22 ~ 1       |      |
+| 41   | **Khamaj**        | Khamaj         | S-G-m-P-D-N-Ś              | Ś-n-D-P-m-G-RS           | GmPDnD, mPD, mG                   | G    | N    | 22 ~ 1       |      |
 | 42   | Lalit             | Marva          | ṆrGm, MmG, MDŚ             | Ŕ ND, MDMmG, RS          | ṆRGm, DM, mG, MGRS                | m    | S    | 4 ~ 7        |      |
 | 43   | Madhuvanti        | Todi           | ṆSgMPNŚ                    | ŚNDPMgRS                 | ṆSGMP, MGRS                       | P    | S    | 16 ~ 19      |      |
 | 44   | Madhyamad Sarang  | Kafi           | ṇSRmPnŚ                    | ŚnP, mRS                 | ṇSR, RmRPR, nP, mRS               | R    | P    | 7 ~ 10       |      |
