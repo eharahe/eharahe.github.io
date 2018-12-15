@@ -6,7 +6,11 @@ tags: music world
 category: page
 excerpt_separator: <!--break-->
 ---
-<style>y{cursor:pointer} table{font-size: 12px}</style>
+<style>
+y{cursor:pointer} 
+table{font-size: 12px;box-shadow: 1px 1px 6px #ccc;}
+table th{background-color: #363636;line-height: 2;color: #ddd;}
+</style>
 
 Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when specific Thaat is chosen.
 <!--break-->
@@ -14,6 +18,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 ## Player
 
 <div class="panel">
+  <div class="label">ṃ Ṃ Ꝓ ḍ Ḍ ṇ Ṇ S r R g G m M P d D n N Ś ŕ Ŕ ǵ Ǵ ḿ Ḿ</div>
   <textarea id="player_text" rows="1" class="textarea" placeholder="S R G M P D N Ś" style="resize: none;margin-bottom: 10px;"></textarea>
   <div class="level">
     <div class="level-left">
@@ -53,8 +58,6 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 </div>
 
 ## Tones
-
-ṃ Ṃ Ꝓ ḍ Ḍ ṇ Ṇ S r R g G m M P d D n N Ś ŕ Ŕ ǵ Ǵ ḿ Ḿ
 
 | Names         | Are                              | Cool                            |
 | ------------- |:--------------------------------:|:-------------------------------:|
@@ -106,7 +109,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 14 | Bihag | Bilaval | Ṇ S G M P N Ś | Ś N D P M G R S | ṆS, GMP, GMG, RS | G | N | 21 ~ 24 |  |
 | 15 | Bihagra | Bilaval | Ṇ S G, G M P D n D P, N Ś | Ś N D, n D P, G M G R S | GMPDnDP, GMGRS | M | S | 10 ~ 13 | M' |
 | 16 | Bilaskhani Todi | Bhairavi | S r g, M G, P d, n d, Ś | Ś ŕ n d P, M g r g r S | ḍ S r g, Mg, r g, r S | d | g | 10 ~ 13 |  |
-| 17 | ***Bilaval*** | Bilaval | S-GR-GP-DN-Ś | ŚNDP-DnDP-mGmRS | GPDnŚ, ŚNDnDP, mGmRS | D | G | morning |  |
+| 17 | **Bilaval** | Bilaval | S-GR-GP-DN-Ś | ŚNDP-DnDP-mGmRS | GPDnŚ, ŚNDnDP, mGmRS | D | G | morning |  |
 | 18 | Chandrakauns |  | Ṇ S g M d N Ś | Ś N d M g M g S | g M N d M g M g Ṇ S | M | S | mid night |  |
 | 19 | Chayanat | Kalyan | S, RGMP, DP, ND, Ś | Ś NDP, M' PDP, RGMP, GMRS | P R, RGMP, MG MR, S | R | P | 19 ~ 22 |  |
 | 20 | Darbari Kanhdra | Asavari | ṇ S R g R S, M P d n Ŕ Ś | Ś d n P, M P, g M R S | g M R S, ḍ ṇ S R S | R | P | 22 ~ 1 |  |
@@ -125,7 +128,7 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 33 | Jaunpuri | Asavari | S RM P d n Ś | Ś n d P, M g R S | RMP, n d P, d M P, gRS | d | g | 10 ~ 13 |  |
 | 34 | Jhinjhoti | Khamaj | S R G M P D n Ś | Ś n D P M G R S | ḌS, RM, G, PMGR, ŚnḌꝒ | G | n | 10 ~ 13 |  |
 | 35 | Jogiya | Bhairav | S r M P d Ś | Ś N d P M r S | M, r S, S r r M r S | M | S | morning |  |
-| 36 | Kafi | Kafi | S R g M P D n Ś | Ś n D P M g R S | SS RR gg MM P | P | R | 1 ~ 3pm |  |
+| 36 | **Kafi** | Kafi | S-R-g-m-P-D-n-Ś | Ś-n-D-P-m-g-R-S | SS RR gg MM P | P | R | 1 ~ 3pm |  |
 | 37 | Kalavati | Khamaj | S G M P D n Ś | Ś n D P M G R S | G M P D n D, M P D MG | P | S | 22 ~ 1 |  |
 | 38 | Kamod | Kalyan | S, RP, M' PDP, NDŚ | ŚNDP, M' PDP, GMP, GM, RS | RP, M' PDP, GMP,GMRS | P | S | 19 ~ 22 |  |
 | 39 | Kausi Kanhda | Asavari | S R g M P D n Ś | Ś n D P M g R S |  | M | S | 22 ~ 1 |  |
