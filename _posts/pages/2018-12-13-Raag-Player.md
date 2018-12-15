@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Raag Player
+title: Simple Raag Player
 permalink: /page/raag-player
 tags: music world
 category: page
@@ -76,11 +76,11 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 
 ## Thaats
 
-| Thaat    | Eponymous Raga | Notes           | Western         | Carnatic Mela                      |
-| -------- | -------------- | --------------- | --------------- | ---------------------------------- |
-| Bilaval  | Bilaval        | S R G m P D N Ś | Ionian          | All pure notes                     |
-| Kafi     | Kafi           | S R g M P D n Ś | Dorian          | ga and ni komal                    |
-| Bhairavi | Bhairavi       | S r g M P d n Ś | Phrygian        | re, ga, dha and ni komal           |
+| Thaat    | Eponymous Raga | Notes           | Western         | Carnatic Mela                               |
+| -------- | -------------- | --------------- | --------------- | ------------------------------------------- |
+| Bilaval  | Bilaval        | S R G m P D N Ś | Ionian          | All shuddha, and ni komal In Avroh          |
+| Kafi     | Kafi           | S R g m P D n Ś | Dorian          | ga and ni komal                             |
+| Bhairavi | Bhairavi       | S r g m P d n Ś | Phrygian        | re, ga, dha and ni komal                    |
 | Kalyan   | Yaman(Kalyan)  | S R G m P D N Ś | Lydian          | MA’ tivra                          |
 | Khamaj   | Khamaj         | S R G M P D n Ś | Mixolydian      | ni komal                           |
 | Asavari  | Asavari        | S R g M P d n Ś | Aeolian         | ga, dha and ni komal               |
@@ -238,34 +238,34 @@ var audioCacheArr = [
 
 function init(){
   // set tone map
-  toneMap.set('ṃ', {Bilaval:0});
-  toneMap.set('Ṃ', {Bilaval:2});
-  toneMap.set('Ꝓ', {Bilaval:4});
-  toneMap.set('ḍ', {Bilaval:5});
-  toneMap.set('Ḍ', {Bilaval:7});
-  toneMap.set('ṇ', {Bilaval:9});
-  toneMap.set('Ṇ', {Bilaval:11});
+  toneMap.set('ṃ', {Bilaval: 0, Kafi: 0, Bhairavi: 0, Kalyan: 0, Khamaj: 0, Asavari: 0, Bhairav: 0, Marva: 0, Poorvi: 0, Todi: 0});
+  toneMap.set('Ṃ', {Bilaval: 2, Kafi: 2, Bhairavi: 2, Kalyan: 2, Khamaj: 2, Asavari: 2, Bhairav: 2, Marva: 2, Poorvi: 2, Todi: 2});
+  toneMap.set('Ꝓ', {Bilaval: 4, Kafi: 4, Bhairavi: 4, Kalyan: 4, Khamaj: 4, Asavari: 4, Bhairav: 4, Marva: 4, Poorvi: 4, Todi: 4});
+  toneMap.set('ḍ', {Bilaval: 6, Kafi: 6, Bhairavi: 6, Kalyan: 6, Khamaj: 6, Asavari: 6, Bhairav: 6, Marva: 6, Poorvi: 6, Todi: 5});
+  toneMap.set('Ḍ', {Bilaval: 7, Kafi: 7, Bhairavi: 7, Kalyan: 7, Khamaj: 7, Asavari: 7, Bhairav: 7, Marva: 7, Poorvi: 7, Todi: 7});
+  toneMap.set('ṇ', {Bilaval:10, Kafi:10, Bhairavi:10, Kalyan:10, Khamaj:10, Asavari:10, Bhairav:10, Marva:10, Poorvi:10, Todi: 9});
+  toneMap.set('Ṇ', {Bilaval:11, Kafi:11, Bhairavi:11, Kalyan:11, Khamaj:11, Asavari:11, Bhairav:11, Marva:11, Poorvi:11, Todi:11});
 
-  toneMap.set('S', {Bilaval:13});
-  toneMap.set('r', {Bilaval:14});
-  toneMap.set('R', {Bilaval:16});
-  toneMap.set('g', {Bilaval:18});
-  toneMap.set('G', {Bilaval:20});
-  toneMap.set('m', {Bilaval:22});
-  toneMap.set('M', {Bilaval:24});
-  toneMap.set('P', {Bilaval:26});
-  toneMap.set('d', {Bilaval:27});
-  toneMap.set('D', {Bilaval:29});
-  toneMap.set('n', {Bilaval:31});
-  toneMap.set('N', {Bilaval:33});
+  toneMap.set('S', {Bilaval:13, Kafi:13, Bhairavi:13, Kalyan:13, Khamaj:13, Asavari:13, Bhairav:13, Marva:13, Poorvi:13, Todi:13});
+  toneMap.set('r', {Bilaval:14, Kafi:14, Bhairavi:14, Kalyan:14, Khamaj:14, Asavari:14, Bhairav:14, Marva:14, Poorvi:14, Todi:14});
+  toneMap.set('R', {Bilaval:16, Kafi:16, Bhairavi:16, Kalyan:16, Khamaj:16, Asavari:16, Bhairav:16, Marva:16, Poorvi:16, Todi:16});
+  toneMap.set('g', {Bilaval:19, Kafi:19, Bhairavi:19, Kalyan:19, Khamaj:19, Asavari:19, Bhairav:19, Marva:19, Poorvi:19, Todi:18});
+  toneMap.set('G', {Bilaval:20, Kafi:20, Bhairavi:20, Kalyan:20, Khamaj:20, Asavari:20, Bhairav:20, Marva:20, Poorvi:20, Todi:20});
+  toneMap.set('m', {Bilaval:22, Kafi:22, Bhairavi:22, Kalyan:22, Khamaj:22, Asavari:22, Bhairav:22, Marva:22, Poorvi:22, Todi:22});
+  toneMap.set('M', {Bilaval:24, Kafi:24, Bhairavi:24, Kalyan:24, Khamaj:24, Asavari:24, Bhairav:24, Marva:24, Poorvi:24, Todi:24});
+  toneMap.set('P', {Bilaval:26, Kafi:26, Bhairavi:26, Kalyan:26, Khamaj:26, Asavari:26, Bhairav:26, Marva:26, Poorvi:26, Todi:26});
+  toneMap.set('d', {Bilaval:28, Kafi:28, Bhairavi:28, Kalyan:28, Khamaj:28, Asavari:28, Bhairav:28, Marva:28, Poorvi:28, Todi:27});
+  toneMap.set('D', {Bilaval:29, Kafi:29, Bhairavi:29, Kalyan:29, Khamaj:29, Asavari:29, Bhairav:29, Marva:29, Poorvi:29, Todi:29});
+  toneMap.set('n', {Bilaval:32, Kafi:32, Bhairavi:32, Kalyan:32, Khamaj:32, Asavari:32, Bhairav:32, Marva:32, Poorvi:32, Todi:31});
+  toneMap.set('N', {Bilaval:33, Kafi:33, Bhairavi:33, Kalyan:33, Khamaj:33, Asavari:33, Bhairav:33, Marva:33, Poorvi:33, Todi:33});
 
-  toneMap.set('Ś', {Bilaval:35});
-  toneMap.set('ŕ', {Bilaval:36});
-  toneMap.set('Ŕ', {Bilaval:38});
-  toneMap.set('ǵ', {Bilaval:40});
-  toneMap.set('Ǵ', {Bilaval:42});
-  toneMap.set('ḿ', {Bilaval:44});
-  toneMap.set('Ḿ', {Bilaval:46});
+  toneMap.set('Ś', {Bilaval:35, Kafi:35, Bhairavi:35, Kalyan:35, Khamaj:35, Asavari:35, Bhairav:35, Marva:35, Poorvi:35, Todi:35});
+  toneMap.set('ŕ', {Bilaval:36, Kafi:36, Bhairavi:36, Kalyan:36, Khamaj:36, Asavari:36, Bhairav:36, Marva:36, Poorvi:36, Todi:36});
+  toneMap.set('Ŕ', {Bilaval:38, Kafi:38, Bhairavi:38, Kalyan:38, Khamaj:38, Asavari:38, Bhairav:38, Marva:38, Poorvi:38, Todi:38});
+  toneMap.set('ǵ', {Bilaval:41, Kafi:41, Bhairavi:41, Kalyan:41, Khamaj:41, Asavari:41, Bhairav:41, Marva:41, Poorvi:41, Todi:40});
+  toneMap.set('Ǵ', {Bilaval:42, Kafi:42, Bhairavi:42, Kalyan:42, Khamaj:42, Asavari:42, Bhairav:42, Marva:42, Poorvi:42, Todi:42});
+  toneMap.set('ḿ', {Bilaval:44, Kafi:44, Bhairavi:44, Kalyan:44, Khamaj:44, Asavari:44, Bhairav:44, Marva:44, Poorvi:44, Todi:44});
+  toneMap.set('Ḿ', {Bilaval:46, Kafi:46, Bhairavi:46, Kalyan:46, Khamaj:46, Asavari:46, Bhairav:46, Marva:46, Poorvi:46, Todi:46});
 
   // download audio files
   for(i in audioCacheArr){
@@ -313,7 +313,6 @@ function getAudioURL(k) {
       post = '.ogg';
   return pre + audioCacheArr[k].fn + post;
 }
-//ṃ Ṃ Ꝓ ḍ Ḍ ṇ Ṇ S r R g G m M P d D n N Ś ŕ Ŕ ǵ Ǵ ḿ Ḿ
 
 function sleep(ms){
   return new Promise(resolve => setTimeout(resolve, ms));
