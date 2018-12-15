@@ -326,7 +326,7 @@ async function playRaag(str, thaat){
       await sleep(1000);
     }
     else if(tone=="-"){
-      await sleep(200);
+      await sleep(100);
     }
     else{
       playTone(tone, thaat);
