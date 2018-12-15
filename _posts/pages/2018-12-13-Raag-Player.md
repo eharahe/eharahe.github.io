@@ -267,6 +267,7 @@ function init(){
   // download audio files
   for(i in audioCacheArr){
     loadAudioFile(+i, false);
+    console.log('i='+i);
   }
 }
 
@@ -289,7 +290,7 @@ function createBuffer(arrayBuffer, ind, isPlay) {
   });
 }
 function loadAudioFile(ind, isPlay) {
-  if(!audioCacheArr[ind].cache){
+  if(audioCacheArr[ind].cache){
     if(isPlay){
       playSound(ind);
     }
