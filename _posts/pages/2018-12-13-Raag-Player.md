@@ -128,12 +128,12 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 | 33   | Jaunpuri          | Asavari        | SRmPdnŚ                    | ŚndP, mgRS               | RmP, ndP, dmP, gRS                | d    | g    | 10 ~ 13      |      |
 | 34   | Jhinjhoti         | Khamaj         | SRGmPDnŚ                   | ŚnDPmGRS                 | ḌS, Rm, G, PmGR, ŚnḌꝒ             | G    | n    | 10 ~ 13      |      |
 | 35   | Jogiya            | Bhairav        | SrmPdŚ                     | ŚNdPmrS                  | m, rS, SrrmrS                     | m    | S    | morning      |      |
-| 36   | **Kafi**          | Kafi           | S-R-g-m-P-D-n-Ś            | Ś-n-D-P-m-g-R-S          | SSRRggmmP                         | P    | R    | 1 ~ 3pm      |      |
+| 36   | **Kafi**          | Kafi           | S-R-g-m-P-D-n-Ś            | Ś-n-D-P-m-g-R-S          | SS-RR-gg-mm-P                     | P    | R    | 1 ~ 3pm      |      |
 | 37   | Kalavati          | Khamaj         | SGmPDnŚ                    | ŚnDPmGRS                 | GmPDnD, mPDmG                     | P    | S    | 22 ~ 1       |      |
 | 38   | Kamod             | Kalyan         | S, RP, MPDP, NDŚ           | ŚNDP, MPDP, GmP, Gm, RS  | RP, MPDP, GmP, GmRS               | P    | S    | 19 ~ 22      |      |
 | 39   | Kausi Kanhda      | Asavari        | SRgmPDnŚ                   | ŚnDPmgRS                 |                                   | m    | S    | 22 ~ 1       |      |
 | 40   | Kedar             | Kalyan         | Sm, mP, DP, NDŚ            | ŚNDP, MPDPm, PmRS        | Sm, mP, DPm, PmRS                 | S    | m    | 19 ~ 22      |      |
-| 41   | **Khamaj**        | Khamaj         | S-G-m-P-D-N-Ś              | Ś-n-D-P-m-G-RS           | GmPDnD, mPD, mG                   | G    | N    | 22 ~ 1       |      |
+| 41   | **Khamaj**        | Khamaj         | S-G-m-P-D-N-Ś              | Ś-n-D-P-m-G-R-S          | GmPDnD, mPDmG                     | G    | N    | 22 ~ 1       |      |
 | 42   | Lalit             | Marva          | ṆrGm, MmG, MDŚ             | Ŕ ND, MDMmG, RS          | ṆRGm, DM, mG, MGRS                | m    | S    | 4 ~ 7        |      |
 | 43   | Madhuvanti        | Todi           | ṆSgMPNŚ                    | ŚNDPMgRS                 | ṆSGMP, MGRS                       | P    | S    | 16 ~ 19      |      |
 | 44   | Madhyamad Sarang  | Kafi           | ṇSRmPnŚ                    | ŚnP, mRS                 | ṇSR, RmRPR, nP, mRS               | R    | P    | 7 ~ 10       |      |
