@@ -116,3 +116,13 @@ Crazy Box事务所成立于2000年1月，是松田系I’m Enterprise旗下事�
 
 [官网: www.kenproduction.co.jp](http://www.kenproduction.co.jp/)
 
+
+## Mausu Promotion
+
+![markdown](https://mausu.net/res/images/common/logo-agency.svg){:style="width: 150px; margin-left: 10px;"}
+
+Mausu Promotion 是日本一家声优事务所。原名为“江崎制作”（江崎プロダクション）的Mausu Promotion，于1974年成立，1995年转为有限公司，2000年更名为现称。
+
+拥有大部分为西方电影和电视剧配音的声优。事务所名称マウス的由来不是英语的“口”（mouth）而是“鼠”（mouse）（两者的日语片假名写法一样）。也因此事务所的吉祥物是一只老鼠的角色。旗下有专属的声优培训学院。2005年起，开始进军特摄节目的制作（主要是超级战队系列），其他声优则从事喜剧的配音。代表取缔役社长为小野光枝， 専务取缔役为纳谷僚介。
+
+[官网: mausu.net](https://mausu.net/)
