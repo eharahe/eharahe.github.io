@@ -86,3 +86,14 @@ ARTSVISION一直以培育偶像声优驰名。以林原惠为最知名的代表�
 I'm Enterprise Co.,Ltd.是日本的声优经纪公司。I'm Enterprise在1997年由ARTSVISION社长松田咲实成立，松田并兼任I'm Enterprise的社长。作为ARTSVISION的子公司。与ARTSVISION一样，主要从事管理旗下声优的工作。旗下知名声优有 松冈祯丞、钉宫理惠、早见沙织、日笠阳子等。
 
 [官网: www.imenterprise.jp](http://www.imenterprise.jp/)
+
+
+## 株式会社 ヴィムス
+
+![markdown](https://www.vims.co.jp/img/main.png){:style="width:240px;"}
+
+VIMS是日本一家声优经纪公司，属于ARTSVISION系列公司。VIMS于2001年创办，原本是I'm Enterprise内一个部门，2007年（平成20年）11月22日注册为株式会社，成为I'm Enterprise的子公司。
+
+为了配合森久保祥太郎加入I'm Enterprise时提出成立个人事务所的要求，I'm Enterprise成立了VIMS，以其下部门的形式运作。2007年，获得前属ARTSVISION的自由身女声优堀江由衣加入后，VIMS独立为I'm Enterprise的子公司。
+
+[官网: www.vims.co.jp](https://www.vims.co.jp)
