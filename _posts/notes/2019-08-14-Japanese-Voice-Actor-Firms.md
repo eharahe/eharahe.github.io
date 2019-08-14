@@ -110,7 +110,7 @@ Crazy Box事务所成立于2000年1月，是松田系I’m Enterprise旗下事�
 
 ## 賢プロダクション
 
-![markdown](http://www.kenproduction.co.jp/img/common/footer_logo_01.png)
+![markdown](http://www.kenproduction.co.jp/img/common/footer_logo_01.png){:style="width: 150px; margin-left: 10px;"}
 
 贤Production，简称「贤Pro」，是由身兼演员和声优的内海贤二于昭和59年（1984年）6月1日创办的艺能事务所有限公司，内海贤二亦担任社长至今。在2007年9月1日时改公司制为株式会社（股份公司）。主要为经办声优的管理等相关事务，声优的主要业务是动画、游戏、海外电影电视剧、节目旁白等工作的配音。内海妻子的野村道子也是其公司职员之一，并作为相谈役。代表声优有小西克幸。
 
@@ -119,9 +119,9 @@ Crazy Box事务所成立于2000年1月，是松田系I’m Enterprise旗下事�
 
 ## Mausu Promotion
 
-![markdown](https://mausu.net/res/images/common/logo-agency.svg){:style="width: 150px; margin-left: 10px;"}
+![markdown](https://mausu.net/res/images/common/logo-agency.svg){:style="width: 240px;"}
 
-Mausu Promotion 是日本一家声优事务所。原名为“江崎制作”（江崎プロダクション）的Mausu Promotion，于1974年成立，1995年转为有限公司，2000年更名为现称。
+Mausu Promotion（老鼠社）是日本一家声优事务所。原名为“江崎制作”（江崎プロダクション）的Mausu Promotion，于1974年成立，1995年转为有限公司，2000年更名为现称。
 
 拥有大部分为西方电影和电视剧配音的声优。事务所名称マウス的由来不是英语的“口”（mouth）而是“鼠”（mouse）（两者的日语片假名写法一样）。也因此事务所的吉祥物是一只老鼠的角色。旗下有专属的声优培训学院。2005年起，开始进军特摄节目的制作（主要是超级战队系列），其他声优则从事喜剧的配音。代表取缔役社长为小野光枝， 専务取缔役为纳谷僚介。
 
