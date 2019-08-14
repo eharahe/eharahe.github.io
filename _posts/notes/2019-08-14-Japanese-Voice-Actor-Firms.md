@@ -48,10 +48,10 @@ Atomic Monkey声优事务所（猴子社）于2000年8月在日本东京成立�
    
 ## 株式会社シグマ・セブン
 
-![markdown](http://www.sigma7.co.jp/img/logo.png){:style="background: url(http://www.sigma7.co.jp/img/bg.png) center top no-repeat; padding: 8px; width: 200px;"}
+![markdown](http://www.sigma7.co.jp/img/logo.png){:style="background: url(http://www.sigma7.co.jp/img/bg.png) center top no-repeat; padding: 8px; margin-left: 10px; width: 150px;"}
 
 Sigma 7，日本艺能事务所，1988年3月成立。原东京俳优生活协同组合旗下声优洼田等与槇大辅等人，于1988年3月独立创立Sigma 7事务所。
 
-Sigma 7主要业务是声优经纪，旁白解说员的比重逐渐增高，也有自由兼任播报员之经纪业务。在东映特摄的相关业务上，与洼田等与槇大辅的老归属“东京俳优生活协同组合”关系密切。
+Sigma 7主要业务是声优经纪，旁白解说员的比重逐渐增高，也有自由兼任播报员之经纪业务。在东映特摄的相关业务上，与洼田等与槇大辅的老归属“东京俳优生活协同组合”关系密切。旗下知名声优有 水树奈奈、中村悠一、若本规夫、陶山章央等。
 
 [官网: www.sigma7.co.jp](http://www.sigma7.co.jp/)
