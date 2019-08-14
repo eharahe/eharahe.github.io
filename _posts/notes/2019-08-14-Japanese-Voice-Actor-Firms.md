@@ -90,10 +90,20 @@ I'm Enterprise Co.,Ltd.是日本的声优经纪公司。I'm Enterprise在1997年
 
 ## 株式会社 ヴィムス
 
-![markdown](https://www.vims.co.jp/img/main.png){:style="width:240px;"}
+![markdown](https://www.vims.co.jp/img/main.png){:style="width: 180px; margin-left: -20px;"}
 
 VIMS是日本一家声优经纪公司，属于ARTSVISION系列公司。VIMS于2001年创办，原本是I'm Enterprise内一个部门，2007年（平成20年）11月22日注册为株式会社，成为I'm Enterprise的子公司。
 
 为了配合森久保祥太郎加入I'm Enterprise时提出成立个人事务所的要求，I'm Enterprise成立了VIMS，以其下部门的形式运作。2007年，获得前属ARTSVISION的自由身女声优堀江由衣加入后，VIMS独立为I'm Enterprise的子公司。
 
 [官网: www.vims.co.jp](https://www.vims.co.jp)
+
+
+## 株式会社クレイジーボックス
+
+![markdown](https://crazy-box.co.jp/wp/wp-content/themes/crazybox/images/logo_L.png){:style="width:240px;"}
+
+Crazy Box事务所成立于2000年1月，是松田系I’m Enterprise旗下事务所之一。业务内容包括：艺人培养；舞台剧及各种活动企划、制作与运营；电视、电台番組及商业电影的企画・制作；艺人粉丝俱乐部运营；音乐、乐曲原版制作及出版等。代表声优有大冢芳忠。
+
+[官网: crazy-box.co.jp](https://crazy-box.co.jp/)
+
