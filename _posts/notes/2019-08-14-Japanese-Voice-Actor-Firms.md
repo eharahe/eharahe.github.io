@@ -101,9 +101,18 @@ VIMS是日本一家声优经纪公司，属于ARTSVISION系列公司。VIMS于20
 
 ## 株式会社クレイジーボックス
 
-![markdown](https://crazy-box.co.jp/wp/wp-content/themes/crazybox/images/logo_L.png){:style="width:240px;"}
+![markdown](https://crazy-box.co.jp/wp/wp-content/themes/crazybox/images/logo_L.png){:style="width: 150px; margin-left: 20px;"}
 
 Crazy Box事务所成立于2000年1月，是松田系I’m Enterprise旗下事务所之一。业务内容包括：艺人培养；舞台剧及各种活动企划、制作与运营；电视、电台番組及商业电影的企画・制作；艺人粉丝俱乐部运营；音乐、乐曲原版制作及出版等。代表声优有大冢芳忠。
 
 [官网: crazy-box.co.jp](https://crazy-box.co.jp/)
+
+
+## 賢プロダクション
+
+![markdown](http://www.kenproduction.co.jp/img/common/footer_logo_01.png)
+
+贤Production，简称「贤Pro」，是由身兼演员和声优的内海贤二于昭和59年（1984年）6月1日创办的艺能事务所有限公司，内海贤二亦担任社长至今。在2007年9月1日时改公司制为株式会社（股份公司）。主要为经办声优的管理等相关事务，声优的主要业务是动画、游戏、海外电影电视剧、节目旁白等工作的配音。内海妻子的野村道子也是其公司职员之一，并作为相谈役。代表声优有小西克幸。
+
+[官网: www.kenproduction.co.jp](http://www.kenproduction.co.jp/)
 
