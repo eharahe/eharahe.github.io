@@ -68,7 +68,7 @@ Sigma 7主要业务是声优经纪，旁白解说员的比重逐渐增高，也�
 
 ## 株式会社アーツビジョン
 
-![markdown](https://www.artsvision.co.jp/wp-content/themes/artsvision999/images/logo.png){:style="background:#002e84; padding: 8px;"}
+![markdown](https://www.artsvision.co.jp/wp-content/themes/artsvision999/images/logo.png){:style="background:#002e84; padding: 10px; width:240px;"}
 
 ARTSVISION Inc.(AV社) 是日本一家艺能事务所，主要从事声优管理的工作，成立与1984年6月1日，由当时東京俳優生活協同組合（俳協）的经理松田咲实独自创建的，现今是日本最著名的声优事物所之一。
 
