@@ -1,3 +1,14 @@
+---
+layout: default
+title: Japanese Voice Actor Firms
+permalink: /notes/japanese-voice-actor-firms
+tags: sound-design 
+category: sound-system-design
+excerpt_separator: <!--break-->
+---
+
+<!--break-->  
+
 ## 東京俳優生活協同組合
 
 ![markdown](https://haikyo.co.jp/common/img/logo_header01.gif "俳協")
@@ -15,3 +26,11 @@
 从建立时起，青二事务所就是业内的佼佼者，直至现在也占有重要地位。公司有非常多的一线人气声优。久保进的基本理念是“出色的声优是出色的演员”。以前与东映动画（现更名“东映Animation”）关系密切。但在20世纪90年代后期，与东映的合作变少。但与其他动画制作单位的合作增多，如：ぎゃろっぷ、スタジオコメット、オービー企画等。同时，青二的很多声优也在コーエー、日本ファルコム、フライト·プラン制作等游戏制作公司的游戏中演出。
 
 [官网: www.aoni.co.jp](https://www.aoni.co.jp/)
+
+## 大沢事務所
+
+![markdown](https://osawa-inc.co.jp/wordpress/wp-content/themes/osawa/images/common/osawa31878.png "大沢")
+
+大泽事务所是于日本东京都港区为根据地的艺能事务所股份有限公司。1984年4月由大泽和男设立。主要经办电视节目、广告、旁白等的声优管理事务。旗下知名声优有 井口裕香、茅野爱衣、花泽香菜、日高里菜、种田梨沙、能登麻美子等。
+
+[官网: osawa-inc.co.jp](https://osawa-inc.co.jp/)
