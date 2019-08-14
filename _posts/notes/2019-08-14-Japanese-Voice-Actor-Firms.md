@@ -37,7 +37,7 @@ excerpt_separator: <!--break-->
    
 ## Atomic Monkey
 
-![markdown](http://atomicmonkey.cn/home/images/bg2.jpg "猴子社"){:width: 220px;"}
+![markdown](http://atomicmonkey.cn/home/images/bg2.jpg "猴子社"){:style="width: 220px;"}
 
 Atomic Monkey声优事务所（猴子社）于2000年8月在日本东京成立。近年来，发挥自身在日本动漫产业和声优产业的优势，与各界加强国际合作关系，成立集团公司并相继在中国、美国、法国设立分公司，力争将自身打造成为一个国际化语音与娱乐产业的综合平台。
 
