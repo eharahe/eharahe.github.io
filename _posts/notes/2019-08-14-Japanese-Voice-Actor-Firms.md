@@ -110,7 +110,7 @@ Crazy Box事务所成立于2000年1月，是松田系I’m Enterprise旗下事�
 
 ## 賢プロダクション
 
-![markdown](http://www.kenproduction.co.jp/img/common/footer_logo_01.png){:style="width: 300px;"}
+![markdown](http://www.kenproduction.co.jp/img/common/header_logo_01.png){:style="width: 300px;"}
 
 贤Production，简称「贤Pro」，是由身兼演员和声优的内海贤二于昭和59年（1984年）6月1日创办的艺能事务所有限公司，内海贤二亦担任社长至今。在2007年9月1日时改公司制为株式会社（股份公司）。主要为经办声优的管理等相关事务，声优的主要业务是动画、游戏、海外电影电视剧、节目旁白等工作的配音。内海妻子的野村道子也是其公司职员之一，并作为相谈役。代表声优有小西克幸。
 
