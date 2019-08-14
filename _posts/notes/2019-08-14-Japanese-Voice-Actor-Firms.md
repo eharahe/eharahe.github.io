@@ -27,6 +27,7 @@ excerpt_separator: <!--break-->
 
 [官网: www.aoni.co.jp](https://www.aoni.co.jp/)
    
+   
 ## 大沢事務所
 
 ![markdown](https://osawa-inc.co.jp/wordpress/wp-content/themes/osawa/images/common/osawa31878.png "大沢")
@@ -35,12 +36,22 @@ excerpt_separator: <!--break-->
 
 [官网: osawa-inc.co.jp](https://osawa-inc.co.jp/)
    
+   
 ## Atomic Monkey
 
-![markdown](http://atomicmonkey.cn/home/images/bg2.jpg "猴子社"){:style="width: 220px;"}
+![markdown](http://atomicmonkey.cn/home/images/bg2.jpg "猴子社"){:style="width: 180px;"}
 
 Atomic Monkey声优事务所（猴子社）于2000年8月在日本东京成立。近年来，发挥自身在日本动漫产业和声优产业的优势，与各界加强国际合作关系，成立集团公司并相继在中国、美国、法国设立分公司，力争将自身打造成为一个国际化语音与娱乐产业的综合平台。
 
 [官网: www.atomicmonkey.jp](http://www.atomicmonkey.jp/)
    
    
+## 株式会社シグマ・セブン
+
+![markdown](http://www.sigma7.co.jp/img/logo.png){:style="background: url(http://www.sigma7.co.jp/img/bg.png) center top no-repeat; padding: 8px; width: 200px;"}
+
+Sigma 7，日本艺能事务所，1988年3月成立。原东京俳优生活协同组合旗下声优洼田等与槇大辅等人，于1988年3月独立创立Sigma 7事务所。
+
+Sigma 7主要业务是声优经纪，旁白解说员的比重逐渐增高，也有自由兼任播报员之经纪业务。在东映特摄的相关业务上，与洼田等与槇大辅的老归属“东京俳优生活协同组合”关系密切。
+
+[官网: www.sigma7.co.jp](http://www.sigma7.co.jp/)
