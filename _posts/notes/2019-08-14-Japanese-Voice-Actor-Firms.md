@@ -55,3 +55,25 @@ Sigma 7，日本艺能事务所，1988年3月成立。原东京俳优生活协�
 Sigma 7主要业务是声优经纪，旁白解说员的比重逐渐增高，也有自由兼任播报员之经纪业务。在东映特摄的相关业务上，与洼田等与槇大辅的老归属“东京俳优生活协同组合”关系密切。旗下知名声优有 水树奈奈、中村悠一、若本规夫、陶山章央等。
 
 [官网: www.sigma7.co.jp](http://www.sigma7.co.jp/)
+   
+   
+## 81プロデュース
+
+![markdown](https://www.81produce.co.jp/dcms_media/image/common/logo.png)
+
+81 Produce（81プロデュース）是日本的艺能事务所之一。其成立于1981年2月，与NHK关系密切。“81 PRODUCE”社名的由来就是因为它成立于1981年。当时，一家叫“PRODUCTION BAOBAB”的声优事务所成立了一个INVENT企画部，原指望借此拓展事业，想不到该部负责人南泽道义一上任，就带着全班人马从BAOBAB独立了出去，也算是够没“道义”的了，这位老兄至今仍是81 PRO的老板。
+
+[官网: www.81produce.co.jp](https://www.81produce.co.jp/)
+
+
+## 株式会社アーツビジョン
+
+![markdown](https://www.artsvision.co.jp/wp-content/themes/artsvision999/images/logo.png){:style="background:#002e84; padding: 8px;"}
+
+ARTSVISION Inc.(AV社) 是日本一家艺能事务所，主要从事声优管理的工作，成立与1984年6月1日，由当时東京俳優生活協同組合（俳協）的经理松田咲实独自创建的，现今是日本最著名的声优事物所之一。
+
+ARTSVISION一直以培育偶像声优驰名。以林原惠为最知名的代表，ARTSVISION曾培育三石琴乃、椎名碧流、横山智佐、白鸟由里、天野由梨等多名高人气的偶像声优。
+
+1997年，ARTSVISION设立了子公司I'm Enterprise以分担其业务。
+
+[官网: www.artsvision.co.jp](https://www.artsvision.co.jp/)
