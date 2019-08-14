@@ -76,4 +76,13 @@ ARTSVISION一直以培育偶像声优驰名。以林原惠为最知名的代表�
 
 1997年，ARTSVISION设立了子公司I'm Enterprise以分担其业务。
 
-[官网: www.artsvision.co.jp](https://www.artsvision.co.jp/)
+[官网: www.artsvision.co.jp](https://www.artsvision.co.jp/)   
+   
+
+## 株式会社アイムエンタープライズ
+
+![markdown](http://www.imenterprise.jp/img/logo_color_1.png)
+
+I'm Enterprise Co.,Ltd.是日本的声优经纪公司。I'm Enterprise在1997年由ARTSVISION社长松田咲实成立，松田并兼任I'm Enterprise的社长。作为ARTSVISION的子公司。与ARTSVISION一样，主要从事管理旗下声优的工作。旗下知名声优有 松冈祯丞、钉宫理惠、早见沙织、日笠阳子等。
+
+[官网: www.imenterprise.jp](http://www.imenterprise.jp/)
