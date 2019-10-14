@@ -268,7 +268,7 @@ samp {
   line-height: 1.3;
 }
 .highlight, .highlight .w {
-  color: #d0d0d0; }
+  color: #d0d0d0; width: 100%; }
 
 .highlight .err {
   color: #151515;
