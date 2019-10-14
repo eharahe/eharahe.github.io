@@ -259,8 +259,6 @@ ICRD                2018-07-05
 | Snapper                            | $79\.00            | 10\.9\.5\+      |                                                        | 100 days | Serial Number             |                       |            | Single File  |           |           |                |                |                                             |               | √         |            | √        |           |           |            | √           |            | DnD, Timeline      |                               | 192                      | √                      |            |                  |
 | NOTES                              |                    |                 | \* = extra software required                           |          |                           |                       |            |              |           |           |                |                | \* = total fields, only some are modifiable |               |           |            |          |           |           |            |             |            |                    |                               | • = max tested           |                        |            |                  |
 
-</div>
-
 ## References
 
 [Sound FX Metadata Tech Specs: Demystified](https://www.creativefieldrecording.com/2016/08/25/sound-fx-metadata-tech-specs-demystified/)
