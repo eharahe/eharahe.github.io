@@ -213,7 +213,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
   margin: 0 0 10px;
   font-size: 12px;
   display: block;
-  max-width: 1100px;
+  max-width: 1200px;
   overflow: auto;
 }
 .markdown li{
