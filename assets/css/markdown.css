@@ -175,14 +175,16 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .markdown th {
   text-align: left;
   padding: 3px 4px;
-  border-bottom: 1px solid rgba(165, 192, 203, 0.8);
-  color: #b6b6b6;
+  border-bottom: 1px solid rgb(86, 96, 103);
+  color: #f1ed85;
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  background: #648490;
   font-weight: normal; }
 
 .markdown td {
   text-align: left;
   padding: 3px 4px;
+  background: #f1f7f9;
   border-bottom: 1px solid rgba(191, 211, 219, 0.5) }
 
 .markdown blockquote {
