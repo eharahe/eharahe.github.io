@@ -227,6 +227,8 @@ ICRD                2018-07-05
 
 # Metadata App Comparison Chart
 
+<div style="width:100%; overflow-x: scroll">
+
 | Product Name                       | Price              | Mac OS          | Windows                                                | Demo     | Copy Protection           | Embed                 | Batch Meta | Search Style | \# of DBs | Playlists | Text DB Import | Text DB Export | Number of Fields                            | Custom Fields | BEXT Read | BEXT Write | ID3 Read | ID3 Write | iXML Read | iXML Write | Multi\-chnl?| Adv Search | Transfer to DAW    | In\-App Editing or Processing | Max Sampling Rate        | Sample Rate Conversion | ReWire     | Plug\-in Support |
 |------------------------------------|--------------------|-----------------|--------------------------------------------------------|----------|---------------------------|-----------------------|------------|--------------|-----------|-----------|----------------|----------------|---------------------------------------------|---------------|-----------|------------|----------|-----------|-----------|------------|-------------|------------|--------------------|-------------------------------|--------------------------|------------------------|------------|------------------|
 | Soundminer Standard                | $599\.00           | 10\.7\-10\.12   |                                                        | 30 days  | iLok, HASP                | √                     |            | DB           | ∞         | √         | √              | √              | 64\*                                        |               | √         | √          | √        | √         | √         | √          | √           | √          | DnD, Bin, Timeline |                               | 192 / 24                 | √                      | 2\-channel |                  |
@@ -257,10 +259,8 @@ ICRD                2018-07-05
 | Snapper                            | $79\.00            | 10\.9\.5\+      |                                                        | 100 days | Serial Number             |                       |            | Single File  |           |           |                |                |                                             |               | √         |            | √        |           |           |            | √           |            | DnD, Timeline      |                               | 192                      | √                      |            |                  |
 | NOTES                              |                    |                 | \* = extra software required                           |          |                           |                       |            |              |           |           |                |                | \* = total fields, only some are modifiable |               |           |            |          |           |           |            |             |            |                    |                               | • = max tested           |                        |            |                  |
 
-max-width: 1100px;
-    overflow-x: scroll;
-    display: block;
-    font-size: 8px;
+</div>
+
 ## References
 
 [Sound FX Metadata Tech Specs: Demystified](https://www.creativefieldrecording.com/2016/08/25/sound-fx-metadata-tech-specs-demystified/)
