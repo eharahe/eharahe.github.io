@@ -174,7 +174,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 .markdown th {
   text-align: left;
-  padding: 5px 10px;
+  padding: 3px 4px;
   border-bottom: 1px solid rgba(165, 192, 203, 0.8);
   color: #b6b6b6;
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
@@ -182,7 +182,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 .markdown td {
   text-align: left;
-  padding: 5px 10px;
+  padding: 3px 4px;
   border-bottom: 1px solid rgba(191, 211, 219, 0.5) }
 
 .markdown blockquote {
@@ -209,6 +209,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 .markdown p, .markdown table, ul, ol, table, pre, dl {
   margin: 0 0 10px;
+  font-size: 12px
 }
 .markdown li{
   margin: 0 0 5px;
