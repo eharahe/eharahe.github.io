@@ -2,8 +2,8 @@
 layout: default
 title: DanganRonpa Music Analysis
 permalink: /notes/dangan-ronpa-music-analysis
-tags: sound-design music
-category: sound-system-design
+tags: danganronpa-cover.jpg
+category: game-audio
 excerpt_separator: <!--break-->
 ---
 

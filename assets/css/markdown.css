@@ -1,158 +1,97 @@
-body{
-  background: url(/assets/images/bkg1.png) repeat;
-}
-nav.panel, .markdown{
-  box-shadow: 0 2px 4px rgba(140, 140, 122, .1);
-}
-nav.navbar{
-  box-shadow: 0 2px 4px rgba(140, 140, 122, .5);
-}
-a{
-  color: #af952e;
-}
-.section{
-  padding: 1.5rem 1rem;
-}
-.column .panel-heading{
-  border-width: 0.5px;
-  background: #eceae0;
-  color: #9c8941;
-}
-.column .panel-block{
-  background: rgba(255,255,255,.4);
-  border-width: 0.5px;
-}
-.panel-heading i{
-  font-size: 0.8em;
-}
-.markdown p.panel-heading{
-  margin: 0;
-}
-.post-date{
-  font-size:.75em;
-  color:#999;
-}
-.post-abbs{
-  width: 100%;
-  max-height: 150px;
-  overflow-y: hidden;
-  font-size: .8em;
-  opacity: .85;
-}
-.markdown li.tag-post-item{
-  margin-bottom: 30px;
-}
-.tag-post-item .panel-heading{
-  padding:.3em .4em;
-  font-size: 1em;
-  font-weight: 400;
-}
-.tag-post-item .panel-block{
-  padding:.8em 1.5em .5em
-  background: rgba(235, 233, 225, 0.4);
-}
 @font-face {
-  font-family: "Sacramento";
-  src: url("/assets/fonts/MessyInkPen-Regular.eot?") format("eot"), url("/assets/fonts/MessyInkPen-Regular.woff") format("woff"), url("/assets/fonts/MessyInkPen-Regular.ttf") format("truetype"), url("/assets/fonts/MessyInkPen-Regular.svg#MessyInkPen-Regular") format("svg");
+  font-family: "Kalam";
+  src: url("/assets/fonts/Kalam-Regular.eot?") format("eot"), url("/assets/fonts/Kalam-Regular.woff") format("woff"), url("/assets/fonts/Kalam-Regular.ttf") format("truetype"), url("/assets/fonts/Kalam-Regular.svg#Kalam-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-.navbar-brand .logowd{
-  font-family: 'Sacramento';
-  font-style: italic;
-  letter-spacing: 1px;
-}
-.navbar-item .logo, .navbar-item .logowd{
-  color: #009f6d;
-  position: relative; 
-  background: -webkit-gradient(linear, 0 30%, 0 100%, from(#dec151), to(#009f6d));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.sidebar-col{
-  width: 340px;
-}
-@media screen and (max-width: 768px) {
-  .sidebar-col{
-    width: auto;
-  }
-}
-.sidebar-col .sidebar-tag{
-  background-color: #edece8;
-}
-a.panel-block:hover {
-  background-color: #f7f6eb;
-}
-.recent-posts-ul{
-  width: 100%;
-  margin: 0;
-  padding: 10px;
-}
-.recent-posts-item{
-  line-height: 28px;
-  display: flex;
-}
-.recent-post-lkdiv{
-  width: 70%;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  font-size: .9em;
-}
-.recent-posts-item .post-date{
-  width: 30%;
-  display: block;
-  text-align: right;
-}
-#map #bodyContent{
-  font-family: "KaiTi", "STKaiTi";
-}
-#map #bodyContent p{
-  margin-bottom: 10px;
-}
 
 /*markdown*/
-h1 {
+.markdown h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
-
-h2 {
-  font-size: 1.5em;
-  margin: 0.83em 0; }
-
-h3 {
-  font-size: 1.17em;
-  margin: 1em 0; }
-
-h4 {
-  font-size: 1em;
-  margin: 1.33em 0; }
-
-h5 {
-  font-size: 0.83em;
-  margin: 1.67em 0; }
-
-h6 {
-  font-size: 0.75em;
-  margin: 2.33em 0; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
+  margin: 0.67em 0; 
 }
+.markdown h2 {
+  font-size: 1.5em;
+  margin: 2em 0 1.4em;
+}
+.markdown h3 {
+  font-size: 1.17em;
+  margin: 1.8em 0 1.67em;
+}
+.markdown h4 {
+  font-size: 1.2em;
+  margin: 1.33em 0;
+}
+.markdown h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+.markdown h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+/*h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}*/
+
 .markdown {
-  background: #fefefe;
-  /*padding: 45px 30px;*/
-  padding: 3em 1.5em;
-  border: .5px solid #dbdbdb;
-  border-top-color: #e5e5e5;
-  border-left-color: #e5e5e5;
+  background: rgba(255,255,255,.05);
+  padding: 90px 30px;
+  padding: 4em 3em;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.markdown .title{
+  position: absolute;
+  right: 0;
+  top: -180px;
+  height: 180px;  
+  width: 100%;
+  text-align: right;
+  background: linear-gradient(rgb(66 58 58 / 0%), rgb(0 0 0 / 70%)); 
+  padding: 0 20px;
+  line-height: 180px;
+}
+.markdown .title span{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 53px;
+  font-size: 36px;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-shadow: 2px 2px 8px #222;
 }
 .markdown .title:not(.is-spaced)+.subtitle{
   margin-top: -1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
+@media (max-width: 991.98px) {
+  .markdown {
+    padding: 3em 1.5em;
+  }
+  .markdown .title{
+    position: absolute;
+    right: 0;
+    top: -120px;
+    height: 120px;
+    width: 100%;
+    text-align: right;
+    background: linear-gradient(rgb(66 58 58 / 0%), rgb(0 0 0 / 70%));
+    line-height: 120px;
+  }
+  .markdown .title span{
+    line-height: 38px;
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+}
+
 .markdown img {
-  /*box-shadow: 1px 1px 8px rgba(89, 83, 48, 0.1)*/
+  margin: 1em 0;
+  max-width: 100%;
+  /*background: rgb(104 150 218 / 10%);*/
 }
 @media
 only screen and (-Webkit-min-device-pixel-ratio: 1.5),
@@ -170,54 +109,49 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 .markdown table {
   width: 100%;
-  border-collapse: collapse; }
-
+  border-collapse: collapse; 
+}
 .markdown th {
   text-align: left;
-  padding: 3px 4px;
-  border-bottom: 1px solid rgb(86, 96, 103);
-  color: #f1ed85;
+  padding: 3px 8px;
+  color: #ddd;
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  background: #648490;
-  font-weight: normal; }
-
+  background: rgb(12 29 47 / 15%);
+  font-weight: normal;
+  line-height: 1.8em;
+}
 .markdown td {
   text-align: left;
-  padding: 3px 4px;
-  background: #f1f7f9;
-  border-bottom: 1px solid rgba(191, 211, 219, 0.5) }
-
+  padding: 3px 8px;
+  background: rgb(30 112 171 / 7%);
+  border-bottom: 1px solid rgba(191, 211, 219, .1); 
+  line-height: 1.6em;
+}
 .markdown blockquote {
   border-left: 5px solid #cebb72;
   background: rgba(206, 187, 114, 0.05);
-  margin: 0 0 10px;
+  margin: 0 0 1.5em;
   padding: 10px 5px 10px 20px;
   font-family: 'Kalam', 'KaiTi', 'STKaiTi';
-  color: rgba(0,0,0,.68);
+  color: rgb(187 177 136);
 }
 .markdown blockquote p{
   margin: 0;
-}
-@font-face {
-  font-family: "Kalam";
-  src: url("/assets/fonts/Kalam-Regular.eot?") format("eot"), url("/assets/fonts/Kalam-Regular.woff") format("woff"), url("/assets/fonts/Kalam-Regular.ttf") format("truetype"), url("/assets/fonts/Kalam-Regular.svg#Kalam-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  font-size: 16px;
 }
 .markdown em{
-  font-family: Monaco, Bitstream Vera Sans Mono, Consolas, Lucida Console, Terminal, 'KaiTi', 'STKaiTi';
-  color: #076;
-/*  font-size: .9em;*/
+  font-family: Monaco, Bitstream Vera Sans Mono, Consolas, Lucida Console, Terminal;
+  color: #a8d6de;
 }
 .markdown p, .markdown table, ul, ol, table, pre, dl {
-  margin: 0 0 10px;
-  font-size: 12px;
+  margin: 0 0 15px;
+  font-size: 15px;
+  line-height: 2.2em;
   display: block;
-  max-width: 1200px;
   overflow: auto;
 }
 .markdown li{
-  margin: 0 0 5px;
+  margin: 0 0 1px;
 }
 .markdown .footnotes p{
   margin-bottom: 0;
@@ -229,7 +163,7 @@ menu, ol, ul {
 }
 
 dl, menu, ol, ul {
-  margin: 1em 0;
+  /*margin: 1em 0;*/
 }
 
 ul{
@@ -244,13 +178,14 @@ samp {
   _font-family: 'courier new', monospace;
   font-size: 1em; }
 
+/*markdown code*/
 .markdown code{
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
   font-size: 13px;
-  font-size: 1em;
   color: #F44336;
-  font-size: 0.875em;
+  font-size: 0.6em;
   line-height: 1;
+  letter-spacing: 0;
 }
 .markdown pre code { 
   color: #efefef;
@@ -268,7 +203,7 @@ samp {
   padding: .8rem 1.2rem;
   background: #444;
   border-radius: 3px;
-  box-shadow: inset -1px -1px 1px rgba(112, 110, 104, 0.8), inset 1px 1px 3px rgb(31, 31, 31);
+  box-shadow: inset -1px -1px 1px rgb(95 93 93), inset 1px 1px 1px rgb(33 31 24);
   overflow: auto;
   overflow-y: hidden;
   line-height: 1.3;
@@ -347,29 +282,7 @@ samp {
 .highlight .ss {
   color: #90a959; }
 
-@font-face {
-  font-family: "Silkroad";
-  src: url("/assets/fonts/SilkRoad.eot?") format("eot"), url("/assets/fonts/SilkRoad.woff") format("woff"), url("/assets/fonts/SilkRoad.ttf") format("truetype"), url("/assets/fonts/SilkRoad.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-::-webkit-scrollbar
-{
-    width: 8px;
-    height: 8px;
-    background-color: #F5F5F5;
-}
-
-::-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.1);
-    background-color: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb
-{
-    border-radius: 5px;
-    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.1);
-    background-color: #c1c1c1;
+.markdown a{
+  display: inline-block;
+  line-height: 1.6em;
 }

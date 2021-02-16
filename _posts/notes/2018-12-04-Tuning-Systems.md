@@ -2,8 +2,8 @@
 layout: default
 title: Tuning Systems
 permalink: /notes/tuning-systems
-tags: tuning music
-category: acoustics
+tags: tuning.jpg
+category: audio-technique
 excerpt_separator: <!--break-->
 ---
 

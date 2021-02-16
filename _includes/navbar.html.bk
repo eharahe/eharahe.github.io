@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+<div class="container">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link active" href="https://preview.colorlib.com/theme/rezume/#section-home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="https://preview.colorlib.com/theme/rezume/#section-portfolio">Portfolio</a></li>
+<li class="nav-item"><a class="nav-link" href="https://preview.colorlib.com/theme/rezume/#section-resume">Resume</a></li>
+<li class="nav-item"><a class="nav-link" href="https://preview.colorlib.com/theme/rezume/#section-about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="https://preview.colorlib.com/theme/rezume/#section-contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+
+  <div class="container is-fullhd">
+    <div class="navbar-brand">
+      <a class="navbar-item title is-4" href="/">
+        <span class="icon logo"><i class="fa fa-lemon"></i></span>&nbsp;
+        <span class="title is-3 logowd"><b>How To Draw A Mango?&nbsp;&nbsp;</b></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <div class="navbar-link">
+            The Silk Road
+          </div>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="/silkroad/overview">
+              Overview
+            </a>
+            <a class="navbar-item" href="/silkroad/countries">
+              Countries
+            </a>
+            <a class="navbar-item" href="/silkroad/maps">
+              Maps
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{ site.github.repository_url }}" target="_blank">
+          <span class="icon is-small"><i class="fab fa-github"></i></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

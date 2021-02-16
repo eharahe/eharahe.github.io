@@ -2,8 +2,8 @@
 layout: default
 title: Loudness Bit-depth & More
 permalink: /notes/loudness
-tags: sound
-category: acoustics
+tags: loudness.jpg
+category: audio-technique
 excerpt_separator: <!--break-->
 ---
 

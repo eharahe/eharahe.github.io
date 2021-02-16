@@ -26,8 +26,11 @@ encoding: UTF-8
 
 theme: jekyll-theme-midnight
 
-title: holyboat
-description: How To Draw A Mango?
+title: He Yizhou
+description: The Sound Designer
 
 show_downloads: false
 google_analytics: UA-97842201-2
+
+paginate: 10
+paginate_path: "blog/page:num"

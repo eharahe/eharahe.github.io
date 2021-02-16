@@ -4,29 +4,41 @@ title: Show Posts By Category
 permalink: /category
 ---
 
-<div id="cate-list">
+<div class="row" id="category_filter">
+  <div class="section-heading text-center col-md-12">
+    <h2>Category <strong>Filters</strong></h2>
+  </div>
+</div>
+<div class="filters">
+  <ul>
+    <li class="active" data-filter="*">All</li>
+    {% for category in site.categories %}
+      <li data-filter=".{{category[0]}}">{{category[0]}}</li>
+    {% endfor %}
+  </ul>
+</div>
+<div id="cate-list" class="row grid">
   {% for cate in site.categories %}
-    <div class="cate-list-item" cate="{{cate[0]}}" style="display:none;">
-      <div class="cate-name title is-3"><span class="icon title is-5"><i class="fa fa-folder-open"></i></span>&nbsp;{{cate[0]}}</div>
-      <ul>
-        {% for post in cate[1] %}
-        <li class="tag-post-item">
-          <nav class="panel">
-            <p class="panel-heading">
-              <a class="cate-post-link" href="{{post.url}}">{{post.title}}</a>
-              <span class="post-date">{{post.date | date:"%Y年%m月%d日"}}</span>
-            </p>
-            <div class="panel-block">
-              <div class="post-abbs">{{post.excerpt}}</div>
-            </div>
-          </nav>  
-        </li>
-        {% endfor %}
-      </ul> 
+  {% for post in cate[1] %}
+  <div class="single-blog-post post-style-4 align-items-center all {{ cate[0] }}" >
+    <a href="{{ post.url }}" class="post-thumbnail-link" >
+      <div class="post-thumbnail" style="background:url(/assets/images/post/{{ post.tags[0] }});background-size: cover;background-position: center;"></div>
+    </a>
+
+    <div class="post-content">
+      <a class="cate-post-link" href="{{post.url}}">{{post.title}}</a>
+      <div class="post-abbs">{{post.excerpt}}</div>
+      <div class="post-meta">
+      <p>
+        <a href="javascript:void(0);" class="post-date"><span class="icon is-small"><i class="far fa-calendar"></i></span>&nbsp;{{post.date | date_to_string}}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="?cate={{cate[0]}}" class="post-category"><span class="icon is-small"><i class="fa fa-book"></i></span>&nbsp;{{cate[0]}}</a>
+      </p>
+      </div>
     </div>
+  </div>
+  {% endfor %}
   {% endfor %}
 </div>
-
 <script>
   (function ($) {
     $.getUrlParam = function (name) {
@@ -36,6 +48,9 @@ permalink: /category
     }
   })(jQuery);
   var curTag = $.getUrlParam("cate");
-  var tagItem = $('#cate-list .cate-list-item[cate="'+ curTag +'"]');
-  tagItem.show();
+
+  setTimeout(function(){
+    console.log(curTag)
+    $('.filters li[data-filter=".'+curTag+'"]').click();
+  }, 0);
 </script>

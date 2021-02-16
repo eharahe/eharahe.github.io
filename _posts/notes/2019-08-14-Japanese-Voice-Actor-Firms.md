@@ -2,16 +2,23 @@
 layout: default
 title: Japanese Voice Actor Firms
 permalink: /notes/japanese-voice-actor-firms
-tags: sound-design 
-category: sound-system-design
+tags: jap-voice-actor-cover.jpg 
+category: game-audio
 excerpt_separator: <!--break-->
 ---
 
+从1960年「東京俳優生活協同組合」设立以来，历经半个多世纪的发展，配音职业已经从最初的译制片“声替”衍变成为当下备受瞩目的声优偶像。声优事务所之间的渊源也从侧面反映了这一段发展历程。
+
 <!--break-->  
+
+脑海里又浮现起了 cctv-6 看译制片时的赶脚，不知道当年的日本译制片是不是这味儿😂
+
+> A：哦，看在上帝的份儿上，你就不能表现得更加绅士一些？  
+> B：我发誓，下次碰见你，我一定会狠狠地踢你的屁股，你最好滚得远远的！嗯，就是这样。
 
 ## 東京俳優生活協同組合
 
-![markdown](https://haikyo.co.jp/common/img/logo_header01.gif "俳協")
+![markdown](/assets/images/VoiceFirmLogo/haikyologo.png "俳協"){:style="width: 110px;"}
 
 東京俳優生活協同組合，简称俳協，设立于1960年，被视为声优事务所的始祖。作为一个演艺事务所，俳协采用的是以俳优（演员）&经纪人出资、共同运营的生活协同组合这样的特殊方式，由所属的俳优及其经纪人投票选出理事会进行运营。俳协分剧团和声优两个部门，目前经营着俳优养成所、声优养成所、剧场等，成员超过300人。
 
@@ -19,7 +26,7 @@ excerpt_separator: <!--break-->
    
 ## 青二プロダクション
 
-![markdown](https://www.aoni.co.jp/img/common/logo.png "青二"){:style="background: #3C66C6; padding: 8px; width: 260px;"}
+![markdown](/assets/images/VoiceFirmLogo/aoni.png "青二"){:style="width: 110px;"}
 
 1969年4月，东京演员消费合作社（简称“俳协”）创建者之一的久保进创立了日本第一个声优事务所。因总部位于东京都港区的南青山2丁目由此得名，为日本首个专门经营声优事务的事务所。旗下子公司有青二音楽出版、青二Entertainment，以及为业界源源不断输送人才的养成所「青二塾」。
 
@@ -48,7 +55,7 @@ Atomic Monkey声优事务所（猴子社）于2000年8月在日本东京成立�
    
 ## 株式会社シグマ・セブン
 
-![markdown](http://www.sigma7.co.jp/img/logo.png){:style="background: url(http://www.sigma7.co.jp/img/bg.png) center top no-repeat; padding: 8px; margin-left: 10px; width: 150px;"}
+![markdown](/assets/images/VoiceFirmLogo/sigma7.png){:style="width: 110px;"}
 
 Sigma 7，日本艺能事务所，1988年3月成立。原东京俳优生活协同组合旗下声优洼田等与槇大辅等人，于1988年3月独立创立Sigma 7事务所。
 
@@ -59,7 +66,7 @@ Sigma 7主要业务是声优经纪，旁白解说员的比重逐渐增高，也�
    
 ## 81プロデュース
 
-![markdown](https://www.81produce.co.jp/dcms_media/image/common/logo.png)
+![markdown](/assets/images/VoiceFirmLogo/81produce.png){:style="width: 210px;"}
 
 81 Produce（81プロデュース）是日本的艺能事务所之一。其成立于1981年2月，与NHK关系密切。“81 PRODUCE”社名的由来就是因为它成立于1981年。当时，一家叫“PRODUCTION BAOBAB”的声优事务所成立了一个INVENT企画部，原指望借此拓展事业，想不到该部负责人南泽道义一上任，就带着全班人马从BAOBAB独立了出去，也算是够没“道义”的了，这位老兄至今仍是81 PRO的老板。
 
@@ -68,7 +75,7 @@ Sigma 7主要业务是声优经纪，旁白解说员的比重逐渐增高，也�
 
 ## 株式会社アーツビジョン
 
-![markdown](https://www.artsvision.co.jp/wp-content/themes/artsvision999/images/logo.png){:style="background:#002e84; padding: 10px; width:240px;"}
+![markdown](https://www.artsvision.co.jp/wp-content/themes/artsvision999/images/logo.png){:style="width:240px;"}
 
 ARTSVISION Inc.(AV社) 是日本一家艺能事务所，主要从事声优管理的工作，成立与1984年6月1日，由当时東京俳優生活協同組合（俳協）的经理松田咲实独自创建的，现今是日本最著名的声优事物所之一。
 
@@ -81,7 +88,7 @@ ARTSVISION一直以培育偶像声优驰名。以林原惠为最知名的代表�
 
 ## 株式会社アイムエンタープライズ
 
-![markdown](http://www.imenterprise.jp/img/logo_color_1.png)
+![markdown](/assets/images/VoiceFirmLogo/im.png)
 
 I'm Enterprise Co.,Ltd.是日本的声优经纪公司。I'm Enterprise在1997年由ARTSVISION社长松田咲实成立，松田并兼任I'm Enterprise的社长。作为ARTSVISION的子公司。与ARTSVISION一样，主要从事管理旗下声优的工作。旗下知名声优有 钉宫理惠、斋藤千和、松冈祯丞、钉宫理惠、早见沙织、日笠阳子、佐仓绫音等。
 
@@ -90,7 +97,7 @@ I'm Enterprise Co.,Ltd.是日本的声优经纪公司。I'm Enterprise在1997年
 
 ## 株式会社 ヴィムス
 
-![markdown](https://www.vims.co.jp/img/main.png){:style="width: 180px; margin-left: -20px;"}
+![markdown](https://www.vims.co.jp/img/main.png){:style="width: 160px; margin-left: -30px;"}
 
 VIMS是日本一家声优经纪公司，属于ARTSVISION系列公司。VIMS于2001年创办，原本是I'm Enterprise内一个部门，2007年（平成20年）11月22日注册为株式会社，成为I'm Enterprise的子公司。
 
@@ -101,7 +108,7 @@ VIMS是日本一家声优经纪公司，属于ARTSVISION系列公司。VIMS于20
 
 ## 株式会社クレイジーボックス
 
-![markdown](https://crazy-box.co.jp/wp/wp-content/themes/crazybox/images/logo_L.png){:style="width: 150px; margin-left: 20px;"}
+![markdown](https://crazy-box.co.jp/wp/wp-content/themes/crazybox/images/logo_L.png){:style="width: 130px; margin-left: 12px;"}
 
 Crazy Box事务所成立于2000年1月，是松田系I’m Enterprise旗下事务所之一。业务内容包括：艺人培养；舞台剧及各种活动企划、制作与运营；电视、电台番組及商业电影的企画・制作；艺人粉丝俱乐部运营；音乐、乐曲原版制作及出版等。代表声优有大冢芳忠。
 
@@ -119,7 +126,7 @@ Crazy Box事务所成立于2000年1月，是松田系I’m Enterprise旗下事�
 
 ## Mausu Promotion
 
-![markdown](https://mausu.net/res/images/common/logo-agency.svg){:style="width: 240px;"}
+![markdown](https://mausu.net/res/images/common/logo-agency.svg){:style="width: 210px;"}
 
 Mausu Promotion（老鼠社）是日本一家声优事务所。原名为“江崎制作”（江崎プロダクション）的Mausu Promotion，于1974年成立，1995年转为有限公司，2000年更名为现称。
 

@@ -1,0 +1,49 @@
+.sidebar-col{
+  width: 340px;
+}
+@media screen and (max-width: 768px) {
+  .sidebar-col{
+    width: auto;
+  }
+}
+.sidebar-col .sidebar-tag{
+  background-color: #edece8;
+}
+
+.column .panel-heading{
+  border-width: 0.5px;
+  background: #eceae0;
+  color: #9c8941;
+}
+.column .panel-block{
+  background: rgba(255,255,255,.4);
+  border-width: 0.5px;
+}
+.panel-heading i{
+  font-size: 0.8em;
+}
+
+a.panel-block:hover {
+  background-color: #f7f6eb;
+}
+.recent-posts-ul{
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+.recent-posts-item{
+  line-height: 28px;
+  display: flex;
+}
+.recent-post-lkdiv{
+  width: 70%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: .9em;
+}
+.recent-posts-item .post-date{
+  width: 30%;
+  display: block;
+  text-align: right;
+}

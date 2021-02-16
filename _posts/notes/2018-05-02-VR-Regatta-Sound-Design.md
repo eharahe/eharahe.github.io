@@ -1,16 +1,18 @@
 ---
 layout: default
-title: VR Regatta Sound Design
+title: Sound Design of VR Regatta
 permalink: /notes/vr-regatta-sound-design
-tags: sound-design Wwise
-category: sound-system-design
+tags: VR-Regatta-cover.jpg
+category: game-audio
 excerpt_separator: <!--break-->
 ---
-VR Regatta（VR 赛艇）是一款航行游戏。从声音的角度来说，每艘船在操作的过程中都会发出一系列特别的噪音，但整个体验中音频基本就是风声和水声的结合。营造良好的环境声不光可以更富沉浸感，还做到了让声音指引玩家。
+VR Regatta（VR赛艇）是一款帆船驾驶独立游戏。从声音的角度来看，每条船在操作过程中都会产生一系列特定的噪音，但是基本上整个体验的声音都归结为风声和水声的结合。营造良好的环境声不光可以增加沉浸感，还能做到让声音指引玩家。
 
 <!--break-->
 
 ## 世界底噪 Camera_Ambience
+
+> 我发现其中有些方面能在很大程度上影响到玩家开始体验时对世界的感觉。当我们进入一个世界的时候，第一件注意的事情就是空间感。这就是我研发所有VR项目的工作起点。我会创造一个空间化的“世界底噪”。通常对室外空间来说这会是开阔空间的风声，对室内是一种房间的嗡嗡声。我所使用的具体背景声会有改变，但整个的过程通常是非常类似的。
 
 构建一个基本的背景风声环绕在玩家周围，那么当他们前后转头的时候，就会听到风声声源角度的变化。  
 创造出四个循环的风声源分别位于听者的东、南、西、北方向。在Position Source控制中，取消Follow Listener Orientation的勾选。这意味着当VR头部追踪在跟踪玩家的头部动作时，循环风声的朝向不会改变，即它们在世界中的位置锁定不变。

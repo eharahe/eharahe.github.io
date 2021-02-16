@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Planet Coaster Sound Design
+title: Sound Design of Planet Coaster 
 permalink: /notes/planet-coaster-sound-design
-tags: sound-design Wwise
-category: sound-system-design
+tags: planet-coaster-cover.jpg
+category: game-audio
 excerpt_separator: <!--break-->
 ---
-Planet Coaster（过山车之星）的乐趣在于建造并管理世界最伟大的过山车乐园，并同世界分享你的创意。它是Frontier目前为止最具雄心，也是技术上最先进的模拟游戏。就像在现实世界一样，一个过山车乐园关键就在于人的体验。即使在过山车的呼啸声和烟花的爆破声中，我们还是能听到游客或激动，或害怕，或惊喜的声音。设计团队采用了独特的Crowd-Soundbox系统实现了栩栩如生的人群音效。
+「过山车之星」 的乐趣在于建造并经营最伟大的过山车乐园，并同世界分享你的创意。它是Frontier目前最具雄心，也是技术上最先进的模拟经营游戏。音频团队通过独特的Crowd-Soundbox系统实现了栩栩如生的人群音效。
 
 <!--break-->
 

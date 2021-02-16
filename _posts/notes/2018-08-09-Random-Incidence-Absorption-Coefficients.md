@@ -2,8 +2,8 @@
 layout: default
 title: Sound Absorption Coefficients
 permalink: /notes/absorption-coefficients
-tags: sound
-category: acoustics
+tags: sound_absorption_coefficient.jpg
+category: audio-technique
 excerpt_separator: <!--break-->
 ---
 

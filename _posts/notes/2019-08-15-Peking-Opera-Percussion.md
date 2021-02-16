@@ -2,8 +2,8 @@
 layout: default
 title: Peking Opera Percussion
 permalink: /notes/peking-opera-percussion
-tags: sound-design 
-category: sound-system-design
+tags: audio-technique 
+category: audio-technique
 excerpt_separator: <!--break-->
 ---
 

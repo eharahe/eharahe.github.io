@@ -1,9 +1,9 @@
 ---
 layout: default
-title: The Witcher 3 Sound Design
+title: Sound Design of The Witcher 3： Wild Hunt
 permalink: /notes/the-witcher3-sound-design
-tags: sound-design Wwise
-category: sound-system-design
+tags: witcher3-cover.jpg
+category: game-audio
 excerpt_separator: <!--break-->
 ---
 巫师3的音效体验是超现实主义的。游戏音乐让人如身临其境于故事情节之中；而对细节的关注确保每一个声音都能将玩家带入一个神秘的世界，并完全吸引他们，从而让现实与游戏之间的界限如此模糊。
