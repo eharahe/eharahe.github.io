@@ -2,7 +2,7 @@
 layout: default
 title: Design Patterns - Chain of Responsibility vs. State
 permalink: /notes/cor-vs-state
-tags: design-patterns
+tags: design-pattern.jpg
 category: design-patterns
 excerpt_separator: <!--break-->
 ---

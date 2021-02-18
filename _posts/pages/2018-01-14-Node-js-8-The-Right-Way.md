@@ -2,8 +2,8 @@
 layout: default
 title: Node.js 8 The Right Way
 permalink: /page/node-js-8-the-right-way
-tags: node.js npm
-category: page
+tags: node8.jpg node.js npm
+category: experimental
 excerpt_separator: <!--break-->
 ---
 

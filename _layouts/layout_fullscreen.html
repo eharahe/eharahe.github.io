@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "utf-8" }}">
+{% include head.html %}
+<link rel="stylesheet" href="{{ '/assets/css/silkroad.css?v=' | append: site.github.build_revision | relative_url }}">
+  <body>
+    {% include navbar.html %}
+    <section class="site-section">
+      {{ content }}
+    </section> 
+    {% include footer.html %}
+    {% include google_analytics.html %}
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5kqiwNgfOjBpQALXXGxYALQhjfNl31EM&callback=initMap"></script>
+  </body>
+</html>

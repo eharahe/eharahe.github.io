@@ -2,10 +2,14 @@
 layout: default
 title: Http1.1 Cache Control
 permalink: /notes/http-cache-control
-tags: cache-control
-category: http
+tags: web-dev.jpg
+category: web-tech
 excerpt_separator: <!--break-->
 ---
+
+Http 1.1 的缓存机制
+
+<!--break-->
 
 ## 缓存机制
 

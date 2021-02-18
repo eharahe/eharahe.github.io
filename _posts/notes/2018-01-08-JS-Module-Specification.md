@@ -2,10 +2,14 @@
 layout: default
 title: JS Module Specification
 permalink: /notes/js-module-specification
-tags: es6 commonjs
-category: javascript
+tags: web-dev.jpg
+category: web-tech
 excerpt_separator: <!--break-->
 ---
+
+JS语言本身没有模块概念，为了让JS支持模块化，ServerJS（后更名为CommonJS）社区大牛们推出了Module 1.0规范。后来为了可用于浏览器端，制定了名为AMD规范，并且推出了requireJS这个框架。由于AMD与CommonJS规范相去甚远，CommonJS的拥护者认为，浏览端也可以实现CommonJS的规范，于是稍作改动，形成了CMD规范，并且推出了seajs这个框架。正在AMD与CMD打得火热的时候，ECMAScript6给JS本身定了一个模块加载的功能，ES6表示“你们也别争了，JS模块有原生的语法了”。
+
+<!--break-->
 
 ## 语法层面
 #### 1. ES6引出，其他形式引入  

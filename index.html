@@ -1,32 +1,52 @@
 ---
-layout: home
+layout: layout_home
 ---
 <style>
-  .tile-link{ 
-    font-family:'Silkroad';
+.tile-link {
+    font-family: 'Silkroad';
     text-align: center;
     line-height: 200px;
     font-size: 55px;
     background-blend-mode: color;
     color: #333;
     text-shadow: 2px 1px 6px rgba(0, 0, 0, .6);
-  }
+}
 </style>
-<div class="title1">Hello World</div>
-<p class="notification">This is the index page</p>
-<div class="tile is-ancestor">
-  <article class="tile is-parent is-vertical">
-    <a href="/silkroad/overview" class="tile is-child tile-link" 
-      style="background:url(/assets/images/silkroad/srbg.jpg) rgba(18, 244, 3, .5);
-      background-size: cover; font-size:45px;">
-      The Silk Road
-    </a>
-  </article>
-  <article class="tile is-parent is-vertical">
-    <a href="/panorama" class="tile is-child tile-link"
-      style="background:url(/assets/images/silkroad/pano2.jpg) rgba(18, 244, 3, .5);
-      background-size: cover;">
-      Panorama
-    </a>
-  </article>
+
+<div class="row mb-5" style="background: url(/assets/images/silkroad/srbg.jpg); background-size: cover;">
+    <div class="col-lg-6 no-padding">
+        <div class="about_text">
+            <div class="section-title tile-link">
+                <h1>The Silk Road</h1>
+            </div>
+            <div class="about_para_text section-about-content">
+                <p>Metasurfaces are generally designed by placing scatterers in periodic or pseudo-periodic
+                    grids. We propose and discuss design rules for functional metasurfaces with randomly
+                    placed.</p>
+                <p>Anisotropic elements that randomly sample. Quisque sit amet nisl ante. Fusce lacinia non
+                    tellus id gravida. Cras neque dolor, volutpat et hendrerit et.</p>
+            </div>
+            <a href="/silkroad/overview" class="btn lab_button">Learn More</a>
+        </div>
+    </div>
+    <div class="col-lg-6 no-padding"></div>
+</div>
+
+<div class="row" style="background: url(/assets/images/silkroad/pano2.jpg); background-size: cover;">
+    <div class="col-lg-6 no-padding"></div>
+    <div class="col-lg-6 no-padding">
+        <div class="about_text text-right">
+            <div class="section-title tile-link">
+                <h1>Panorama</h1>
+            </div>
+            <div class="about_para_text section-about-content">
+                <p>Metasurfaces are generally designed by placing scatterers in periodic or pseudo-periodic
+                    grids. We propose and discuss design rules for functional metasurfaces with randomly
+                    placed.</p>
+                <p>Anisotropic elements that randomly sample. Quisque sit amet nisl ante. Fusce lacinia non
+                    tellus id gravida. Cras neque dolor, volutpat et hendrerit et.</p>
+            </div>
+            <a href="/panorama" class="btn lab_button">Learn More</a>
+        </div>
+    </div>
 </div>

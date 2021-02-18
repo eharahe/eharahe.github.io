@@ -2,8 +2,8 @@
 layout: default
 title: Memory Leak by Closure
 permalink: /notes/js-closure-memleak
-tags: memleak closure 
-category: javascript
+tags: web-dev.jpg
+category: web-tech
 excerpt_separator: <!--break-->
 ---
 > It is necessary to notice that closured [[Scope]] in ECMAScript is the same object for several inner functions created in this parent context. It means that modifying the closured variable from one closure, affects the variable in another closure. [ - Dmitry Soshnikov](http://dmitrysoshnikov.com/ecmascript/chapter-6-closures/#one-codescopecode-value-for-them-all)

@@ -2,7 +2,7 @@
 layout: default
 title: Design Patterns - Observer vs. Pub-sub
 permalink: /notes/observer-vs-pubsub
-tags: design-patterns
+tags: design-pattern.jpg
 category: design-patterns
 excerpt_separator: <!--break-->
 ---

@@ -2,14 +2,12 @@
 layout: default
 title: Design Patterns - Bridge vs. Stratage
 permalink: /notes/bridge-vs-stratage
-tags: design-patterns
+tags: design-pattern.jpg
 category: design-patterns
 excerpt_separator: <!--break-->
 ---
 
-相对于策略模式，桥接模式要表达的内容更多，结构也更加复杂。  
-
-桥接模式主要体现的是接口隔离的原则，即把本质上并不内聚的两个体系区别开来，使得它们可以松散的组合；而策略在解耦上还仅仅是某一个算法的层次，没有到体系这一层次。
+相对于策略模式，桥接模式要表达的内容更多，结构也更加复杂。桥接模式主要体现的是接口隔离的原则，即把本质上并不内聚的两个体系区别开来，使得它们可以松散的组合；而策略在解耦上还仅仅是某一个算法的层次，没有到体系这一层次。
 <!--break-->
 
 ## 1. Bridge Pattern

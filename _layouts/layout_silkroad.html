@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "utf-8" }}">
+{% include head.html %}
+<link rel="stylesheet" href="{{ '/assets/css/silkroad.css?v=' | append: site.github.build_revision | relative_url }}">
+  <body>
+    {% include navbar.html %}
+    <section class="section map_container">
+      <div id="map"></div>
+      <div class="map_mask"></div>
+    </section>
+    <section class="site-section silkroad">
+      <div class="scroll_arrow"> 
+        <span class="icon is-small"><i class="fas fa-chevron-right"></i></span>
+      </div>
+      <div class="silkroad-content">
+        <div class="container">
+          <div class="markdown silkroad">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </section> 
+    {% include footer.html %}
+    {% include google_analytics.html %}
+    <script src="/assets/js/silkroad-cities.js"></script>
+    <script src="/assets/js/silkroad-path.js"></script>
+    <script src="/assets/js/silkroad.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5kqiwNgfOjBpQALXXGxYALQhjfNl31EM&callback=initMap"></script>
+  </body>
+</html>

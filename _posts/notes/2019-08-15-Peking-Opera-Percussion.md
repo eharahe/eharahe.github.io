@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Peking Opera Percussion
+title: Chinese Opera Percussion
 permalink: /notes/peking-opera-percussion
-tags: audio-technique 
+tags: cn-opera-perc.jpg
 category: audio-technique
 excerpt_separator: <!--break-->
 ---

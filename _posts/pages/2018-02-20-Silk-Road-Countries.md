@@ -1,20 +1,20 @@
 ---
-layout: default
+layout: layout_silkroad
 title: Silk Road Countries
 permalink: /silkroad/countries
-tags: silkroad
-category: silkroad
+tags: silk-road.jpg
+category: experimental
 excerpt_separator: <!--break-->
 ---
 <style type="text/css">table{font-size: 12px;}</style>
 
-#### <a href="/silkroad/overview">&lt;&nbsp;返回丝路概览</a>
+#### <a href="/silkroad/overview?show_float=true">&lt;&nbsp;返回丝路概览</a>
 
 地中海东部的文明相对简单：
-* 罗马共和国（Roman Republic, Senatus populusque Romanus, SPQR）509BCE - 44BCE
-* 罗马帝国（Roman Empire）44BCE–476CE 
-* 拜占庭帝国（东罗马, Byzantine Empire）~330 - 1453
-* 奥斯曼帝国（Ottoman_Empire）1299 - 1923
+ * 罗马共和国（Roman Republic, Senatus populusque Romanus, SPQR）509BCE - 44BCE
+ * 罗马帝国（Roman Empire）44BCE–476CE 
+ * 拜占庭帝国（东罗马, Byzantine Empire）~330 - 1453
+ * 奥斯曼帝国（Ottoman_Empire）1299 - 1923  
 
 丝路亚洲地区的国家、朝代变迁，按时间先后大致的对应关系如下：
 

@@ -2,7 +2,7 @@
 layout: default
 title: Design Patterns - Factory vs. Builder
 permalink: /notes/factory-vs-builder
-tags: design-patterns
+tags: design-pattern.jpg
 category: design-patterns
 excerpt_separator: <!--break-->
 ---

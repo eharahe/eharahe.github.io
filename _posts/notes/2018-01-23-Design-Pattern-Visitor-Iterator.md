@@ -2,14 +2,12 @@
 layout: default
 title: Design Patterns - Visitor vs. Iterator
 permalink: /notes/visitor-vs-iterator
-tags: design-patterns
+tags: design-pattern.jpg
 category: design-patterns
 excerpt_separator: <!--break-->
 ---
 
-最大的区别在于聚集中的元素是否异构，对于访问者模式，其存在最大的理由就是分离异构元素上的不同操作。  
-
-迭代器模式用于按一定顺序访问聚集中的元素而不用暴露聚集的内部表示；而访问者模式是用来操作聚集上的元素，可以在不改变各元素的类的前提下定义作用于这些元素的新操作。访问者模式在遍历聚集元素时也可采用迭代器实现。
+二者最大的区别在于聚集中的元素是否异构，对于访问者模式，其存在最大的理由就是分离异构元素上的不同操作。迭代器模式用于按一定顺序访问聚集中的元素而不用暴露聚集的内部表示；而访问者模式是用来操作聚集上的元素，可以在不改变各元素的类的前提下定义作用于这些元素的新操作。访问者模式在遍历聚集元素时也可采用迭代器实现。
 <!--break-->
 
 ## 1. Visitor Pattern

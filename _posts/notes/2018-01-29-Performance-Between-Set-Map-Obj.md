@@ -2,11 +2,11 @@
 layout: default
 title: Performance Between Set Map and Object
 permalink: /notes/performance-between-set-map-obj
-tags: performance
-category: javascript
+tags: web-dev.jpg
+category: web-tech
 excerpt_separator: <!--break-->
 ---
-测试Set Map和Object键值的读写速度。   
+测试Set, Map和Object键值对的读写速度。   
 写入速度：可以看到Set和Map基本在一个级别，Object慢得多  
 随机读：Map非常快，Object次之，Set较慢 
 

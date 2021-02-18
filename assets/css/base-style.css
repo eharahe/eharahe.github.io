@@ -2,10 +2,11 @@ html, body {
   color: rgba(255, 255, 255, 0.5);
   background: #222;
   width: 100%;
+}
+body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
-
 .p1-gradient-bg, .thumb .overlay-bg {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
@@ -62,7 +63,9 @@ a {
   z-index: 200;
   background: #fff; }
   .navbar-end{
-    margin-right: 30px;
+    margin: 10px 20px;
+    font-size: 20px;
+    width: 21px;
   }
   .site-navbar .navbar-brand {
     display: inline-block;
@@ -555,7 +558,7 @@ a {
       color: rgba(255, 255, 255, 0.4); }
       .blog-entry .meta a:hover {
         color: #bac964; }
-        
+
 .form-control {
   border: none !important;
   background: #333;
@@ -563,7 +566,7 @@ a {
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important; }
   .form-control:active, .form-control:focus {
-    background: #404040; }
+    /*background: #404040;*/ }
   .form-control::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: rgba(255, 255, 255, 0.5); }
@@ -675,23 +678,37 @@ a {
 .post-date{
   font-size: 1em;
   color:#999;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
 }
 .post-abbs{
-  max-height: 140px;
+  max-height: 148px;
   overflow-y: hidden;
   font-size: .8em;
-  text-overflow: ellipsis;
   overflow: hidden;
+  font-size: 15px;
+  margin-bottom: 8px;
+  max-height: 108px;
+}
+.markdown .post-abbs p{
   -webkit-line-clamp: 4;
+  text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  font-size: 15px;
+  overflow: hidden;
+}
+.post-abbs .footnotes{
+  display: none;
 }
 .markdown .post-content .post-abbs p, .markdown .post-content .post-meta p{
   line-height: 1.8em;
 }
-
+.markdown .post-content blockquote p{
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 /*category page*/
 .markdown li.tag-post-item{
   margin-bottom: 30px;
@@ -792,6 +809,68 @@ a {
 footer .content{
   margin: 30px 0;
   text-align: right;
+}
+.more_articles{
+  display: inline-block;
+  padding: 18px 36px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #bac964;
+  font-size: 15px;
+  font-weight: 700;
+  color: #bac964;
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.more_articles:hover {
+  background-color: #bac964;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .more_articles {
+    padding: 13px 35px;
+  }
+}
+
+.about_text {
+  padding: 80px 40px 0;
+  background: rgba(0,0,0,0.5);
+}
+.about_text .section-title {
+  margin-bottom: 35px;
+}
+
+.about_para_text {
+  margin-bottom: 60px;
+  min-height: 188px;
+}
+
+.about_para_text p {
+  margin-bottom: 26px;
+  color: #eee;
+  text-shadow: 1px 1px 3px #333;
+}
+
+.about_para_text p:last-child {
+  margin-bottom: 0;
+}
+.about_text .lab_button{
+  margin-bottom: 20px;
+  padding: 10px 26px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 15px;
+  color: #bac964;
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.about_text .lab_button:hover{
+  border: 1px solid #bac964;
 }
 
 /*temp to be deleted*/

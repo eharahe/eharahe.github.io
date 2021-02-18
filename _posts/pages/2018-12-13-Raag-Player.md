@@ -2,14 +2,15 @@
 layout: default
 title: Simple Raag Player
 permalink: /page/raag-player
-tags: music world
-category: page
+tags: raag-player.jpg
+category: experimental
 excerpt_separator: <!--break-->
 ---
 <style>
 y{cursor:pointer} 
-table{font-size: 12px;box-shadow: 1px 1px 6px #ccc;}
-table th{background-color: #363636;line-height: 2;color: #ddd;}
+.markdown table{font-size: 12px;}
+.btn-note{ border: 0; background: #bbc964; cursor: pointer; font-family: consolas; width: 23px; margin: 5px 0; border-radius: 2px;}
+#player_text{letter-spacing: 2px; height: 80px;}
 </style>
 
 Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when specific Thaat is chosen.
@@ -18,40 +19,75 @@ Player for basic Raag AROH, AVROH and PAKAD playing. Tones are changed when spec
 ## Player
 
 <div class="panel">
-  <div class="label">ṃ Ṃ Ꝓ ḍ Ḍ ṇ Ṇ S r R g G m M P d D n N Ś ŕ Ŕ ǵ Ǵ ḿ Ḿ</div>
-  <textarea id="player_text" rows="1" class="textarea" placeholder="S R G M P D N Ś" style="resize: none;margin-bottom: 10px;"></textarea>
-  <div class="level">
-    <div class="level-left">
-      <div class="level-item">
-        <p class="subtitle is-6"><strong>Thaat</strong></p>
-      </div>
-      <div class="level-item">
-        <span class="select is-small">
-          <select id="player_sel">
-            <option selected>Bilaval</option>
-            <option>Kafi</option>
-            <option>Bhairavi</option>
-            <option>Kalyan</option>
-            <option>Khamaj</option>
-            <option>Asavari</option>
-            <option>Bhairav</option>
-            <option>Marva</option>
-            <option>Poorvi</option>
-            <option>Todi</option>
-          </select>
-        </span>
+  <div class="label mb-2 row" style="cursor: default;-webkit-user-select:none;">
+    <div class="col-sm-3">
+      <button class="btn-note">ṃ</button>
+      <button class="btn-note">Ṃ</button>
+      <button class="btn-note">Ꝓ</button>
+      <button class="btn-note">ḍ</button>
+      <button class="btn-note">Ḍ</button>
+      <button class="btn-note">ṇ</button>
+      <button class="btn-note">Ṇ</button>
+    </div>
+    <div class="col-sm-5">
+      <button class="btn-note">S</button>
+      <button class="btn-note">r</button>
+      <button class="btn-note">R</button>
+      <button class="btn-note">g</button>
+      <button class="btn-note">G</button>
+      <button class="btn-note">m</button>
+      <button class="btn-note">M</button>
+      <button class="btn-note">P</button>
+      <button class="btn-note">d</button>
+      <button class="btn-note">D</button>
+      <button class="btn-note">n</button>
+      <button class="btn-note">N</button>
+    </div>
+    <div class="col-sm-3">
+      <button class="btn-note">Ś</button>
+      <button class="btn-note">ŕ</button>
+      <button class="btn-note">Ŕ</button>
+      <button class="btn-note">ǵ</button>
+      <button class="btn-note">Ǵ</button>
+      <button class="btn-note">ḿ</button>
+      <button class="btn-note">Ḿ</button>
+    </div>
+  </div>
+  <textarea id="player_text" rows="1" class="textarea form-control mb-3" placeholder="S R G M P D N Ś" style="resize: none;margin-bottom: 10px;"></textarea>
+  <div class="row mb-5">
+    <div class="col-sm-6 col-lg-4">
+      <div class="row">
+        <div class="col-sm-4 justify-content-center">
+          <span class="subtitle is-6" style="line-height: 38px;margin-left:10px;"><strong>Thaat</strong></span>
+        </div>
+        <div class="">
+          <span class="select is-small">
+            <select id="player_sel" class="selectpicker show-tick form-control">
+              <option selected>Bilaval</option>
+              <option>Kafi</option>
+              <option>Bhairavi</option>
+              <option>Kalyan</option>
+              <option>Khamaj</option>
+              <option>Asavari</option>
+              <option>Bhairav</option>
+              <option>Marva</option>
+              <option>Poorvi</option>
+              <option>Todi</option>
+            </select>
+          </span>
+        </div>
       </div>
     </div>
-    <div class="level-right">
+    <div class="col-sm-6 col-lg-8 text-right">
       <div class="level-item">
-        <div id="play_btn" class="button is-info">
+        <button type="button" class="btn  btn-primary" style="height: 37px;width: 140px;" id="play_btn">
           <span class="icon">
             <i class="fas fa-play-circle"></i>
           </span>
           <span>
             Play
           </span>
-         </div>
+        </button>
       </div>
     </div>  
   </div>
@@ -270,7 +306,6 @@ function init(){
   // download audio files
   for(i in audioCacheArr){
     loadAudioFile(+i, false);
-    console.log('i='+i);
   }
 }
 
@@ -350,6 +385,15 @@ $('#play_btn').click(function(e){
 })
 $('y').click(function(e){
   loadAudioFile($(e.target).attr('k'), true);
+})
+
+$('.btn-note').click(function(e){
+  var cur = $('#player_text').val(),
+      thaat = $('#player_sel option:selected');
+
+  $('#player_text').val(cur+e.target.innerText);
+  playTone(e.target.innerText, thaat.text());
+  console.log(cur+e.target.innerText)
 })
 init();
 </script>

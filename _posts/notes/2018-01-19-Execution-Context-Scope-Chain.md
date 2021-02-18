@@ -2,10 +2,11 @@
 layout: default
 title: Variable Object, Scope Chain and Execution Contexts
 permalink: /notes/js-scope-and-context
-tags: scope-chain variable-object execution-context
-category: javascript
+tags: web-dev.jpg
+category: web-tech
 excerpt_separator: <!--break-->
 ---
+
 简单的梳理一下ECMA **Variable Object**[^1]， **Scope Chain**[^2] 及 **Execution Contexts**[^3] 相关的概念，以便在分析devtools heap-snapshot时明白各个属性表示的意义。
 
 <!--break-->
