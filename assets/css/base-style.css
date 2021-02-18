@@ -774,6 +774,9 @@ a {
   padding: 0 20px 0 24px;
   background: #373f48;
 }
+#cate-list{
+  overflow: hidden;
+}
 .cate-post-link{
   margin: 18px 0 10px;
   font-size: 16px;
