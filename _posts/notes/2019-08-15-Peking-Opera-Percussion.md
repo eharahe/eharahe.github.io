@@ -218,10 +218,10 @@ excerpt_separator: <!--break-->
 #### 凤点头
 属于开唱用的锣鼓点。结构简短，形式多样，有大锣和小锣的凤点头，还有单签、双签等不同奏法的凤点头。分别可作摇板、快板、流水、散板唱腔的入头。  
 1. **大锣凤点头（单键）**  
-| 0 <u>大大</u> | <u>衣大</u> <u>衣 <span style="border-bottom:1px solid black;">大大</span></u> | 仓 才 | <u>仓个</u> <u>令才</u> | <u>乙台</u> 仓 ||
+| 0 <u>大大</u> | <u>衣大</u> <u>衣 <span style="border-bottom:1px solid rgba(255,255,255,0.5);">大大</span></u> | 仓 才 | <u>仓个</u> <u>令才</u> | <u>乙台</u> 仓 ||
 2. **小锣凤点头（单键）**  
-| 0 <u>大大</u> | <u>衣大</u> <u>衣 <span style="border-bottom:1px solid black;">大大</span></u> | 台 台 | <u>台个</u> <u>令台</u> | <u>乙令</u> 台 ||
+| 0 <u>大大</u> | <u>衣大</u> <u>衣 <span style="border-bottom:1px solid rgba(255,255,255,0.5);">大大</span></u> | 台 台 | <u>台个</u> <u>令台</u> | <u>乙令</u> 台 ||
 3. **大锣三锣凤点头**  
 又名硬三锤，用于激动、紧格、愤怒的情绪下唱快板的时候，如《斩马谡》中诸葛亮唱“若不是画图来得紧”这一段快板时，即用大锣三锣凤点头。  
-| <u>大大</u> <u>乙台</u> | <u>仓 · <span style="border-bottom:1px solid black;">才</span></u> 仓 | 仓 ||
+| <u>大大</u> <u>乙台</u> | <u>仓 · <span style="border-bottom:1px solid rgba(255,255,255,0.5);">才</span></u> 仓 | 仓 ||
 4. **小锣三锣凤点头**
