@@ -26,11 +26,11 @@ excerpt_separator: <!--break-->
 
 <table>
    <tr>
-      <td  rowspan="2">唱腔</td>
-      <td  colspan="12">板式</td>
+      <th  rowspan="2">唱腔</th>
+      <th  colspan="12">板式</th>
    </tr>
-      <td colspan="8">上板：有固定节拍</td>
-      <td colspan="4">无固定节拍</td>
+      <th colspan="8">上板：有固定节拍</th>
+      <th colspan="4">无固定节拍</th>
    </tr>
    <tr>
       <td>二黄腔</td>
