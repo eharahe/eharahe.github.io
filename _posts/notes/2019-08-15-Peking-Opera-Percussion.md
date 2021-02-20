@@ -29,8 +29,6 @@ excerpt_separator: <!--break-->
       <td  rowspan="2">唱腔</td>
       <td  colspan="12">板式</td>
    </tr>
-   <tr>
-      <td></td>
       <td colspan="8">上板：有固定节拍</td>
       <td colspan="4">无固定节拍</td>
    </tr>
