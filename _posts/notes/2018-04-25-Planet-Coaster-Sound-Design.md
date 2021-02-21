@@ -10,7 +10,7 @@ excerpt_separator: <!--break-->
 
 <!--break-->
 
-## 设计目标
+## Soundscape指导方针
 
 * Soundscape需要接收主题公园实际建造的具体信息（支持用户创意）；
 * Soundscape必须是动态的、自适应的和互动的；
@@ -21,11 +21,19 @@ excerpt_separator: <!--break-->
 
 分层系统实现：
 
+* **Backdrop**: 一个非常简单的、音频驱动的背景循环（安静地待在混音之中）为整个乐园增加了“临场”感，会根据公园中的游客人数发生变化。
+* **Crowd Soundbox**: 创建了一个数据通知层，描述在“Soundscape”中整个人群的密度、位置和情绪。在“舞台”的例子中，它就是我们的后台层，它会根据镜头位置动态进行缩放，并通过确定数目的发声体管理。
+* **The Close-Up Sounds System**: 为前景游客创建了对号同步的发声点，并且只有在镜头近到能听到这些细节时才会激活。特写系统使用了一个特别的Soundbox，它进行了优化，用来寻找各个游客以及他们正在干什么。这个Soundbox会找到镜头周围的单元格，并且会为那些最近的游客们分配十个发声体。
+* 
 * **Background Layer**: 一个非常简单的、音频驱动的背景循环（安静地待在混音之中）为整个乐园增加了“临场”感。
 * **Crowd Soundbox**: 创建了一个数据通知层，描述在“Soundscape”中整个人群的密度、位置和情绪。在“舞台”的例子中，它就是我们的后台层，它会根据镜头位置动态进行缩放，并通过确定数目的发声体管理。
 * **The Close-Up Sounds System**: 为前景游客创建了对号同步的发声点，并且只有在镜头近到能听到这些细节时才会激活。特写系统使用了一个特别的Soundbox，它进行了优化，用来寻找各个游客以及他们正在干什么。这个Soundbox会找到镜头周围的单元格，并且会为那些最近的游客们分配十个发声体。
 
 ## Crowd Soundbox
+
+一个200×200的网格，统计每个网格中的人流密度，情绪，人群类型等信息，并通过这些信息生成Emitter。  
+
+![Crowd Soundbox](/assets/images/coaster_soundbox.png "Crowd Soundbox")
 
 1. 采用流体力学（而不是路径查找）对人流建模。
 2. 对镜头观察的范围划分网格（动态的），分别计算每个网格内的人流密度，人群分布，情绪，行为等统计信息。
@@ -33,7 +41,6 @@ excerpt_separator: <!--break-->
 4. 根据前两步的分析数据，用位于东，南，西，北方向的四个点声源 **Close 1** - **Close 4** 表示镜头周围的人群。
 5. 在(4)的基础上叠加一层关联网格整体的人流密度的背景人群声：**Far 1**
 
-![Crowd Soundbox](http://info.audiokinetic.com/hubfs/Blog_Images/Planet%20Coaster/Blog2/Blog2_Image_05_ExtractingDataFromCrowdSimulation.png "Crowd Soundbox")
 
 #### 人群划分
 * **Crowd Size**: Small, Medium, Large
