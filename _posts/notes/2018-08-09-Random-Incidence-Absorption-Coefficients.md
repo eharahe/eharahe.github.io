@@ -12,7 +12,8 @@ Table of Sound Absorption Coefficients that can be found on internet.
 
 ## Wwise factory reflect acoustic textures
 
-wwise reflect: 
+wwise reflect:   
+可直接编辑 %Wwise%\Authoring\x64\Release\bin\plugins\AkReflect.xml 文件，更改 BaseTextureFrequency 的 Default Value。这样会定义新的默认 Low 频段（默认250），其他频段将按照两个八度的间隔连续排布。
 
 | Material | < 250 Hz | 250 Hz ~ 1,000 Hz | 1,000 Hz ~ 4,000 Hz | > 4,000 Hz |
 | -------- |:--------:|:-----------------:|:-------------------:|:----------:|
