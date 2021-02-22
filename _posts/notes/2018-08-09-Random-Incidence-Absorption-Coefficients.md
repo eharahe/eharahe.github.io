@@ -10,6 +10,27 @@ excerpt_separator: <!--break-->
 Table of Sound Absorption Coefficients that can be found on internet.
 <!--break-->
 
+## Wwise factory reflect acoustic textures
+
+wwise reflect: 
+
+| Material | < 250 Hz | 250 Hz ~ 1,000 Hz | 1,000 Hz ~ 4,000 Hz | > 4,000 Hz |
+| -------- |:--------:|:-----------------:|:-------------------:|:----------:|
+| Acoustic_Banner | 0.37 | 1 | 1 | 1 |
+| Anechoic | 1 | 1 | 1 | 1 |
+| Brick | 0.12 | 0.18 | 0.23 | 0.35 |
+| Carpet | 0.46 | 0.45 | 0.76 | 1 |
+| Concrete | 0.06 | 0.06 | 0.06 | 0.14 |
+| Cork_Tiles | 0.14 | 0.3 | 0.73 | 1 |
+| Curtains | 0.07 | 0.6 | 0 | 0.84 |
+| Drywall | 0.02 | 0.02 | 0.02 | 0.02 |
+| Fabric | 0.03 | 0.13 | 0.48 | 0.72 |
+| Mountain | 0 | 0 | 0 | 0 |
+| Tile | 0.67 | 0.41 | 0.12 | 0 |
+| Wood | 0.32 | 0.25 | 0.2 | 0.35 |
+| Wood_Bright | 0.32 | 0.25 | 0.1 | 0.09 |
+| Wood_Deep | 0.01 | 0.08 | 0.2 | 0.35 |
+
 ## Table from ***Auralization***:
 
 | Type | Material | 125 | 250 | 500 | 1k | 2k | 4k | 8k |
