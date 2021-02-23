@@ -13,7 +13,7 @@ Table of Sound Absorption Coefficients that can be found on internet.
 ## Wwise factory reflect acoustic textures
 
 wwise reflect:   
-可直接编辑 %Wwise%\Authoring\x64\Release\bin\plugins\AkReflect.xml 文件，更改 BaseTextureFrequency 的 Default Value。这样会定义新的默认 Low 频段（默认250），其他频段将按照两个八度的间隔连续排布。
+可直接编辑 \Authoring\x64\Release\bin\plugins\AkReflect.xml 文件，更改 BaseTextureFrequency 的 Default Value。这样会定义新的最低分频点（默认250 Hz），其他分频点将按照两个八度的间隔连续排布。
 
 | Material | < 250 Hz | 250 Hz ~ 1,000 Hz | 1,000 Hz ~ 4,000 Hz | > 4,000 Hz |
 | -------- |:--------:|:-----------------:|:-------------------:|:----------:|
@@ -31,6 +31,32 @@ wwise reflect:
 | Wood | 0.32 | 0.25 | 0.2 | 0.35 |
 | Wood_Bright | 0.32 | 0.25 | 0.1 | 0.09 |
 | Wood_Deep | 0.01 | 0.08 | 0.2 | 0.35 |
+
+## Table from phy-astr.gsu.edu
+
+| Material                        | 125  | 250  | 500  | 1000 | 2000 | 4000 |
+|---------------------------------|------|------|------|------|------|------|
+| Acoustic tile, rigid mount      | 0.2  | 0.4  | 0.7  | 0.8  | 0.6  | 0.4  |
+| Acoustic tile, suspended        | 0.5  | 0.7  | 0.6  | 0.7  | 0.7  | 0.5  |
+| Acoustical plaster              | 0.1  | 0.2  | 0.5  | 0.6  | 0.7  | 0.7  |
+| Ordinary plaster, on lath       | 0.2  | 0.15 | 0.1  | 0.05 | 0.04 | 0.05 |
+| Gypsum wallboard, 1/2" on studs | 0.3  | 0.1  | 0.05 | 0.04 | 0.07 | 0.1  |
+| Plywood sheet, 1/4" on studs    | 0.6  | 0.3  | 0.1  | 0.1  | 0.1  | 0.1  |
+| Concrete block, unpainted       | 0.4  | 0.4  | 0.3  | 0.3  | 0.4  | 0.3  |
+| Concrete block, painted         | 0.1  | 0.05 | 0.06 | 0.07 | 0.1  | 0.1  |
+| Concrete, poured                | 0.01 | 0.01 | 0.02 | 0.02 | 0.02 | 0.03 |
+| Brick                           | 0.03 | 0.03 | 0.03 | 0.04 | 0.05 | 0.07 |
+| Vinyl tile on concrete          | 0.02 | 0.03 | 0.03 | 0.03 | 0.03 | 0.02 |
+| Heavy carpet on concrete        | 0.02 | 0.06 | 0.15 | 0.4  | 0.6  | 0.6  |
+| Heavy carpet on felt backing    | 0.1  | 0.3  | 0.4  | 0.5  | 0.6  | 0.7  |
+| Platform floor, wooden          | 0.4  | 0.3  | 0.2  | 0.2  | 0.15 | 0.1  |
+| Ordinary window glass           | 0.3  | 0.2  | 0.2  | 0.1  | 0.07 | 0.04 |
+| Heavy plate glass               | 0.2  | 0.06 | 0.04 | 0.03 | 0.02 | 0.02 |
+| Draperies, medium velour        | 0.07 | 0.3  | 0.5  | 0.7  | 0.7  | 0.6  |
+| Upholstered seating, unoccupied | 0.2  | 0.4  | 0.6  | 0.7  | 0.6  | 0.6  |
+| Upholstered seating, occupied   | 0.4  | 0.6  | 0.8  | 0.9  | 0.9  | 0.9  |
+| Wood seating, unoccupied        | 0.02 | 0.03 | 0.03 | 0.06 | 0.06 | 0.05 |
+| Wooden pews, occupied           | 0.4  | 0.4  | 0.7  | 0.7  | 0.8  | 0.7  |
 
 ## Table from ***Auralization***:
 
