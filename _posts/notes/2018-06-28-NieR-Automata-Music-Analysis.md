@@ -11,7 +11,8 @@ excerpt_separator: <!--break-->
 <!--break-->
 
 <style type="text/css">
-  td{white-space: nowrap; font-size:12px;}
+  td{font-size:12px;}
+  th{font-size: 12px; white-space: nowrap;}
 </style>
 
 ## 整体感受
