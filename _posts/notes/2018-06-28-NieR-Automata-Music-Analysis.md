@@ -58,13 +58,13 @@ excerpt_separator: <!--break-->
 
 战斗bgm 通过 「顕現シタ異物」「双極ノ悪夢」「終ワリノ音」三首及其变奏的穿插不断调动玩家，实现和关卡中的叙事表现一致的情绪起伏。
 
-「顕現シタ異物」分为带Intro和不带Intro的两个版本；每个版本又分带Vocal与不带Vocal的变奏：  
+「顕現シタ異物」分为带Intro和不带Intro的2个版本；每个版本又分带Vocal与不带Vocal的变奏：  
 ![顕現シタ異物](\assets\images\Nier\a.png) 
 
-「双極ノ悪夢」分为仅管弦，管弦+打击，管弦+打击+人声三种变奏形式：  
+「双極ノ悪夢」分为仅管弦，管弦+打击，管弦+打击+人声3种变奏形式：  
 ![顕現シタ異物](\assets\images\Nier\b.png) 
 
-「終ワリノ音」分为通用，氛围，8-bit 三个版本；其中通用版本又分三种变奏：
+「終ワリノ音」分为通用，氛围，8-bit 3个版本；其中通用版本分为3层，可以实现4种变奏：
 ![顕現シタ異物](\assets\images\Nier\c.png) 
 
 | Name | Variaty | Desc | Total Length | Intro Length | Loop Length | Gameplay Time | Loop |
