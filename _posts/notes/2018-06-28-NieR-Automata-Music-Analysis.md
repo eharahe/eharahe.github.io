@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NieR:Automata Music Analysis
+title: The music of NieR:Automata
 permalink: /notes/nieR-automata-music-analysis
 tags: nier-cover.jpg
 category: game-audio
@@ -35,19 +35,24 @@ excerpt_separator: <!--break-->
 在同一段BGM中的停留时间平均不大于3次。但是像「遺サレタ場所/斜光 」等主要场景的BGM重复率仍然较高，设计时采用了大量分层（8轨）增加其丰富性和随机性。  
 在长达20分钟的最终Boss战中仍然会有听觉疲劳的感觉。在游戏后期音乐还是感觉略微单调枯燥。  
 
+#### 2B线序章
+
 | Name | Variaty | Desc | Total Length | Intro Length | Loop Length | Gameplay Time | Loop |
 | -----|-------- | ---- | ------------ | ------------ | ----------- | ------------- | ---- |
-| 顕現シタ異物 | Ver1 No Vocal | 线性叙事，因为演出需要编配了较长的intro | 3:40 | 53 | 2:47 | 4:45 | <2 |
-| 顕現シタ異物 | Ver1 No Vocal | 杂兵战 | 3:40 | 53 | 2:47 | 55 | <1 |
-| イニシエノウタ | No Vocal | 大型兵器 | 2:38 | 22 | 2:16 | 50 | <1 |
-| 顕現シタ異物 | Ver2 No Vocal | 杂兵战 | 2:50 | 3 | 2:47 | 7:56 | <3 |
-| 顕現シタ異物 | Ver2 With Vocal | 杂兵战进入最后一个杂兵房间，完成对话后过渡到vocal版本 | 2:50 | 3 | 2:47 | 1:03 | <1 |
-| 双極ノ悪夢 | No Vocal | 桥上大型兵器出现 | 2:29 | 3 | 2:26 | 58 | <1 |
+| 顕現シタ異物 | With Intro No Vocal | 固定视角叙事，通过Intro带入 | 3:40 | 53 | 2:47 | 4:45 | <2 |
+| 顕現シタ異物 | With Intro No Vocal | 杂兵战 | 3:40 | 53 | 2:47 | 55 | <1 |
+| イニシエノウタ | No Vocal | 防卫装置小Boss | 2:38 | 22 | 2:16 | 50 | <1 |
+| 顕現シタ異物 | No Intro No Vocal | 杂兵战 | 2:50 | 3 | 2:47 | 7:56 | <3 |
+| 顕現シタ異物 | No Intro With Vocal | 进入最后一个杂兵房间后过渡到vocal版本 | 2:50 | 3 | 2:47 | 1:03 | <1 |
+| 双極ノ悪夢 | No Vocal | 大型兵器出现 | 2:29 | 3 | 2:26 | 58 | <1 |
 | 双極ノ悪夢 | With Vocal | 大型兵器变身 | 2:29 | 3 | 2:26 | 2:56 | <2 |
 | 顕現シタ異物 | Ver2 With Vocal | 大型兵器身上杂兵战 | 2:50 | 3 | 2:47 | 1:14 | <1 |
 | 終ワリノ音 | Full Arrangements Main Layer +Vocal Layer | 大型兵器最终战 | 2:18 | 9 | 2:09 | 2:25 | <2 |
 | 茫洋タル病 | Full Arrangements | 线性叙事 | 1:33 | 31 | 1:02 | 55 | <1 |
 | 偽リノ城塞 | Full Arrangements | 太空总部 | 2:15 | 15 | 2:00 | 6:40 | <4 |
+
+| Name | Variaty | Desc | Total Length | Intro Length | Loop Length | Gameplay Time | Loop |
+| -----|-------- | ---- | ------------ | ------------ | ----------- | ------------- | ---- |
 | 崩壊ノ虚妄 |  | 线性叙事，向地球进发 | 1:36 | 1 | 1:35 | 2:10 | <2 |
 | 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | 探索地球废墟。 从Pad层起，概率性过渡到Guitar Piano层 | 1:55 | 0 | 1:55 | 5:09 | <3 |
 | 穏ヤカナ眠リ | No Vocal | 反抗军营地 | 2:14 | 14 | 2:00 | 2:25 | <2 |
@@ -70,7 +75,7 @@ excerpt_separator: <!--break-->
 | 茫洋タル病 | Full Arrangements | 进入地下 | 1:33 | 31 | 1:02 | 1:20 | <1 |
 | 異形ノ末路 | Full Arrangements | 打Adam | 2:21 | 13 | 2:08 | 2:30 | <2 |
 | 森ノ王国 | Pad  Lead Drum + Vocal | 三个层级叠加Vocal层的排列组合 | 1:48 | 8 | 1:40 | 7:56 | <6 |
-| 顕現シタ異物 | Ver1 With Vocal | A2 之前的杂兵战 | 3:40 | 53 | 2:47 | 4:25 | <2 |
+| 顕現シタ異物 | With Intro With Vocal | A2 之前的杂兵战 | 3:40 | 53 | 2:47 | 4:25 | <2 |
 | 双極ノ悪夢 | No Vocal No Drum | A2 Boss战 | 2:29 | 3 | 2:26 | 1:16 | <1 |
 | 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | 从管道中出来，来到flooded city。 以Pad为主，最后过渡到Guitar层 | 1:55 | 0 | 1:55 | 4:48 | <4 |
 | 終ワリノ音 | No Vocal No Drum | 海上空战，从弦乐声部逐渐过渡到带打击声部的变奏 | 2:18 | 9 | 2:09 | 4:48 | <3 |
