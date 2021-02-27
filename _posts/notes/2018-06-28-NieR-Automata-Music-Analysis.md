@@ -10,6 +10,10 @@ excerpt_separator: <!--break-->
 「尼尔：机械纪元」获得2017年TGA的最佳作曲/配乐奖，在玩家群体中也获得不错的口碑。现以一周目主线剧情Gameplay素材为参考对其互动音乐结构进行分析。
 <!--break-->
 
+<style type="text/css">
+  td{white-space: nowrap; font-size:12px;}
+</style>
+
 ## 整体感受
 
 #### 关于Ducking  
