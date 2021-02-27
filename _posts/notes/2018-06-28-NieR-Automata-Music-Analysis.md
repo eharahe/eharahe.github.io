@@ -42,6 +42,8 @@ excerpt_separator: <!--break-->
 
 #### 2B线序章
 
+战斗bgm 通过 「顕現シタ異物」「双極ノ悪夢」「終ワリノ音」三首及其变奏的穿插不断调动玩家，实现和关卡中的叙事表现一致的情绪起伏。
+
 | Song Name | Variation                           | Description           | Bpm | Total | Intro | Loop | Gameplay | Loop |
 |-----------|-------------------------------------|-----------------------|-----|-------|-------|------|----------|------|
 | 顕現シタ異物    | with intro, no vocal                | 固定视角叙事，通过Intro带入      | 72  | 3:40  | 53    | 2:47 | 4:45     | <2   |
@@ -56,8 +58,6 @@ excerpt_separator: <!--break-->
 | 茫洋タル病     | full arrangements                   | 线性叙事                  |     | 1:33  | 31    | 1:02 | 55       | <1   |
 | 偽リノ城塞     | full arrangements                   | 太空总部                  |     | 2:15  | 15    | 2:00 | 6:40     | <4   |
 
-战斗bgm 通过 「顕現シタ異物」「双極ノ悪夢」「終ワリノ音」三首及其变奏的穿插不断调动玩家，实现和关卡中的叙事表现一致的情绪起伏。
-
 「顕現シタ異物」分为带Intro和不带Intro的2个版本；每个版本又分带Vocal与不带Vocal的变奏：  
 ![顕現シタ異物](\assets\images\Nier\a.png) 
 
@@ -67,19 +67,33 @@ excerpt_separator: <!--break-->
 「終ワリノ音」分为通用，氛围，8-bit 3个版本；其中通用版本分为3层，可以实现4种变奏：
 ![顕現シタ異物](\assets\images\Nier\c.png) 
 
+#### 2B线第一章-人类反抗军（营地）
+
+从这一章开始，玩家会在大地图中反复往返穿梭于营地、遗迹、沙漠等地。基于场景Trigger与事件驱动的音乐过渡方式增加了互动表现；但同时整合的bug却较多，反映在如果玩家不按通常的路线游玩，而是在地图上往返迂回，往往会导致不正常的bgm表现。*正常游玩* 的音乐顺序大致如下：
+
+| Song Name | Variation                        | Description                                             | Bpm | Total | Intro | Loop | Gameplay | Loop |
+|-----------|----------------------------------|---------------------------------------------------------|-----|-------|-------|------|----------|------|
+| 崩壊ノ虚妄     |                                  | 线性叙事，向地球进发                                              |     | 1:36  | 1     | 1:35 | 2:10     | <2   |
+| 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer   | 探索地球废墟。 从Atmosphere层经区域trigger触发过渡到其它分层   | 100 | 1:55  | 0     | 1:55 | 5:09     | <3   |
+| 穏ヤカナ眠リ    | No Vocal                         | 反抗军营地                                                   |     | 2:14  | 14    | 2:00 | 2:25     | <2   |
+| 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer   | 进入废墟，从Atmosphere层经区域trigger触发过渡到其它分层，并叠加vocal | 100 | 1:55  | 0     | 1:55 | 4:00     | <3   |
+| 砂塵ノ記憶     | Pad Layer                        | 进入沙漠，Atmosphere层                                          |     | 2:14  | 22    | 1:52 | 5:38     | <3   |
+| 砂塵ノ記憶     | Guitar Tabla Layer               | 由追踪机器人的cutscene事件驱动，过渡到no vocal分层             |     | 2:14  | 22    | 1:52 | 23       | <1   |
+| 砂塵ノ記憶     | Guitar Tabla Layer + Vocal Layer | 由区域trigger“通向沙漠中的城市废墟的斜坡”触发过渡                |     | 2:14  | 22    | 1:52 | 5:44     | <3   |
+| 砂塵ノ記憶     | Full Arrangements                | Boss前的杂兵战                                               |     | 2:14  | 22    | 1:52 | 1:30     | <1   |
+| 生マレ出ヅル意思  |                                  | Boss战                                                   |     | 2:47  | 29    | 2:18 | 2:03     | <1   |
+| オバアチャン    | With Vocal                       | 岩石崩塌                                                    |     | 1:44  | 14    | 1:30 | 36       | <1   |
+| 砂塵ノ記憶     | Full Arrangements                | Boss后的杂兵战                                               |     | 2:14  | 22    | 1:52 | 7:12     | <4   |
+
+「遺サレタ場所」bgm结构比较复杂有9轨。由OST命名可知分为「斜光」和「遮光」，对应不同的剧情。其中斜光对应2B主线，又分为Normal和8-bit两个版本，通过Vocal层和三个基础层的组合可实现6种变奏；
+遮光分为Normal和Atmosphere两个版本，Normal版可实现4种变奏。和斜光不同的是，atmosphere层的律动和其它分层不同，它们不能通过vertical layering的方式结合，只能通过horizon方式过渡。
+
+![顕現シタ異物](\assets\images\Nier\d.png) 
+
+
+
 | Name | Variaty | Desc | Total Length | Intro Length | Loop Length | Gameplay Time | Loop |
 | -----|-------- | ---- | ------------ | ------------ | ----------- | ------------- | ---- |
-| 崩壊ノ虚妄 |  | 线性叙事，向地球进发 | 1:36 | 1 | 1:35 | 2:10 | <2 |
-| 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | 探索地球废墟。 从Pad层起，概率性过渡到Guitar Piano层 | 1:55 | 0 | 1:55 | 5:09 | <3 |
-| 穏ヤカナ眠リ | No Vocal | 反抗军营地 | 2:14 | 14 | 2:00 | 2:25 | <2 |
-| 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | 进入废墟，从Pad层起，概率性过渡到Guitar Piano层。上面再叠加Vocal层 （Vocal是独立的） | 1:55 | 0 | 1:55 | 4:00 | <3 |
-| 砂塵ノ記憶 | Pad Layer | 进入沙漠Pad | 2:14 | 22 | 1:52 | 5:38 | <3 |
-| 砂塵ノ記憶 | Guitar Tabla Layer | 可能是随机过渡，或者按地图位置过渡 | 2:14 | 22 | 1:52 | 23 | <1 |
-| 砂塵ノ記憶 | Guitar Tabla Layer + Vocal Layer | 从看家沙漠中的城市废墟开始 | 2:14 | 22 | 1:52 | 5:44 | <3 |
-| 砂塵ノ記憶 | Full Arrangements | Boss前的杂兵战 | 2:14 | 22 | 1:52 | 1:30 | <1 |
-| 生マレ出ヅル意思 |  | Boss战 | 2:47 | 29 | 2:18 | 2:03 | <1 |
-| オバアチャン | With Vocal | 岩石崩塌 | 1:44 | 14 | 1:30 | 36 | <1 |
-| 砂塵ノ記憶 | Full Arrangements | Boss后的杂兵战 | 2:14 | 22 | 1:52 | 7:12 | <4 |
 | 遊園施設 | Pad + Grove + Vocal | 在几根层级间随机切换 | 2:14 | 0 | 2:14 | 5:34 | <3 |
 | 終ワリノ音 | No Vocal | Boss 坦克 | 2:18 | 9 | 2:09 | 50 | <1 |
 | 遊園施設 | Full Arrangements | 杂兵战 | 2:14 | 0 | 2:14 | 2:10 | <1 |
