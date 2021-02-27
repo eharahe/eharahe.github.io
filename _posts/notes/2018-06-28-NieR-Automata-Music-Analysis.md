@@ -56,6 +56,16 @@ excerpt_separator: <!--break-->
 | 茫洋タル病     | full arrangements                   | 线性叙事                  |     | 1:33  | 31    | 1:02 | 55       | <1   |
 | 偽リノ城塞     | full arrangements                   | 太空总部                  |     | 2:15  | 15    | 2:00 | 6:40     | <4   |
 
+战斗bgm 通过 「顕現シタ異物」「双極ノ悪夢」「終ワリノ音」三首及其变奏的穿插不断调动玩家，实现和关卡中的叙事表现一致的情绪起伏。
+
+「顕現シタ異物」分为带Intro和不带Intro的两个版本；每个版本又分带Vocal与不带Vocal的变奏：  
+![顕現シタ異物](\assets\images\Nier\a.png) 
+
+「双極ノ悪夢」分为仅管弦，管弦+打击，管弦+打击+人声三种变奏形式：  
+![顕現シタ異物](\assets\images\Nier\b.png) 
+
+「終ワリノ音」分为通用，氛围，8-bit 三个版本；其中通用版本又分三种变奏：
+![顕現シタ異物](\assets\images\Nier\c.png) 
 
 | Name | Variaty | Desc | Total Length | Intro Length | Loop Length | Gameplay Time | Loop |
 | -----|-------- | ---- | ------------ | ------------ | ----------- | ------------- | ---- |
