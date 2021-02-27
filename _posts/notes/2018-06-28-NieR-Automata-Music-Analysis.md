@@ -42,19 +42,20 @@ excerpt_separator: <!--break-->
 
 #### 2B线序章
 
-| Name | Variaty | Desc | Total Length | Intro Length | Loop Length | Gameplay Time | Loop |
-| -----|-------- | ---- | ------------ | ------------ | ----------- | ------------- | ---- |
-| 顕現シタ異物 | With Intro No Vocal | 固定视角叙事，通过Intro带入 | 3:40 | 53 | 2:47 | 4:45 | <2 |
-| 顕現シタ異物 | With Intro No Vocal | 杂兵战 | 3:40 | 53 | 2:47 | 55 | <1 |
-| イニシエノウタ | No Vocal | 防卫装置小Boss | 2:38 | 22 | 2:16 | 50 | <1 |
-| 顕現シタ異物 | No Intro No Vocal | 杂兵战 | 2:50 | 3 | 2:47 | 7:56 | <3 |
-| 顕現シタ異物 | No Intro With Vocal | 进入最后一个杂兵房间后过渡到vocal版本 | 2:50 | 3 | 2:47 | 1:03 | <1 |
-| 双極ノ悪夢 | No Vocal | 大型兵器出现 | 2:29 | 3 | 2:26 | 58 | <1 |
-| 双極ノ悪夢 | With Vocal | 大型兵器变身 | 2:29 | 3 | 2:26 | 2:56 | <2 |
-| 顕現シタ異物 | Ver2 With Vocal | 大型兵器身上杂兵战 | 2:50 | 3 | 2:47 | 1:14 | <1 |
-| 終ワリノ音 | Full Arrangements Main Layer +Vocal Layer | 大型兵器最终战 | 2:18 | 9 | 2:09 | 2:25 | <2 |
-| 茫洋タル病 | Full Arrangements | 线性叙事 | 1:33 | 31 | 1:02 | 55 | <1 |
-| 偽リノ城塞 | Full Arrangements | 太空总部 | 2:15 | 15 | 2:00 | 6:40 | <4 |
+| Song Name | Variation                           | Description           | Bpm | Total | Intro | Loop | Gameplay | Loop |
+|-----------|-------------------------------------|-----------------------|-----|-------|-------|------|----------|------|
+| 顕現シタ異物    | with intro, no vocal                | 固定视角叙事，通过Intro带入      | 72  | 3:40  | 53    | 2:47 | 4:45     | <2   |
+| 顕現シタ異物    | with intro, no vocal                | 杂兵战                   | 72  | 3:40  | 53    | 2:47 | 55       | <1   |
+| イニシエノウタ   | no vocal                            | 防卫装置小Boss             |     | 2:38  | 22    | 2:16 | 50       | <1   |
+| 顕現シタ異物    | normal, no vocal                    | 杂兵战                   | 72  | 2:50  | 0     | 2:47 | 7:56     | <3   |
+| 顕現シタ異物    | normal, with vocal                  | 进入最后一个杂兵房间后过渡到vocal版本 | 72  | 2:50  | 0     | 2:47 | 1:03     | <1   |
+| 双極ノ悪夢     | no vocal                            | 大型兵器出现                | 79  | 2:29  | 0     | 2:26 | 58       | <1   |
+| 双極ノ悪夢     | with vocal                          | 大型兵器变身                | 79  | 2:29  | 0     | 2:26 | 2:56     | <2   |
+| 顕現シタ異物    | normal, with vocal                  | 大型兵器身上杂兵战             | 72  | 2:50  | 0     | 2:47 | 1:14     | <1   |
+| 終ワリノ音     | full arrangements, with vocal layer | 大型兵器最终战               | 104 | 2:18  | 9     | 2:09 | 2:25     | <2   |
+| 茫洋タル病     | full arrangements                   | 线性叙事                  |     | 1:33  | 31    | 1:02 | 55       | <1   |
+| 偽リノ城塞     | full arrangements                   | 太空总部                  |     | 2:15  | 15    | 2:00 | 6:40     | <4   |
+
 
 | Name | Variaty | Desc | Total Length | Intro Length | Loop Length | Gameplay Time | Loop |
 | -----|-------- | ---- | ------------ | ------------ | ----------- | ------------- | ---- |
