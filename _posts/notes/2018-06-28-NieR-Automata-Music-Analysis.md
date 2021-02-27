@@ -96,6 +96,9 @@ excerpt_separator: <!--break-->
 | 1       |「遺サレタ場所」vocal层 | 「遺サレタ場所」vocal层 |  |  |
 | 2       |「遺サレタ場所」full arr层 或 guitar层 | 「遺サレタ場所」pad层 |  | 「砂塵ノ記憶」pad层 |
 
+「砂塵ノ記憶」包含7个分层，有较细腻的打击乐层级结构：  
+![砂塵ノ記憶](\assets\images\Nier\e.png) 
+
 #### 2B线第二章-失联小队（游乐园）
 
 | Name           | Variaty                        | Desc                                                | Bpm | Total Length | Intro Length | Loop Length | Gameplay Time | Loop |
