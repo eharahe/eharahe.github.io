@@ -12,7 +12,28 @@ excerpt_separator: <!--break-->
 
 ## 弹丸论破1
 
-弹丸1代的音乐以突出的电音风格为主，融合了爵士、funk等多种元素。当时的各类电音风格 chip sound, drum n base, breakbeat, techno, tropical house等都能在它的作品里看到一些影子。从一进游戏的cutscene，学级裁判，到处刑音乐都张力十足。极富风格化和情绪丰富的配乐给这款画面简单的“射击”游戏加分无数。
+弹丸1代的音乐以突出的电音风格为主，融合了爵士、funk等多种元素。当时流行的各类电音风格 chip sound, funk break, hardcore techno, tropical house等都能在它的作品里看到一些影子。从一进游戏的片头动画，学级裁判，到处刑音乐都张力十足。极富风格化和情绪丰富的配乐给这款画面简单的“射击”游戏加分无数。
+
+#### 主题
+
+游戏的主题曲有4首变奏，分别是：  
+* 『DANGANRONPA』 - 片头动画的配乐
+* 『だんがんろんぱ!』 - 主菜单的音乐
+* 『DANGANRONPA(DR Version)』 - 是片头动画音乐的remix，扩展了原始主题
+* 『クライマックス再现』 - 高潮再现的音乐  
+
+『DANGANRONPA』 融合了悬疑的合成pad和合成pluck，funky的电子碎拍，jazzy的钢琴和诡异的女声吟唱。音乐配合画面开启一个恐怖悬疑的游戏故事，让人着迷！『だんがんろんぱ!』是主菜单背景音乐，没有人声吟唱以钢琴为主；『クライマックス再现』听上去比较 funk break。
+
+#### 探索音乐
+
+探索音乐有3首以Beautiful做前缀的曲子：
+* 『Beautiful Morning』 - 每天早上起来自由探索级餐厅晨会的bgm
+* 『Beautiful Days』 - 自由时间的探索音乐
+* 『Beautiful Dead』 - 多用在探索新解锁的楼层时
+
+三首音乐的色彩和情绪是和游戏玩法一致的：『Beautiful Days』的色彩最为明亮温馨，作为每天的自由探索时间，玩家的心情是最为放松的；『Beautiful Morning』在轻快的节奏中隐藏一丝诡异，玩家又在充满阴谋的校舍中开始了一天的生活；而『Beautiful Dead』采用了和『Beautiful Morning』相同的动机，但通过爵士钢琴和合成pad的和声，创造了更加阴沉忧郁的音调。
+
+#### 学籍裁判
 
 ![danwan1](\assets\images\danwan1.svg)  
 
