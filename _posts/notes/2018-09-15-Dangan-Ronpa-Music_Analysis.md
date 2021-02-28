@@ -1,18 +1,18 @@
 ---
 layout: default
-title: DanganRonpa Music Analysis
+title: The Music of DanganRonpa
 permalink: /notes/dangan-ronpa-music-analysis
 tags: danganronpa-cover.jpg
 category: game-audio
 excerpt_separator: <!--break-->
 ---
 
-对弹丸论破1代、2代的一周目学级裁判BGM进行分析。
+高田 雅史（Msafumi Takada）先生在「杀手7」「Vanquish」等游戏的配乐作品中留下了令人印象深刻的实验性的作品后成立了自己的工作室，在2010年底开始陆续发布的「弹丸论破」系列中，他更将自己作曲风格多样且极富创造性的特点发挥到了极致。
 <!--break-->
 
 ## 弹丸论破1
 
-弹丸1代的音乐电子感十足，大量的合成器使用，丰富的配乐数量，突出的律动，棱角分明的混音让这款射击游戏加分无数。学级裁判以在议论中用言弹攻破敌方弱点为核心玩法。
+弹丸1代的音乐以突出的电音风格为主，融合了爵士、funk等多种元素。当时的各类电音风格 chip sound, drum n base, breakbeat, techno, tropical house等都能在它的作品里看到一些影子。从一进游戏的cutscene，学级裁判，到处刑音乐都张力十足。极富风格化和情绪丰富的配乐给这款画面简单的“射击”游戏加分无数。
 
 ![danwan1](\assets\images\danwan1.svg)  
 
