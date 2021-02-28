@@ -142,13 +142,13 @@ excerpt_separator: <!--break-->
 | Name           | Variaty                        | Desc                                               | Bpm | Total Length | Intro Length | Loop Length | Gameplay Time | Loop |
 |----------------|--------------------------------|----------------------------------------------------|-----|--------------|--------------|-------------|---------------|------|
 | 遺サレタ場所/斜光 | Pad Layer + Guitar Piano Layer | 到flooded city时以Pad为主，最后过渡到Guitar层      |     | 1:55         | 0            | 1:55        | 4:48          | <4   |
-| 終ワリノ音      | No Vocal No Drum               | 海上空战，从弦乐声部逐渐过渡到带打击声部的变奏         |     | 2:18         | 9            | 2:09        | 4:48          | <3   |
+| 終ワリノ音      | No Vocal No Drum               | 海上空战，从弦乐声部逐渐过渡到带打击声部的变奏         | 104 | 2:18         | 9            | 2:09        | 4:48          | <3   |
 | 全テヲ破壊スル黒キ巨人/怪獣 | Organ               | Boss战 - 巨兽出场，正面做背景的杂兵战，管风琴         | 115 | 2:02         | 14           | 1:48        | 3:41          | <3   |
 | 全テヲ破壊スル黒キ巨人/怪獣 | No Epic Drum        | Boss战 - 摧毁尾部EMP，管弦编配                       | 115 | 2:02         | 14           | 1:48        | 1:32          | <1   |
 | 全テヲ破壊スル黒キ巨人/怪獣 | No Epic Drum        | Boss战 - 沿岸用迫击炮攻击，管弦编配                  | 115 | 2:02         | 14           | 1:48        | 1:32          | <1   |
 | 全テヲ破壊スル黒キ巨人/怪獣 | Full Arrangements   | Boss战 - 变身后，全编配 + Vocal                     | 115 | 2:02         | 14           | 1:48        | 5:43          | <4   |
 
-「全テヲ破壊スル黒キ巨人/怪獣」一首共7轨，其中8-bit，管风琴版本，Vocal，史诗打击乐声部各1轨；基础分层分为3个层级的配器：（1）String + Brass + Piano， （2）String + Brass + Piano + Perc， (3)String + Brass + Piano + Perc + Epic Drums
+「全テヲ破壊スル黒キ巨人/怪獣」一首共7轨，其中8-bit，管风琴版本，Vocal，史诗打击乐声部各1轨；基础分层分为3个层级的配器：(1) String + Brass + Piano， (2) String + Brass + Piano + Perc， (3) String + Brass + Piano + Perc + Epic Drums
 
 ![顕現シタ異物](\assets\images\Nier\f.png) 
 
