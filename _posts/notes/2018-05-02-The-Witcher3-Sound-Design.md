@@ -59,7 +59,7 @@ Switches:  对白音乐，换场Cues，普通gameplay，boss战之间的切换
 
 <div style="position: relative; padding: 30% 45%;">
 <iframe  style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=844523808&bvid=BV1u54y1a7mX&cid=307204178&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
+</div><p></p>
 
 场景资源对照表如下：
 
@@ -136,11 +136,16 @@ Switches:  对白音乐，换场Cues，普通gameplay，boss战之间的切换
 |                     | 1    |       | 2:11   | tw3_skl_16_freyas_garden_expl                     | 3    | 0:12  | 1:09   | 0:10  | tw3_skl_16_freyas_garden_cmb         |                 |
 | skl elven_ruins     | 1    |       | 2:38   | NML 11 Exploration                                | 3    | 0:11  | 2:08   | 0:11  | SKL 07 Combat                        |                 |
 
+#### 基于场景的音乐
 
 
-战斗系统音乐对齐：  
-* 音乐按小节、拍、grid回调
-* AI会等待至可预期的同步点和音乐同步
+
+#### 音乐驱动的战斗系统  
+
+血与酒DLC，在陶森特遇到的Boss——巨人的战斗中，采用了音乐驱动AI的实现方式。程序通过wwise回调及计算技能前摇耗时，控制怪物的技能释放时机，让技能命中和音乐的重拍保持同步。
+
+* 程序由音乐回调（按小节、拍、grid）同步节奏信息
+* AI会伺机发动技能，并通过计算前摇的方式与节奏信息同步，小技能对齐节拍，大技能对齐小节
 * 设置AI的最大等待时长
 
 ## References
