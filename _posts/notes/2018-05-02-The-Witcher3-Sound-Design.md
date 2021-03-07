@@ -57,6 +57,8 @@ Switches:  对白音乐，换场Cues，普通gameplay，boss战之间的切换
 
 巫师3的配乐资源大致分为基于场景的探索、战斗音乐；及基于任务的叙事、对白音乐两大类。其中基于场景的音乐按不同场景进行资源组织；通过垂直分层的方式实现情绪强弱变化；通过wwise transition机制实现音乐之间的过渡。战斗音乐基本都包含了intro和outro；transition的align方式除了按beat, 小节对齐外还有采用Custom Cue。
 
+<video src="\assets\videos\tw3_exp_to_battle.mp4" controls="controls"></video>
+
 场景资源对照表如下：
 
 <style>
