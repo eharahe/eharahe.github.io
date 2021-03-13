@@ -149,6 +149,12 @@ Switches:  对白音乐，换场Cues，普通gameplay，boss战之间的切换
 2. baby_in_oven - 29s的transition实现剧情音乐到战斗音乐的过渡
 3. combat_him_sequence - 开始战斗
 
+<div style="position: relative; padding: 30% 45%;">
+<iframe  style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=502053125&bvid=BV1aN411Q7BF&cid=309750652&page=1" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div><p></p>
+
+任务配乐素材对照表如下：
+
 | 场景           | 任务id | 子任务名                                  | 类型    | 素材命名                                              | 时长   | 备注            |
 |--------------|------|---------------------------------------|-------|---------------------------------------------------|------|---------------|
 | Ise of Mists | q402 | The Isle of Mists                     | 过场    | tw3_cs402_entering_mist_island                    | 0:34 |               |
