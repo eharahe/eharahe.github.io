@@ -136,8 +136,199 @@ Switches:  对白音乐，换场Cues，普通gameplay，boss战之间的切换
 |                     | 1    |       | 2:11   | tw3_skl_16_freyas_garden_expl                     | 3    | 0:12  | 1:09   | 0:10  | tw3_skl_16_freyas_garden_cmb         |                 |
 | skl elven_ruins     | 1    |       | 2:38   | NML 11 Exploration                                | 3    | 0:11  | 2:08   | 0:11  | SKL 07 Combat                        |                 |
 
-#### 基于场景的音乐
+#### 基于任务的音乐
 
+为了实现线性的音乐体验，基于任务的音乐采用了Horizontal和Vertical相结合的互动手法。
+
+在凯尔莫罕之战任务中，战前会议采用了Vertical的分层素材，通过打击声部、弦乐声部和旋律声部的组合实现不同阶段的情绪表达；狂猎接近的过场剧情中，通过Horizontal组织素材，将wild_hunt_approaches一曲分为4段，情绪依次增强。最后伊乐瑞斯杀死维瑟米尔的剧情采用了电影叙事镜头，配乐需要精确地对齐画面。
+
+游戏的 *过场动画 (Cutscene)* 时间长度固定，采用固定长度地配乐适配即可。而 *剧情对白 (Dialogue)* 则分为两种情况：1. 正常对白和有时间限制的选项，这种情况最大时间固定，因此音乐只用适配最大长度即可；2. 无时间限制的选项，音乐必须是loop，且可能需要考虑选项选择后的transition方式。
+
+在恶灵缠身任务中，非常成功的完成了有限时间限制选项的线性配乐，如果玩家不跳过对白的话可以获得完美的音乐体验：  
+1. udalryk_enters_house_&_choice 43s的音乐适配最大选择时间
+2. baby_in_oven 29s 的transition实现剧情音乐到战斗音乐的过渡
+3. combat_him_sequence 开始战斗
+
+| 场景           | 任务id | 子任务名                                  | 类型    | 素材命名                                              | 时长   | 备注            |
+|--------------|------|---------------------------------------|-------|---------------------------------------------------|------|---------------|
+| Ise of Mists | q402 | The Isle of Mists                     | 过场    | tw3_cs402_entering_mist_island                    | 0:34 |               |
+|              |      |                                       | 过场    | tw3_cs402_Ciri WelcomeV5_A                        | 2:43 | 父女重逢          |
+|              |      |                                       | 过场    | tw3_cs402_teleport_to_KM                          | 0:44 |               |
+| kaermorhen   | q001 | Kaer Morhen                           | 过场    | tw3_cs001_geralt_and_yen                          | 2:19 |               |
+|              |      |                                       | 过场    | tw3_cs001_little_ciri_intro                       | 1:02 |               |
+|              |      |                                       | 过场    | tw3_cs001_nightmare_p1                            | 1:40 | 音乐从47秒起       |
+|              |      |                                       | 过场    | tw3_cs001_nightmare_p2                            | 0:58 |               |
+|              |      |                                       | 对白    | tw3_q001_training                                 | 1:15 |               |
+|              | q110 |                                       | 对白    | tw3_q205_08a_1_replacer_ciri_wakes_up_NoFLute     | 1:36 |               |
+|              | q401 | No Place Like Home                    | 过场    | tw3_cs401_sex_with_yennefer                       | 2:02 |               |
+|              |      |                                       | 过场    | tw3_cs401_uma_intro                               | 0:20 |               |
+|              |      |                                       | 过场    | tw3_cs401_uma_changes_into_avallach               | 1:37 |               |
+|              |      |                                       | 对白    | tw3_q401_trial_of_the_grasses                     | 1:54 |               |
+|              |      |                                       | 对白    | tw3_q401_avallach_interrogation                   | 1:04 |               |
+|              | q403 | The Battle of Kaer Morhen             | 对白    | tw3_q403_council_Dr                               | 1:53 | 召集大家开会        |
+|              |      |                                       | 对白    | tw3_q403_council_Str                              | 1:53 |               |
+|              |      |                                       | 对白    | tw3_q403_council_GasleThem                        | 0:58 |               |
+|              |      |                                       | 对白    | tw3_q403_council_GasleTheme_Accomp                | 0:54 | 以上四轨为同1首      |
+|              |      |                                       | 过场    | tw3_cs403_wild_hunt_approaches_p1                 | 0:19 |               |
+|              |      |                                       | 过场    | tw3_cs403_wild_hunt_approaches_p2                 | 0:58 |               |
+|              |      |                                       | 过场    | tw3_cs403_wild_hunt_approaches_p3                 | 0:33 |               |
+|              |      |                                       | 过场    | tw3_cs403_wild_hunt_approaches_p4                 | 1:23 |               |
+|              |      |                                       | 过场    | tw3_hunt_or_be_hunted_chasing_edit_02_percussion  | 1:29 | 战斗音乐的鼓声部      |
+|              |      |                                       | 战斗/对白 | tw3_q001_griffin_chase                            | 1:29 | 以上二轨为同1首      |
+|              |      |                                       | 过场    | tw3_cs403_canaris                                 | 2:06 | 卡兰西尔现身        |
+|              |      |                                       | 过场    | tw3_cs403_finale_p1                               | 0:50 | 伊乐瑞斯破门而入      |
+|              |      |                                       | 过场    | tw3_cs403_finale_p2                               | 2:42 | 维瑟米尔之死        |
+|              |      |                                       | 过场    | tw3_cs403_finale_unfreeze                         | 0:29 |               |
+|              |      |                                       | 过场    | tw3_cs403_finale_sword                            | 1:10 |               |
+|              |      |                                       | 过场    | tw3_nml_01_exploration_with_percival              | 3:00 | 维瑟米尔的葬礼       |
+|              |      |                                       | 过场    | tw3_cs403_finale_explosion_p1                     | 0:52 |               |
+|              |      |                                       | 过场    | tw3_cs403_finale_explosion_p2                     | 1:02 |               |
+|              |      |                                       | 过场    | tw3_cs403_triss_spell_p2_start_at_32s             | 0:20 |               |
+| prologue     | q001 | Lilac and Gooseberries                | 过场    | tw3_cs001_wake_up                                 | 0:28 |               |
+|              |      |                                       | 过场    | tw3_cs001_tavern_intro                            | 1:23 |               |
+|              |      | The Beast of White Orchard            | 过场    | tw3_cs001_griffin                                 | 1:12 |               |
+|              |      |                                       | 战斗/对白 | tw3_q001_griffin_combat                           | 1:15 |               |
+|              |      |                                       | 战斗/对白 | tw3_q001_griffin_chase_short                      | 0:33 |               |
+|              |      |                                       | 战斗/对白 | tw3_q001_griffin_chase                            | 1:29 |               |
+| wyzima       | q002 | Imperial Audience                     | 对白    | q002_geralt_talks_to_emperor                      | 1:39 |               |
+|              |      |                                       | 对白    | tw3_q002_yen_in_palace                            | 1:36 |               |
+| nomansgrad   | q101 | The Nilfgaardian Connection           | 过场    | cs101_wild_hunt_burns_village_Full                | 1:15 |               |
+|              |      |                                       | 过场    | tw3_cs101_wild_hunt_burns_village_p2              | 0:42 |               |
+|              |      |                                       | 对白    | q101_04b_talk_with_survivor                       | 1:34 |               |
+|              | q102 | Bloody Baron                          | 对白    | tw3_q102_baron_in_his_chambers                    | 0:44 |               |
+|              | q103 | Ciri's Story: The King of the Wolves  | 过场    | tw3_q103_02e_werewolf                             | 0:56 |               |
+|              |      | Family Matters                        | 过场    | tw3_cs103_guslar_prophecy                         | 1:16 |               |
+|              |      |                                       | 对白    | tw3_q103_guslar_after_ritual                      | 1:36 | 通用回忆的音乐       |
+|              |      |                                       | 对白    | tw3_q103_poroniec_main                            | 1:50 | 来到墓地          |
+|              |      |                                       | 过场转战斗 | tw3_cs103_poroniec_attack_choice                  | 0:24 | 选择攻击怪物        |
+|              |      |                                       | 过场转战斗 | tw3_cs103_poroniec_transform                      | 0:15 | 尸婴变身          |
+|              |      |                                       | 过场    | tw3_q103_blood_ritual                             | 0:56 | 巫医施血魔法        |
+|              |      |                                       | 过场    | tw3_q103_blood_ritual_outro                       | 0:12 |               |
+|              |      |                                       | 过场    | tw3_cs103_baron_digs_grave                        | 1:16 |               |
+|              |      |                                       | 过场    | tw3_cs103_baron_taken                             | 0:28 |               |
+|              |      | Ciri's Story: The Race                | 赛马    | tw3_novigrad_07_narrative                         | 2:46 | Ciri和男爵赛马     |
+|              |      | Ciri's Story: Out of the Shadows      | 过场    | tw3_cs103_basilisk                                | 0:16 | 石化蜥蜴出场        |
+|              |      |                                       | 战斗    | tw3_q103_ciri_saves_baron_p1_calm                 | 0:24 |               |
+|              |      |                                       | 战斗    | tw3_q103_ciri_saves_baron_p2_main                 | 0:48 |               |
+|              |      |                                       | 战斗    | tw3_q103_ciri_saves_baron_p3_outro                | 0:08 |               |
+|              |      |                                       | 过场    | tw3_cs103_ciri_runs                               | 0:32 |               |
+|              | q104 | Wandering in the Dark                 | 对白    | tw3_q104_01c2_see_wild_hunt                       | 1:10 |               |
+|              |      |                                       | 对白    | tw3_q104_boss_in_last_room                        | 0:48 |               |
+|              |      |                                       | 战斗    | tw3_q104_blizzard_calm                            | 1:36 |               |
+|              |      |                                       | 战斗    | tw3_q104_blizzard_calm_drums_only                 | 1:19 |               |
+|              |      |                                       | 战斗    | tw3_q104_blizzard_tense_segment01                 | 0:37 |               |
+|              |      |                                       | 战斗    | tw3_q104_blizzard_tense_segment02                 | 0:37 |               |
+|              |      |                                       | 战斗    | tw3_q104_blizzard_tense_segment03                 | 0:55 |               |
+|              | q105 | Ladies of the Wood                    | 过场/对白 | cs105_geralt_meet_witch_sisters                   | 1:42 |               |
+|              |      |                                       | 对白    | tw3_q105_gobelin_intro                            | 0:18 |               |
+|              |      |                                       | 对白    | tw3_q105_gobelin_loop                             | 1:48 |               |
+|              |      |                                       | 对白    | tw3_q105_gobelin_outro                            | 0:09 |               |
+|              |      |                                       | 过场    | cs105_ciri_meet_witch_sisters                     | 1:13 |               |
+|              |      |                                       | 过场    | tw3_cs105_ciri_escapes_swamps                     | 0:55 | Ciri逃出沼泽      |
+|              | q106 | A Towerful of Mice                    | 过场    | tw3_cs106_anabelle_kisses_graham                  | 1:10 |               |
+|              | q107 |                                       | 过场    | tw3_cs107_witch_gravehag                          | 0:37 |               |
+|              |      |                                       | 过场    | tw3_cs107_witch_normal                            | 0:35 |               |
+|              |      |                                       | 过场    | tw3_cs107_witch_village_burns                     | 0:53 |               |
+|              | q111 | Bald Mountain                         | 过场    | tw3_cs111_witch_transform                         | 1:32 |               |
+|              |      |                                       | 战斗    | tw3_q111_ciri_replacer_combat                     | 1:29 |               |
+|              |      |                                       | 战斗    | tw3_q111_ciri_replacer_combat_outro               | 0:09 |               |
+|              |      |                                       | 过场    | tw3_cs111_one_witch_escapes                       | 0:48 |               |
+|              |      |                                       | 过场    | tw3_cs111_welcome_imlerith_pt1                    | 0:56 | 只用了很短的开头      |
+|              |      |                                       | 对白    | tw3_q111_conversation_with_imlerith               | 0:36 |               |
+|              |      |                                       | 战斗    | tw3_q111_combat_with_imlerith                     | 1:42 |               |
+|              |      |                                       | 过场    | tw3_cs111_imlerith_dies                           | 1:14 |               |
+|              |      |                                       | 对白    | tw3_q111_7_final_dlg                              | 1:36 |               |
+|              | q301 | Pyres of Novigrad                     | 过场    | tw3_cs301_novigrad_opening                        | 1:32 | 火刑现场          |
+|              |      |                                       | 对白    | tw3_q301_menge_shows_up                           | 2:42 | Triss家Menge现身 |
+|              |      | Novigrad Dreaming                     | 过场    | tw3_cs301_dreamer_nightmare                       | 0:49 |               |
+|              |      |                                       | 对白    | tw3_q301_14_dreamer_dreams_stage1                 | 1:44 | 回忆Ciri        |
+|              |      |                                       | 对白    | tw3_q301_14_dreamer_dreams_stage2                 | 1:44 | 以上为同一首        |
+|              |      |                                       | 对白    | tw3_nml_08_dramatic_loop                          | 1:31 |               |
+|              | q302 | Get Junior                            | 对白    | tw3_q302_04a_mafia_meeting                        | 1:10 |               |
+|              |      |                                       | 对白    | tw3_q302_04a_assassins                            | 0:32 | 以上为同一首        |
+|              |      |                                       | 对白    | Novi_Inquisition_ThemeV3_NoChoirPerc_NoSoloVlnBrs | 2:45 |               |
+|              |      |                                       | 过场    | tw3_cs302_castration                              | 0:54 |               |
+|              | q303 | Count Reuven's Treasure               | 过场    | tw3_cs303_triss_kills_menge                       | 0:47 |               |
+|              | q304 |                                       | 对白    | tw3_q304_05a_luiza_and_voorhis                    | 1:12 |               |
+|              | q305 | Ciri's Story: Breakneck Speed         | 过场    | cs305_ciri_disappears                             | 0:59 |               |
+|              |      |                                       | 过场    | cs305_convoy_in_ambush                            | 0:56 |               |
+|              | q308 |                                       | 对白    | tw3_bad_news_ahead                                | 1:53 |               |
+|              |      |                                       | 对白    | tw3_the_urn_full_of_sorrows_no_flute              | 1:59 |               |
+|              | q309 | The Rose of Remembrance               | 做爱    | tw3_cs309_sex_with_triss_p1                       | 1:09 |               |
+|              |      |                                       | 对白    | tw3_love_theme_short_harp_only                    | 1:01 |               |
+|              |      |                                       | 对白    | tw3_q309_08a_goodbye                              | 0:35 |               |
+|              |      |                                       | 对白    | tw3_q309_08a_goodbyePT2                           | 0:35 |               |
+|              |      |                                       | 对白    | tw3_q309_08a_goodbyePT3_63bpm                     | 0:34 |               |
+|              |      |                                       | 过场    | tw3_cs309_triss_leaves                            | 0:27 |               |
+|              | q310 |                                       | 对白    | Novi_Inquisition_ThemeV3_Strings                  | 2:45 |               |
+|              |      |                                       | 过场    | tw3_cs310_triss_yennefer_payback                  | 1:56 |               |
+|              |      |                                       | 对白    | tw3_q310_ciri_talks_to_the_lodge                  | 1:35 |               |
+|              |      |                                       | 对白    | tw3_the_urn_full_of_sorrows_no_flute              | 1:59 |               |
+|              | q311 |                                       | 对白    | tw3_bad_news_ahead_full_with_brass                | 1:53 |               |
+|              |      |                                       | 过场    | tw3_cs311_geels_dreams                            | 0:55 |               |
+|              | q401 |                                       | 过场    | tw3_cs401_interception_p2                         | 1:02 |               |
+|              | q503 |                                       | 过场    | tw3_cs503_geralts_departure                       | 2:05 |               |
+| skellige     | q201 | Destination: Skellige                 | 过场    | tw3_cs201_storm                                   | 0:22 |               |
+|              |      |                                       | 过场    | tw3_cs201_pirates_attack_p2                       | 0:22 |               |
+|              |      | The King is Dead – Long Live the King | 过场    | cs201_burial                                      | 2:16 |               |
+|              |      |                                       | 赛马    | q201_race_intro                                   | 0:15 |               |
+|              |      |                                       | 赛马    | q201_race_loop                                    | 0:51 |               |
+|              |      |                                       | 赛马    | q201_race_outro                                   | 0:11 |               |
+|              |      |                                       | 战斗    | q201_fistfight_loop                               | 1:12 |               |
+|              |      |                                       | 战斗    | q201_fistfight_outro                              | 0:07 |               |
+|              |      |                                       | 做爱    | tw3_love_theme_full                               | 1:35 |               |
+|              | q202 | The Lord of Undvik                    | 过场    | cs202_enter_the_giant                             | 1:27 | 冰霜巨人任务        |
+|              |      |                                       | 过场    | cs202_harpies_destroy_bridge                      | 0:23 |               |
+|              |      |                                       | 过场    | tw3_cs202_geralt_wakes_giant_(fade_5s)            | 0:30 | Boss战         |
+|              |      |                                       | 战斗    | tw3_q202_ice_giant_bossfight_stage1               | 0:54 |               |
+|              |      |                                       | 过场    | tw3_cs202_giant_destroy_cage_(fade_15s)           | 0:37 |               |
+|              |      |                                       | 战斗    | tw3_q202_ice_giant_bossfight_stage2               | 0:54 |               |
+|              |      |                                       | 过场    | tw3_cs202_giant_death_(fade_13s)                  | 0:30 | 以上5轨为同一首      |
+|              | q203 | Possession                            | 过场    | tw3_cs203_udalryk_enters_house_&_choice           | 0:43 |               |
+|              |      |                                       | 过场    | tw3_cs203_baby_in_oven                            | 0:29 | 选择放进火炉        |
+|              |      |                                       | 战斗    | tw3_q203_combat_him_sequence                      | 1:07 |               |
+|              |      |                                       | 过场    | tw3_cs203_him_shows                               | 1:34 |               |
+|              |      |                                       | 过场    | tw3_cs203_give_baby_uldaryk                       | 0:43 | 选择还给uldaryk   |
+|              |      |                                       | 对白    | tw3_q203_09_examine_elf_corpse_full               | 1:43 |               |
+|              | q205 | The Calm Before the Storm             | 对白    | tw3_q205_07_necro_ritual                          | 1:06 |               |
+|              |      |                                       | 过场    | tw3_cs205_ciri_landing                            | 0:55 |               |
+|              |      |                                       | 过场    | tw3_cs205_good_night_cirilla_p1                   | 0:59 |               |
+|              |      |                                       | 过场    | tw3_cs205_good_night_cirilla_p2                   | 0:25 |               |
+|              |      |                                       | 对白    | tw3_q205_08a_1_replacer_ciri_wakes_up             | 1:36 |               |
+|              |      |                                       | 对白    | tw3_q205_08c_replacer_astrid_at_barn              | 0:31 |               |
+|              |      |                                       | 对白    | tw3_q205_ciri_replacer_wild_hunt_encounter_intro  | 0:11 |               |
+|              |      |                                       | 战斗    | tw3_q205_ciri_replacer_wild_hunt_encounter_L1     | 1:40 |               |
+|              |      |                                       | 战斗    | tw3_q205_ciri_replacer_wild_hunt_encounter_L2     | 1:40 |               |
+|              |      |                                       | 战斗    | tw3_q205_ciri_replacer_wild_hunt_encounter_L3     | 1:40 |               |
+|              | q206 | King's Gambit ( Help Hjalmar )        | 对白    |  skl_11_tavern01_intro                            | 0:18 |               |
+|              |      |                                       | 对白    | skl_11_tavern01_loop_alt                          | 2:50 |               |
+|              |      |                                       | 对白    | tw3_bad_news_ahead_full_with_brass                | 1:53 |               |
+|              |      |                                       | 过场    | tw3_cs206_berserkers_kill_people                  | 0:16 |               |
+|              |      |                                       | 过场    | tw3_cs206_ritual_of_berserkers                    | 2:06 |               |
+|              |      |                                       | 过场    | tw3_q206_halgrim_transforms_into_bear             | 0:31 |               |
+|              | q208 |                                       | 过场    | tw3_cs208_becca_wins_start_at_20sec               | 0:32 |               |
+|              |      |                                       | 过场    | tw3_cs208_ragnar_wins_start_at_20sec              | 0:32 |               |
+|              | q210 | The Sunstone                          | 过场    | tw3_cs210_ciri_destroys_lab_start_at_20-3sec      | 2:06 |               |
+|              |      |                                       | 过场    | tw3_cs210_entering_skellige                       | 1:32 |               |
+|              |      |                                       | 过场    | tw3_cs210_geralt_refuses_skjall                   | 1:12 |               |
+|              |      |                                       | 对白    | tw3_q210_confrontation                            | 1:58 |               |
+|              |      |                                       | 对白    | tw3_q210_skjall_funeral                           | 3:00 |               |
+|              | q501 | On Thin Ice                           | 过场    | tw3_cs501_naglfar_arrives                         | 2:10 |               |
+|              |      |                                       | 过场    | tw3_cs501_naglfar_freezes                         | 0:26 |               |
+|              |      |                                       | 过场    | tw3_cs501_naglfar_freezes_2                       | 0:27 |               |
+|              |      |                                       | 过场    | tw3_cs501_naglfar_freezes_b                       | 0:45 |               |
+|              |      |                                       | 过场    | tw3_cs501_cam_transfer_to_geralt                  | 1:43 |               |
+|              |      |                                       | 战斗    | tw3_q501_combat_with_canaris                      | 1:29 | 战卡兰希尔-杰洛特主题   |
+|              |      |                                       | 过场    | tw3_cs501_underwater_teleport                     | 0:45 | 卡兰希尔的传送       |
+|              |      |                                       | 过场    | tw3_cs501_crach_dies                              | 2:01 |               |
+|              |      |                                       | 战斗    | tw3_q501_eredin_fight                             | 1:38 |               |
+|              |      |                                       | 过场    | tw3_cs501_eredin_dies                             | 1:29 |               |
+|              |      |                                       | 过场    | tw3_cs501_ciri_escapes                            | 0:45 |               |
+|              | q502 | Tedd Deireadh, The Final Age          | 战斗    | tw3_skellige_bossfight_intensity1_intro           | 0:18 |               |
+|              |      |                                       | 战斗    | tw3_skellige_bossfight_intensity1_loop            | 1:30 |               |
+|              |      |                                       | 战斗    | tw3_skellige_bossfight_intensity2_loop            | 1:30 |               |
+|              |      |                                       | 战斗    | tw3_skellige_bossfight_ending                     | 0:09 | 以上4轨为同一首      |
+|              |      |                                       | 过场    | tw3_cs502_tower_shutdown                          | 0:42 |               |
 
 
 #### 音乐驱动的战斗系统  
