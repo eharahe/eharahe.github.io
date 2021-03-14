@@ -10,7 +10,21 @@ excerpt_separator: <!--break-->
 简单罗列出西方十二平均律，中国三分损益法，印度五度、四度相生律等Tuning方法。并以440Hz和432Hz为基本音对上述Tuning的频率差异进行对比。
 <!--break-->
 
-## 不同的Tuning System的比较
+## 半音音阶（Chromatic Scale）的Tuning
+
+#### 纯律（Just intonation）
+
+纯律通过简单的整数比来定音，常见的方式是 1:1, 9:8, 5:4, 4:3, 3:2, 5:3, 15:8, 2:1 来定义大调的7个音的音高比例。纯律的问题在于按五度叠加音程时误差会累计，同一音名高低两音会产生81/80的误差（约21.51音分），即著名的1 syntonic comma。
+
+#### 五度相生（Pythagorean tuning）
+
+即毕达哥拉斯定音或三分损益法。12个半音音符按如下比例定音：1:1、256:243、9:8、32:27、81:64、4:3、729:512、3:2、128:81、27:16、16:9、243:128、2:1。
+
+#### 十二平均律（Equal temperament）
+
+将一个八度平均分成十二等份，每等分称为半音，音高八度音指的是频率乘上二倍。八度音的频率分为十二等分，即是分为十二项的等比数列，也就是每个音的频率为前一个音的2的12次方根：
+$$\sum_{i=1}^n a_i=0$$
+其近似值约为 $$\sqrt[{12}]{2}$$ = $$2^{\frac {1}{12}}\approx$$ 1.0594630943593 倍。
 
 中国的三分损益法，相当于印度的五度相生算法，在“黃鐘”的基础上通过“损”和“益”依次找到一个倍频内成五度关系的12个音。
 三分损益法的问题在于随着推演的进行和平均律之间的“误差”开始累积，至“仲呂”达到最大：21.51 cents。 这种Tuning方式在五度关系音之间绝对准确；但对于确定调（如羽调），基本音和最后的几个音之间的和谐度非常低（比值分母很大）。  
@@ -156,4 +170,9 @@ suddha = pure, tivra = sharp, komal = flat (soft), chyuta = fallen
 [原始数据——xlsx格式](https://github.com/eharahe/eharahe.github.io/blob/master/assets/docs/Tuning.xlsx){:target="about:blank"} 
 
 ## 参考资料
+
+[Musical Tuning](https://en.wikipedia.org/wiki/Musical_tuning){:target="about:blank"} 
+
 [The Classical Indian Just Intonation Tuning System](http://www.plainsound.org/pdfs/srutis.pdf){:target="about:blank"} 
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
