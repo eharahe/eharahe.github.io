@@ -1,0 +1,90 @@
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .outer{
+        padding: 20px 15px;
+        background: rgba(171,128,97,.05);
+    }
+    th{
+        padding-bottom: 10px;
+    }
+    td{
+        line-height: 1.6em;
+    }
+    input[type="number"], input[type="text"], input[type="button"]{
+        width:100px;
+    }
+    label{
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+    }
+    .canvas_p{
+        width: 100%;
+        height: 200px;
+        overflow-y:hidden;
+        overflow-x:auto;
+    }
+    canvas{
+        width:100%;
+        height:200px;
+        background: rgb(90 80 72 / 5%);
+    }
+</style>
+
+<div class="outer">
+    <h3>Get Just Intonation Factors with Smallest Error</h3>
+    <p>
+        <table>
+            <tr>
+                <th></th>
+                <th></th>
+                <th style="width:100px;"></th>
+                <th style="min-width:250px;text-align: left;">Best Matches:</th>
+                <th style="width:100px;"></th>
+                <th>Player</th>
+            </tr>
+            <tr>
+                <td><label>cents:</label></td>
+                <td><input type="text" id="cents"> ┓</td>
+                <td></td>
+                <td id="rst_1"></td>
+                <td></td>
+                <td><input type="button" value="Tone A" id="play_a" disabled></td>
+            </tr>
+            <tr>
+                <td><label>ratio:</label></td>
+                <td><input type="text" id="ratio"> ┛</td>
+                <td></td>
+                <td id="rst_2"></td>
+                <td></td>
+                <td><input type="button" value="Tone B" id="play_b" disabled></td>
+            </tr>
+            <tr>
+                <td><label>denominator max:</label></td>
+                <td><input type="number" id="denominator" min="5" max="2000" value="16"></td>
+                <td></td>
+                <td id="rst_3"></td>
+                <td></td>
+                <td><input type="button" value="Both" id="play_both" disabled></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="calculate" id="calc"></td>
+                <td></td>
+                <td id="rst_4"></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </p>
+    <h3 style="margin-top:30px;">Harmonics of The Two</h3>
+    <p class="canvas_p">
+        <canvas id="graph"></canvas>
+    </p>
+</div>
+
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/tuning.js"></script>
