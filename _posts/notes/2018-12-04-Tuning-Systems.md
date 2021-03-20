@@ -16,6 +16,8 @@ excerpt_separator: <!--break-->
 
 纯律通过简单的整数比来定音，常见的方式是 1:1, 9:8, 5:4, 4:3, 3:2, 5:3, 15:8, 2:1 来定义大调的7个音的音高比例。纯律的问题在于按五度叠加音程时误差会累计，同一音名高低两音会产生81/80的误差（约21.51 cents），即著名的1 syntonic comma。
 
+<iframe src="/tuning.htm" width="100%" height="545px" scrolling="no" seamless></iframe>
+
 #### 五度相生（Pythagorean tuning）
 
 即毕达哥拉斯定音。12个半音音符按如下比例定音：1:1、256:243、9:8、32:27、81:64、4:3、729:512、3:2、128:81、27:16、16:9、243:128、2:1。
@@ -33,7 +35,7 @@ excerpt_separator: <!--break-->
 | 五度相生 | 1/1 | Suddha<br/>**16/15** | Sadharana<br/>**6/5** | Begada<br/>**27/20** | Chyuta<br/>**729/512 or 64/45** | Suddha<br/>**8/5** | Kaisiki<br/>**9/5**        |
 |         |     | Chatussruti<br/>**9/8** | Chyuta madhyama<br/>**81/64** |           | Panchama<br/>**3/2** | Chatussruti<br/>**27/16** | Chyuta shadja<br/>**243/128**  |
 | 四度相生 | 1/1 | Gaula<br/>**256/243** | Bhairavi<br/>**32/27** | Suddha<br/>**4/3** |                               | Ekasruti<br/>**128/81** | Bhairavi<br/>**16/9**   |
-|         |     | Trisruti<br/>**10/9** | Antara<br/>**5/4** | Prati<br/>**1024/729 or 45/32** |                      | Trisruti<br/>**5/3** | Kakali<br/>**15/8**        |{:style="width:100%"}
+|         |     | Trisruti<br/>**10/9** | Antara<br/>**5/4** | Prati<br/>**1024/729 or 45/32** |                      | Trisruti<br/>**5/3** | Kakali<br/>**15/8**        |
 
 印度的四度律和五度律原理上是完全一样的，只是相生的方向相反：上行的五度就相当于下行的四度。因此四度律和平均律的误差值与五度律和平均律的误差值正好相反，一个是正的，一个是负的，且绝对值相同。 对于同一音名的两个音，其音差正好为 ***1 Śruti** = 81/80 = 21.51 cents*  
 
