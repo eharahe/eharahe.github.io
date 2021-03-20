@@ -16,7 +16,7 @@ excerpt_separator: <!--break-->
 
 纯律通过简单的整数比来定音，常见的方式是 1:1, 9:8, 5:4, 4:3, 3:2, 5:3, 15:8, 2:1 来定义大调的7个音的音高比例。纯律的问题在于按五度叠加音程时误差会累计，同一音名高低两音会产生81/80的误差（约21.51 cents），即著名的1 syntonic comma。
 
-<iframe src="/tuning.htm" width="100%" height="545px" scrolling="no" seamless></iframe>
+<iframe src="/tuning.htm" width="100%" height="545px" scrolling="no" seamless style="border-width: 1.5px; border-radius: 6px;"></iframe>
 
 #### 五度相生（Pythagorean tuning）
 
