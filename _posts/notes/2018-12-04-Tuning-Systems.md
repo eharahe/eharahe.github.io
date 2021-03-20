@@ -33,7 +33,7 @@ excerpt_separator: <!--break-->
 | 五度相生 | 1/1 | Suddha<br/>**16/15** | Sadharana<br/>**6/5** | Begada<br/>**27/20** | Chyuta<br/>**729/512 or 64/45** | Suddha<br/>**8/5** | Kaisiki<br/>**9/5**        |
 |         |     | Chatussruti<br/>**9/8** | Chyuta madhyama<br/>**81/64** |           | Panchama<br/>**3/2** | Chatussruti<br/>**27/16** | Chyuta shadja<br/>**243/128**  |
 | 四度相生 | 1/1 | Gaula<br/>**256/243** | Bhairavi<br/>**32/27** | Suddha<br/>**4/3** |                               | Ekasruti<br/>**128/81** | Bhairavi<br/>**16/9**   |
-|         |     | Trisruti<br/>**10/9** | Antara<br/>**5/4** | Prati<br/>**1024/729 or 45/32** |                      | Trisruti<br/>**5/3** | Kakali<br/>**15/8**        |
+|         |     | Trisruti<br/>**10/9** | Antara<br/>**5/4** | Prati<br/>**1024/729 or 45/32** |                      | Trisruti<br/>**5/3** | Kakali<br/>**15/8**        |{:style="width:100%"}
 
 印度的四度律和五度律原理上是完全一样的，只是相生的方向相反：上行的五度就相当于下行的四度。因此四度律和平均律的误差值与五度律和平均律的误差值正好相反，一个是正的，一个是负的，且绝对值相同。 对于同一音名的两个音，其音差正好为 ***1 Śruti** = 81/80 = 21.51 cents*  
 
